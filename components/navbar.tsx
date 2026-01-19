@@ -14,15 +14,15 @@ export function Navbar() {
             <Film className="h-5 w-5" aria-hidden="true" />
             <span>WatchDB</span>
           </Link>
-            <Input
-              placeholder="Search movies..."
-              className="w-56"
-            />
+          <Input
+            placeholder="Search movies..."
+            aria-label="Search movies"
+            type="search"
+            className="w-56"
+          />
         </div>
         <div className="flex items-center gap-2">
-          <Link href="/login">
-            <Button>Login</Button>
-          </Link>
+          <Button>Login</Button>
         </div>
       </div>
     </header>
