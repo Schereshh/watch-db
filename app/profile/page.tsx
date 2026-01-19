@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Profile() {
   return (
     <div>
-      <Tabs defaultValue="account" className="w-[400px]">
+      <Tabs defaultValue="watched" className="w-full max-w-md">
         <TabsList>
           <TabsTrigger value="watched">Watched</TabsTrigger>
           <TabsTrigger value="toWatch">To Watch</TabsTrigger>

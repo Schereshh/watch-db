@@ -15,7 +15,7 @@ export default function MovieItem({ movieName, rating, status }: Props) {
     return (
       <div className="flex items-center gap-1 mt-1">
         {Array.from({ length: count }).map((_, i) => (
-          <Star key={i} fill="black" />
+          <Star key={i} fill="currentColor" />
         ))}
       </div>
     );
@@ -32,9 +32,7 @@ export default function MovieItem({ movieName, rating, status }: Props) {
       <div className="flex items-center justify-between w-full">
         <span className="flex flex-col">
           <span className="font-medium text-2xl">{movieName}</span>
-          <span>
-    {status}
-          </span>
+          <span>{status}</span>
         </span>
         <Stars count={starCount} />
       </div>
