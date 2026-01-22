@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { Film, User } from "lucide-react";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { useRouter } from "next/navigation";
 
 export function Navbar() {

@@ -1,4 +1,4 @@
-import MovieItem from "../../components/pages/profile/movie-item/movie-item";
+import MovieItem from "@/components/pages/profile/movie-item/movie-item";
 
 export default function SearchPage() {
   return (
