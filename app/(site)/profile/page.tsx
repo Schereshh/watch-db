@@ -1,8 +1,20 @@
-import MovieItem from "@/components/pages/profile/movie-item/movie-item";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { redirect } from "next/navigation";
 import Image from "next/image";
 
-export default function Profile() {
+import MovieItem from "@/components/pages/profile/movie-item/movie-item";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { createClient } from "@/lib/supabase/server";
+
+export default async function Profile() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    redirect("/login");
+  }
+
   return (
     <div>
       <Tabs defaultValue="watched" className="w-full max-w-md">
