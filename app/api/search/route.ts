@@ -13,9 +13,7 @@ type SearchMovie = {
 };
 
 export async function GET(request: NextRequest) {
-  const query =
-    (request.nextUrl.searchParams.get("query") ??
-      request.nextUrl.searchParams.get("q"))?.trim() || null;
+  const query = request.nextUrl.searchParams.get("query")?.trim() || null;
   if (!query) {
     return jsonError("Missing search query", 400);
   }
