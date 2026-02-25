@@ -1,13 +1,15 @@
 import { Star } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
+  movieId: string;
   movieName: string;
   rating?: number;
   status?: string;
 };
 
-export default function MovieItem({ movieName, rating, status }: Props) {
+export default function MovieItem({ movieId, movieName, rating, status }: Props) {
   const starCount = Math.max(0, Math.floor(rating || 0));
 
   const Stars = ({ count }: { count: number }) => {
@@ -22,7 +24,7 @@ export default function MovieItem({ movieName, rating, status }: Props) {
   };
 
   return (
-    <div className="flex items-center gap-3 ml-1">
+    <Link href={`/movies/${movieId}`} className="flex items-center border-b-2 gap-3 ml-1">
       <Image
         alt="movie-item-placeholder"
         src="/movie-item-placeholder.jpg"
@@ -36,6 +38,6 @@ export default function MovieItem({ movieName, rating, status }: Props) {
         </span>
         <Stars count={starCount} />
       </div>
-    </div>
+    </Link>
   );
 }
