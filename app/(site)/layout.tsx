@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-// @ts-expect-error: allow importing global CSS without type declarations
 import "../globals.css";
 
 import NavbarServer from "@/components/navbar-server";
