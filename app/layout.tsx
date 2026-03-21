@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
-// @ts-expect-error: allow importing global CSS without type declarations
 import "./globals.css"
 
 const geistSans = Geist({
