@@ -38,13 +38,13 @@ export default async function Profile() {
           </div>
         </div>
         <div className="border-t-2" />
-        <MovieItem movieName="Parasite" rating={5} status="Favourite"/>
+        <MovieItem movieId="1" movieName="Parasite" rating={5} status="Favourite"/>
         <div className="border-t-2" />
-        <MovieItem movieName="Parasite" rating={5} status="Favourite"/>
+        <MovieItem movieId="2" movieName="Parasite" rating={5} status="Favourite"/>
         <div className="border-t-2" />
-        <MovieItem movieName="Parasite" rating={5} status="Favourite"/>
+        <MovieItem movieId="3" movieName="Parasite" rating={5} status="Favourite"/>
         <div className="border-t-2" />
-        <MovieItem movieName="Parasite" rating={5} status="Favourite"/>
+        <MovieItem movieId="4" movieName="Parasite" rating={5} status="Favourite"/>
       </div>
     </div>
   );
