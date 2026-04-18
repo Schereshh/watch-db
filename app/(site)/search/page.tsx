@@ -43,8 +43,17 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   }
 
   return (
-    <div>
-      <h1 className="text-2xl font-semibold pb-4">Search Results</h1>
+    <div className="pt-4">
+      <div className="pb-4">
+        <h1 className="text-2xl font-semibold">
+          {trimmedQuery ? `Results for "${trimmedQuery}"` : "Search"}
+        </h1>
+        {trimmedQuery && !error && pagination.totalResults > 0 && (
+          <p className="text-sm text-muted-foreground mt-0.5">
+            {pagination.totalResults.toLocaleString()} results
+          </p>
+        )}
+      </div>
       {!trimmedQuery && (
         <p className="text-muted-foreground">
           Type a movie title in the search bar to see results.
@@ -55,17 +64,16 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         <p className="text-muted-foreground">No results found.</p>
       )}
 
-      <div className="pl-2 pt-4 flex flex-col gap-4">
-        {results.map((movie, index) => (
-          <div key={movie.id}>
-            <MovieItem
-              movieId={movie.id.toString()}
-              movieName={movie.title}
-              rating={getStars(movie.voteAverage)}
-              status={getReleaseLabel(movie.releaseDate)}
-            />
-            {index < results.length - 1 && <div  />}
-          </div>
+      <div className="flex flex-col">
+        {results.map((movie) => (
+          <MovieItem
+            key={movie.id}
+            movieId={movie.id.toString()}
+            movieName={movie.title}
+            posterPath={movie.posterPath}
+            rating={getStars(movie.voteAverage)}
+            status={getReleaseLabel(movie.releaseDate)}
+          />
         ))}
       </div>
 
