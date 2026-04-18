@@ -1,13 +1,6 @@
-import { searchMovies } from "@/services/tmdb/search";
+import { searchMovies, type SearchMovie } from "@/services/tmdb/search";
 import MovieItem from "@/components/pages/profile/movie-item/movie-item";
 import { PaginationButtons } from "./pagination-buttons";
-
-type SearchMovie = {
-  id: number;
-  title: string;
-  releaseDate: string;
-  voteAverage: number;
-};
 
 function getStars(voteAverage: number) {
   if (!Number.isFinite(voteAverage)) return 0;
@@ -26,7 +19,9 @@ type SearchPageProps = {
 export default async function SearchPage({ searchParams }: SearchPageProps) {
   const { query = "", page: pageParam = "1" } = await searchParams;
   const trimmedQuery = query.trim();
-  const page = Math.max(1, Math.floor(Number(pageParam)));
+
+  const parsedPage = Number.parseInt(pageParam, 10);
+  const page = Number.isNaN(parsedPage) || parsedPage < 1 ? 1 : parsedPage;
 
   let results: SearchMovie[] = [];
   let pagination = { page: 1, totalPages: 0, totalResults: 0 };
@@ -35,16 +30,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   if (trimmedQuery) {
     try {
       const response = await searchMovies(trimmedQuery, { page });
-      results = response.results.map((movie) => ({
-        id: movie.id,
-        title: movie.title,
-        releaseDate: movie.release_date,
-        voteAverage: movie.vote_average,
-      }));
+      results = response.results;
       pagination = {
         page: response.page,
-        totalPages: response.total_pages,
-        totalResults: response.total_results,
+        totalPages: response.totalPages,
+        totalResults: response.totalResults,
       };
     } catch (err) {
       error =

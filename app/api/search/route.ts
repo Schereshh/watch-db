@@ -2,15 +2,7 @@ import type { NextRequest } from "next/server";
 import { jsonError, jsonOk } from "../_lib/responses";
 
 import { searchMovies } from "@/services/tmdb/search";
-
-type SearchMovie = {
-  id: number;
-  title: string;
-  overview: string;
-  posterPath: string | null;
-  releaseDate: string;
-  voteAverage: number;
-};
+export type { SearchMovie } from "@/services/tmdb/search";
 
 export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams.get("query")?.trim() || null;
@@ -19,25 +11,12 @@ export async function GET(request: NextRequest) {
   }
 
   const pageParam = request.nextUrl.searchParams.get("page");
-  const page = pageParam ? Math.max(1, Math.floor(Number(pageParam))) : 1;
+  const parsedPage = pageParam !== null ? Number.parseInt(pageParam, 10) : NaN;
+  const page = Number.isNaN(parsedPage) ? 1 : Math.max(1, parsedPage);
 
   try {
     const response = await searchMovies(query, { page });
-    const results: SearchMovie[] = response.results.map((movie) => ({
-      id: movie.id,
-      title: movie.title,
-      overview: movie.overview,
-      posterPath: movie.poster_path,
-      releaseDate: movie.release_date,
-      voteAverage: movie.vote_average,
-    }));
-
-    return jsonOk({
-      page: response.page,
-      totalPages: response.total_pages,
-      totalResults: response.total_results,
-      results,
-    });
+    return jsonOk(response);
   } catch (error) {
     return jsonError("TMDB search failed", 502, {
       message: error instanceof Error ? error.message : "Unknown error",

@@ -16,13 +16,32 @@ type TmdbSearchResponse = {
   total_results: number;
 };
 
+export type SearchMovie = {
+  id: number;
+  title: string;
+  overview: string;
+  posterPath: string | null;
+  releaseDate: string;
+  voteAverage: number;
+};
+
+export type SearchMoviesResponse = {
+  page: number;
+  results: SearchMovie[];
+  totalPages: number;
+  totalResults: number;
+};
+
 type SearchOptions = {
   page?: number;
   includeAdult?: boolean;
   language?: string;
 };
 
-export async function searchMovies(query: string, options: SearchOptions = {}) {
+export async function searchMovies(
+  query: string,
+  options: SearchOptions = {},
+): Promise<SearchMoviesResponse> {
   const accessToken = process.env.TMDB_ACCESS_TOKEN;
   if (!accessToken) {
     throw new Error("TMDB_ACCESS_TOKEN is not set");
@@ -30,10 +49,24 @@ export async function searchMovies(query: string, options: SearchOptions = {}) {
 
   const client = createTmdbClient({ accessToken });
 
-  return client.request<TmdbSearchResponse>("/search/movie", {
+  const raw = await client.request<TmdbSearchResponse>("/search/movie", {
     query,
     page: options.page ?? 1,
     include_adult: options.includeAdult ?? false,
     language: options.language ?? "en-US",
   });
+
+  return {
+    page: raw.page,
+    totalPages: raw.total_pages,
+    totalResults: raw.total_results,
+    results: raw.results.map((movie) => ({
+      id: movie.id,
+      title: movie.title,
+      overview: movie.overview,
+      posterPath: movie.poster_path,
+      releaseDate: movie.release_date,
+      voteAverage: movie.vote_average,
+    })),
+  };
 }

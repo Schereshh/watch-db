@@ -23,7 +23,10 @@ export function createTmdbClient({ accessToken }: TmdbClientConfig) {
     });
 
     if (!response.ok) {
-      const body = await response.text().catch(() => "");
+      const body = await response.text().catch((err) => {
+        console.error("Failed to read TMDB error response body:", err);
+        return "Could not read response body";
+      });
       throw new Error(`TMDB request failed (${response.status}): ${body}`);
     }
 
