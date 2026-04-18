@@ -5,7 +5,7 @@ import { getMovieDetails } from "@/services/tmdb/movie";
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 
 function formatRuntime(minutes: number | null): string {
-  if (!minutes) return "Unknown runtime";
+  if (minutes === null) return "Unknown runtime";
   const h = Math.floor(minutes / 60);
   const m = minutes % 60;
   return h > 0 ? `${h}h ${m}m` : `${m}m`;

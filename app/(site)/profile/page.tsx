@@ -16,7 +16,7 @@ export default async function Profile() {
   }
 
   return (
-    <div>
+    <div className="pt-4">
       <Tabs defaultValue="watched" className="w-full max-w-md">
         <TabsList>
           <TabsTrigger value="watched">Watched</TabsTrigger>
