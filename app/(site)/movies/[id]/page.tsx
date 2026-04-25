@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
+
 import { getMovieDetails } from "@/services/tmdb/movie";
+
+import WatchlistButton from "./watchlist-button";
 
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 
@@ -109,6 +112,7 @@ export default async function MoviePage({ params }: MoviePageProps) {
                 </span>
               </span>
             </div>
+            <WatchlistButton movieId={movieId} />
           </div>
         </div>
       </div>
@@ -116,9 +120,7 @@ export default async function MoviePage({ params }: MoviePageProps) {
         {movie.overview && (
           <div>
             <h2 className="font-semibold mb-1">Overview</h2>
-            <p className="text-muted-foreground">
-              {movie.overview}
-            </p>
+            <p className="text-muted-foreground">{movie.overview}</p>
           </div>
         )}
         <div className="flex flex-wrap gap-8 text-sm">
