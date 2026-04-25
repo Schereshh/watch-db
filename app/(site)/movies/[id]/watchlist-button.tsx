@@ -41,6 +41,7 @@ export default function WatchlistButton({ movieId }: WatchlistButtonProps) {
         type="button"
         variant={watchlistState?.inWatchlist ? "secondary" : "default"}
         aria-busy={mutation.isPending}
+        disabled={mutation.isPending}
         onClick={handleClick}
       >
         {label}
