@@ -22,6 +22,14 @@ export default function WatchlistButton({ movieId }: WatchlistButtonProps) {
     return null;
   }
 
+  if (watchlistQuery.isError) {
+    return (
+      <Button type="button" variant="default" disabled>
+        Add to Watchlist
+      </Button>
+    );
+  }
+
   const handleClick = () => {
     if (!watchlistState?.authenticated) {
       setIsAuthDialogOpen(true);
