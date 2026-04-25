@@ -3,8 +3,15 @@ export type WatchlistState = {
   inWatchlist: boolean;
 };
 
-type WatchlistEnvelope = {
-  data?: WatchlistState;
+export type WatchlistMovie = {
+  id: number;
+  title: string;
+  posterPath: string | null;
+  addedAt: string;
+};
+
+type ApiEnvelope<T> = {
+  data?: T;
   error?: string;
 };
 
@@ -21,8 +28,12 @@ export function getWatchlistQueryKey(movieId: number) {
   return ["watchlist", movieId] as const;
 }
 
-async function readJsonOrThrow(response: Response): Promise<WatchlistState> {
-  const payload = (await response.json()) as WatchlistEnvelope;
+export function getWatchlistMoviesQueryKey() {
+  return ["watchlist", "movies"] as const;
+}
+
+async function readJsonOrThrow<T>(response: Response): Promise<T> {
+  const payload = (await response.json()) as ApiEnvelope<T>;
 
   if (!response.ok || !payload.data) {
     throw new ApiRequestError(
@@ -40,7 +51,16 @@ export async function fetchWatchlistState(movieId: number) {
     credentials: "same-origin",
   });
 
-  return readJsonOrThrow(response);
+  return readJsonOrThrow<WatchlistState>(response);
+}
+
+export async function fetchWatchlistMovies() {
+  const response = await fetch("/api/watchlist", {
+    method: "GET",
+    credentials: "same-origin",
+  });
+
+  return readJsonOrThrow<{ movies: WatchlistMovie[] }>(response);
 }
 
 export async function addToWatchlist(movieId: number) {
@@ -49,7 +69,7 @@ export async function addToWatchlist(movieId: number) {
     credentials: "same-origin",
   });
 
-  return readJsonOrThrow(response);
+  return readJsonOrThrow<WatchlistState>(response);
 }
 
 export async function removeFromWatchlist(movieId: number) {
@@ -58,5 +78,5 @@ export async function removeFromWatchlist(movieId: number) {
     credentials: "same-origin",
   });
 
-  return readJsonOrThrow(response);
+  return readJsonOrThrow<WatchlistState>(response);
 }

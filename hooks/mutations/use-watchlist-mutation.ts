@@ -3,9 +3,10 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 import {
-  addToWatchlist, getWatchlistQueryKey,
+  addToWatchlist,
+  getWatchlistQueryKey,
   removeFromWatchlist,
-  type WatchlistState
+  type WatchlistState,
 } from "@/services/watchlist";
 
 export function useWatchlistMutation(movieId: number) {
@@ -47,7 +48,7 @@ export function useWatchlistMutation(movieId: number) {
       }
     },
     onSettled: () => {
-      queryClient.invalidateQueries({ queryKey });
+      queryClient.invalidateQueries({ queryKey: ["watchlist"] });
     },
   });
 }
