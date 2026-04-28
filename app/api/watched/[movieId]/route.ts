@@ -138,6 +138,7 @@ export async function POST(request: NextRequest, context: RouteContext) {
   if (
     body.watchedAt !== undefined &&
     body.watchedAt !== null &&
+    body.watchedAt !== "" &&
     watchedAt === null
   ) {
     return jsonError("watchedAt must be a valid YYYY-MM-DD date", 400);
@@ -185,10 +186,15 @@ export async function POST(request: NextRequest, context: RouteContext) {
     .eq("user_id", user.id)
     .eq("tmdb_movie_id", movieId);
 
+  let warning: string | undefined;
+
   if (watchlistError) {
-    return jsonError("Movie was marked as watched, but removing it from watchlist failed", 500, {
+    console.error("Failed to remove watched movie from watchlist", {
+      userId: user.id,
+      movieId,
       message: watchlistError.message,
     });
+    warning = "Movie was marked as watched, but removing it from watchlist failed.";
   }
 
   revalidateWatchedPaths(movieId);
@@ -200,6 +206,7 @@ export async function POST(request: NextRequest, context: RouteContext) {
       rating: data.rating ?? null,
       watchedAt: data.watched_at ?? null,
       loggedAt: data.logged_at ?? null,
+      ...(warning ? { warning } : {}),
     },
     { status: 201 },
   );

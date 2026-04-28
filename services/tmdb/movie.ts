@@ -1,3 +1,5 @@
+import { unstable_cache } from "next/cache";
+
 import { createTmdbClient } from "./client";
 
 type TmdbGenre = {
@@ -37,31 +39,41 @@ export type MovieDetails = {
   genres: { id: number; name: string }[];
 };
 
+const getCachedMovieDetails = unstable_cache(
+  async (movieId: number): Promise<MovieDetails> => {
+    const accessToken = process.env.TMDB_ACCESS_TOKEN;
+    if (!accessToken) {
+      throw new Error("TMDB_ACCESS_TOKEN is not set");
+    }
+
+    const client = createTmdbClient({ accessToken });
+
+    const raw = await client.request<TmdbMovieDetails>(`/movie/${movieId}`, {
+      language: "en-US",
+    });
+
+    return {
+      id: raw.id,
+      title: raw.title,
+      tagline: raw.tagline,
+      overview: raw.overview,
+      posterPath: raw.poster_path,
+      backdropPath: raw.backdrop_path,
+      releaseDate: raw.release_date,
+      runtime: raw.runtime,
+      voteAverage: raw.vote_average,
+      voteCount: raw.vote_count,
+      status: raw.status,
+      originalLanguage: raw.original_language,
+      genres: raw.genres,
+    };
+  },
+  ["tmdb-movie-details"],
+  {
+    revalidate: 60 * 60 * 24,
+  },
+);
+
 export async function getMovieDetails(movieId: number): Promise<MovieDetails> {
-  const accessToken = process.env.TMDB_ACCESS_TOKEN;
-  if (!accessToken) {
-    throw new Error("TMDB_ACCESS_TOKEN is not set");
-  }
-
-  const client = createTmdbClient({ accessToken });
-
-  const raw = await client.request<TmdbMovieDetails>(`/movie/${movieId}`, {
-    language: "en-US",
-  });
-
-  return {
-    id: raw.id,
-    title: raw.title,
-    tagline: raw.tagline,
-    overview: raw.overview,
-    posterPath: raw.poster_path,
-    backdropPath: raw.backdrop_path,
-    releaseDate: raw.release_date,
-    runtime: raw.runtime,
-    voteAverage: raw.vote_average,
-    voteCount: raw.vote_count,
-    status: raw.status,
-    originalLanguage: raw.original_language,
-    genres: raw.genres,
-  };
+  return getCachedMovieDetails(movieId);
 }

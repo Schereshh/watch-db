@@ -4,6 +4,7 @@ export type WatchedState = {
   rating: number | null;
   watchedAt: string | null;
   loggedAt: string | null;
+  warning?: string;
 };
 
 export type WatchedMovie = {
@@ -13,6 +14,14 @@ export type WatchedMovie = {
   rating: number | null;
   watchedAt: string | null;
   loggedAt: string;
+};
+
+export type WatchedMoviesPage = {
+  movies: WatchedMovie[];
+  page: number;
+  pageSize: number;
+  totalCount: number;
+  nextPage: number | null;
 };
 
 type ApiEnvelope<T> = {
@@ -37,6 +46,8 @@ export function getWatchedMoviesQueryKey() {
   return ["watched", "movies"] as const;
 }
 
+export const DEFAULT_WATCHED_MOVIES_PAGE_SIZE = 20;
+
 async function readJsonOrThrow<T>(response: Response): Promise<T> {
   const payload = (await response.json()) as ApiEnvelope<T>;
 
@@ -59,13 +70,26 @@ export async function fetchWatchedState(movieId: number) {
   return readJsonOrThrow<WatchedState>(response);
 }
 
-export async function fetchWatchedMovies() {
-  const response = await fetch("/api/watched", {
+type FetchWatchedMoviesInput = {
+  page?: number;
+  limit?: number;
+};
+
+export async function fetchWatchedMovies({
+  page = 1,
+  limit = DEFAULT_WATCHED_MOVIES_PAGE_SIZE,
+}: FetchWatchedMoviesInput = {}) {
+  const searchParams = new URLSearchParams({
+    page: String(page),
+    limit: String(limit),
+  });
+
+  const response = await fetch(`/api/watched?${searchParams.toString()}`, {
     method: "GET",
     credentials: "same-origin",
   });
 
-  return readJsonOrThrow<{ movies: WatchedMovie[] }>(response);
+  return readJsonOrThrow<WatchedMoviesPage>(response);
 }
 
 type MarkWatchedInput = {

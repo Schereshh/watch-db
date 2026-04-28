@@ -1,6 +1,7 @@
 "use client";
 
 import MovieItem from "@/components/pages/profile/movie-item/movie-item";
+import { Button } from "@/components/ui/button";
 import { useWatchedMoviesQuery } from "@/hooks/queries/use-watched-movies-query";
 
 function formatWatchedLabel(watchedAt: string | null, loggedAt: string) {
@@ -37,7 +38,9 @@ export default function WatchedMovies() {
     );
   }
 
-  const movies = watchedQuery.data.movies;
+  const movies = watchedQuery.data.pages.flatMap((page) => page.movies);
+  const totalCount = watchedQuery.data.pages[0]?.totalCount ?? 0;
+  const showingAllMovies = !watchedQuery.hasNextPage && !watchedQuery.isFetchingNextPage;
 
   if (movies.length === 0) {
     return (
@@ -54,7 +57,9 @@ export default function WatchedMovies() {
   return (
     <>
       <span>
-        {movies.length} movie{movies.length === 1 ? "" : "s"}
+        {showingAllMovies
+          ? `${totalCount} movie${totalCount === 1 ? "" : "s"}`
+          : `Showing ${movies.length} of ${totalCount} movies`}
       </span>
       <div className="border-t-2" />
       {movies.map((movie, index) => (
@@ -69,6 +74,16 @@ export default function WatchedMovies() {
           {index < movies.length - 1 && <div className="border-t-2" />}
         </div>
       ))}
+      {watchedQuery.hasNextPage ? (
+        <Button
+          type="button"
+          variant="outline"
+          onClick={() => watchedQuery.fetchNextPage()}
+          disabled={watchedQuery.isFetchingNextPage}
+        >
+          {watchedQuery.isFetchingNextPage ? "Loading more..." : "Load more"}
+        </Button>
+      ) : null}
     </>
   );
 }
