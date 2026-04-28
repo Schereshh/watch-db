@@ -4,16 +4,22 @@ import MovieItem from "@/components/pages/profile/movie-item/movie-item";
 import { useWatchedMoviesQuery } from "@/hooks/queries/use-watched-movies-query";
 
 function formatWatchedLabel(watchedAt: string | null, loggedAt: string) {
-  const date = watchedAt ?? loggedAt;
+  const dateFormatterOptions: Intl.DateTimeFormatOptions = {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  };
 
-  return `${watchedAt ? "Watched" : "Logged"} ${new Intl.DateTimeFormat(
-    "en-US",
-    {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    },
-  ).format(new Date(date))}`;
+  if (watchedAt) {
+    return `Watched ${new Intl.DateTimeFormat("en-US", {
+      ...dateFormatterOptions,
+      timeZone: "UTC",
+    }).format(new Date(`${watchedAt}T00:00:00Z`))}`;
+  }
+
+  return `Logged ${new Intl.DateTimeFormat("en-US", dateFormatterOptions).format(
+    new Date(loggedAt),
+  )}`;
 }
 
 export default function WatchedMovies() {
