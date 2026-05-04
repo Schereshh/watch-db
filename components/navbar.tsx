@@ -19,7 +19,7 @@ export function Navbar({ initialUserEmail }: NavbarProps) {
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
   const [userEmail, setUserEmail] = useState<string | null>(initialUserEmail);
-  
+
   useEffect(() => {
     let mounted = true;
     const { data: authListener } = supabase.auth.onAuthStateChange(
@@ -42,8 +42,8 @@ export function Navbar({ initialUserEmail }: NavbarProps) {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur">
-      <div className="container mx-auto flex h-16 items-center justify-between px-32">
-        <div className="flex gap-12 w-full">
+      <div className="container mx-auto flex flex-col gap-3 px-4 py-3 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 xl:px-16">
+        <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center sm:gap-6 lg:max-w-3xl lg:gap-10">
           <Link href="/" className="flex items-center gap-2 font-semibold">
             <Film className="h-5 w-5" aria-hidden="true" />
             <span>WatchDB</span>
@@ -52,7 +52,7 @@ export function Navbar({ initialUserEmail }: NavbarProps) {
             placeholder="Search movies..."
             aria-label="Search movies"
             type="search"
-            className="w-56"
+            className="w-full sm:w-72"
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 const query = (e.currentTarget as HTMLInputElement).value;
@@ -65,7 +65,7 @@ export function Navbar({ initialUserEmail }: NavbarProps) {
             }}
           />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex w-full items-center justify-end gap-2 lg:w-auto">
           {userEmail ? (
             <>
               <Link href="/profile">
