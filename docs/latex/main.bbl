@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{cern2024www35}
+{CERN}, ``{World Wide Web at 35}.'' \url{https://home.cern/world-wide-web-35/}, 2024.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnServerSideIntro}
+{Mozilla Developer Network}, ``{Introduction to the server side}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{garrett2005ajax}
+J.~J. Garrett, ``{Ajax: A New Approach to Web Applications}.'' \url{https://www.oceanpark.com/webmuseum/2005/garrett_on_ajax.html}, 2005.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnResponsiveDesign}
+{Mozilla Developer Network}, ``{Responsive web design}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mell2011nistCloud}
+P.~Mell and T.~Grance, ``{The NIST Definition of Cloud Computing},'' Tech. Rep. {Special Publication 800-145}, {National Institute of Standards and Technology}, 2011.
+\newblock \url{https://doi.org/10.6028/NIST.SP.800-145}. Accessed: 2026-05-28.
+
+\bibitem{dora2018accelerate}
+{DevOps Research and Assessment}, ``{Accelerate State of DevOps Report 2018}.'' \url{https://dora.dev/research/2018/dora-report/}, 2018.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{fowlerLewis2014microservices}
+M.~Fowler and J.~Lewis, ``{Microservices}.'' \url{https://martinfowler.com/articles/microservices.html}, 2014.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3cLittleWebHistory}
+{World Wide Web Consortium}, ``{A Little History of the World Wide Web}.'' \url{https://www.w3.org/History.html}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnWebServer}
+{Mozilla Developer Network}, ``{What is a web server?}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{nsf2004mosaic}
+{U.S. National Science Foundation}, ``{Mosaic Launches an Internet Revolution}.'' \url{https://www.nsf.gov/news/mosaic-launches-internet-revolution}, 2004.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c1997html40}
+{World Wide Web Consortium}, ``{The World Wide Web Consortium Issues HTML 4.0 as a W3C Recommendation}.'' \url{https://www.w3.org/press-releases/1997/html40-rec/}, 1997.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2014html5}
+{World Wide Web Consortium}, ``{HTML5}.'' \url{https://www.w3.org/TR/2014/REC-html5-20141028/}, 2014.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{robinson2004cgi}
+D.~Robinson and K.~Coar, ``{The Common Gateway Interface (CGI) Version 1.1},'' Tech. Rep. {RFC 3875}, {RFC Editor}, 2004.
+\newblock \url{https://doi.org/10.17487/RFC3875}. Accessed: 2026-05-28.
+
+\bibitem{mdnWebStandardsModel}
+{Mozilla Developer Network}, ``{The web standards model}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnAjax}
+{Mozilla Developer Network}, ``{Ajax}.'' \url{https://developer.mozilla.org/en-US/docs/Glossary/AJAX}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{fielding2022httpSemantics}
+R.~T. Fielding, M.~Nottingham, and J.~F. Reschke, ``{HTTP Semantics},'' Tech. Rep. {RFC 9110}, {RFC Editor}, 2022.
+\newblock \url{https://doi.org/10.17487/RFC9110}. Accessed: 2026-05-28.
+
+\bibitem{mdnClientFrameworks}
+{Mozilla Developer Network}, ``{Introduction to client-side frameworks}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnSpa}
+{Mozilla Developer Network}, ``{SPA (Single-page application)}.'' \url{https://developer.mozilla.org/en-US/docs/Glossary/SPA}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{fielding2000rest}
+R.~T. Fielding, {\em {Architectural Styles and the Design of Network-based Software Architectures}}.
+\newblock PhD thesis, {University of California, Irvine}, 2000.
+\newblock \url{https://ics.uci.edu/~fielding/pubs/dissertation/top.htm}. Accessed: 2026-05-28.
+
+\bibitem{graphql2021spec}
+{GraphQL Foundation}, ``{GraphQL Specification, October 2021 Edition}.'' \url{https://spec.graphql.org/October2021/}, 2021.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{fette2011websocket}
+I.~Fette and A.~Melnikov, ``{The WebSocket Protocol},'' Tech. Rep. {RFC 6455}, {RFC Editor}, 2011.
+\newblock \url{https://doi.org/10.17487/RFC6455}. Accessed: 2026-05-28.
+
+\bibitem{w3c2013webstorage}
+{World Wide Web Consortium}, ``{Web Storage}.'' \url{https://www.w3.org/TR/2013/REC-webstorage-20130730/}, 2013.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnPwaOfflineBackground}
+{Mozilla Developer Network}, ``{Offline and background operation}.'' \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{webdevClientSideRendering}
+J.~Wagner, ``{Client-side rendering of HTML and interactivity}.'' \url{https://web.dev/articles/client-side-rendering-of-html-and-interactivity}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{sutton2018reinforcement}
+R.~S. Sutton and A.~G. Barto, {\em Reinforcement learning: An introduction}.
+\newblock MIT press, 2018.
+
+\bibitem{szanto2015investigation}
+Z.~Sz{\'a}nt{\'o}, L.~M{\'a}rton, S.~Gy{\"o}rgy, and T.~I. Erdei, ``Investigation of robotic swarms with partial team-goal knowledge,'' in {\em 2015 IEEE 19th International Conference on Intelligent Engineering Systems (INES)}, pp.~243--248, IEEE, 2015.
+
+\end{thebibliography}
