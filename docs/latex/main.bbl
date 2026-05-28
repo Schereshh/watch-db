@@ -1,100 +1,250 @@
 \begin{thebibliography}{10}
 
 \bibitem{cern2024www35}
-{CERN}, ``{World Wide Web at 35}.'' \url{https://home.cern/world-wide-web-35/}, 2024.
+{CERN}, ``{World Wide Web at 35}.'' \url{https://home.cern/world-wide-web-35/},
+  2024.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnServerSideIntro}
-{Mozilla Developer Network}, ``{Introduction to the server side}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction}.
+{Mozilla Developer Network}, ``{Introduction to the server side}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{garrett2005ajax}
-J.~J. Garrett, ``{Ajax: A New Approach to Web Applications}.'' \url{https://www.oceanpark.com/webmuseum/2005/garrett_on_ajax.html}, 2005.
+J.~J. Garrett, ``{Ajax: A New Approach to Web Applications}.''
+  \url{https://www.oceanpark.com/webmuseum/2005/garrett_on_ajax.html}, 2005.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnResponsiveDesign}
-{Mozilla Developer Network}, ``{Responsive web design}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design}.
+{Mozilla Developer Network}, ``{Responsive web design}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mell2011nistCloud}
-P.~Mell and T.~Grance, ``{The NIST Definition of Cloud Computing},'' Tech. Rep. {Special Publication 800-145}, {National Institute of Standards and Technology}, 2011.
+P.~Mell and T.~Grance, ``{The NIST Definition of Cloud Computing},'' Tech. Rep.
+  {Special Publication 800-145}, {National Institute of Standards and
+  Technology}, 2011.
 \newblock \url{https://doi.org/10.6028/NIST.SP.800-145}. Accessed: 2026-05-28.
 
 \bibitem{dora2018accelerate}
-{DevOps Research and Assessment}, ``{Accelerate State of DevOps Report 2018}.'' \url{https://dora.dev/research/2018/dora-report/}, 2018.
+{DevOps Research and Assessment}, ``{Accelerate State of DevOps Report 2018}.''
+  \url{https://dora.dev/research/2018/dora-report/}, 2018.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{fowlerLewis2014microservices}
-M.~Fowler and J.~Lewis, ``{Microservices}.'' \url{https://martinfowler.com/articles/microservices.html}, 2014.
+M.~Fowler and J.~Lewis, ``{Microservices}.''
+  \url{https://martinfowler.com/articles/microservices.html}, 2014.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{w3cLittleWebHistory}
-{World Wide Web Consortium}, ``{A Little History of the World Wide Web}.'' \url{https://www.w3.org/History.html}.
+{World Wide Web Consortium}, ``{A Little History of the World Wide Web}.''
+  \url{https://www.w3.org/History.html}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnWebServer}
-{Mozilla Developer Network}, ``{What is a web server?}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server}.
+{Mozilla Developer Network}, ``{What is a web server?}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{nsf2004mosaic}
-{U.S. National Science Foundation}, ``{Mosaic Launches an Internet Revolution}.'' \url{https://www.nsf.gov/news/mosaic-launches-internet-revolution}, 2004.
+{U.S. National Science Foundation}, ``{Mosaic Launches an Internet
+  Revolution}.''
+  \url{https://www.nsf.gov/news/mosaic-launches-internet-revolution}, 2004.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{w3c1997html40}
-{World Wide Web Consortium}, ``{The World Wide Web Consortium Issues HTML 4.0 as a W3C Recommendation}.'' \url{https://www.w3.org/press-releases/1997/html40-rec/}, 1997.
+{World Wide Web Consortium}, ``{The World Wide Web Consortium Issues HTML 4.0
+  as a W3C Recommendation}.''
+  \url{https://www.w3.org/press-releases/1997/html40-rec/}, 1997.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{w3c2014html5}
-{World Wide Web Consortium}, ``{HTML5}.'' \url{https://www.w3.org/TR/2014/REC-html5-20141028/}, 2014.
+{World Wide Web Consortium}, ``{HTML5}.''
+  \url{https://www.w3.org/TR/2014/REC-html5-20141028/}, 2014.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{robinson2004cgi}
-D.~Robinson and K.~Coar, ``{The Common Gateway Interface (CGI) Version 1.1},'' Tech. Rep. {RFC 3875}, {RFC Editor}, 2004.
+D.~Robinson and K.~Coar, ``{The Common Gateway Interface (CGI) Version 1.1},''
+  Tech. Rep. {RFC 3875}, {RFC Editor}, 2004.
 \newblock \url{https://doi.org/10.17487/RFC3875}. Accessed: 2026-05-28.
 
 \bibitem{mdnWebStandardsModel}
-{Mozilla Developer Network}, ``{The web standards model}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model}.
+{Mozilla Developer Network}, ``{The web standards model}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnAjax}
-{Mozilla Developer Network}, ``{Ajax}.'' \url{https://developer.mozilla.org/en-US/docs/Glossary/AJAX}.
+{Mozilla Developer Network}, ``{Ajax}.''
+  \url{https://developer.mozilla.org/en-US/docs/Glossary/AJAX}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{fielding2022httpSemantics}
-R.~T. Fielding, M.~Nottingham, and J.~F. Reschke, ``{HTTP Semantics},'' Tech. Rep. {RFC 9110}, {RFC Editor}, 2022.
+R.~T. Fielding, M.~Nottingham, and J.~F. Reschke, ``{HTTP Semantics},'' Tech.
+  Rep. {RFC 9110}, {RFC Editor}, 2022.
 \newblock \url{https://doi.org/10.17487/RFC9110}. Accessed: 2026-05-28.
 
 \bibitem{mdnClientFrameworks}
-{Mozilla Developer Network}, ``{Introduction to client-side frameworks}.'' \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction}.
+{Mozilla Developer Network}, ``{Introduction to client-side frameworks}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnSpa}
-{Mozilla Developer Network}, ``{SPA (Single-page application)}.'' \url{https://developer.mozilla.org/en-US/docs/Glossary/SPA}.
+{Mozilla Developer Network}, ``{SPA (Single-page application)}.''
+  \url{https://developer.mozilla.org/en-US/docs/Glossary/SPA}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{fielding2000rest}
-R.~T. Fielding, {\em {Architectural Styles and the Design of Network-based Software Architectures}}.
+R.~T. Fielding, {\em {Architectural Styles and the Design of Network-based
+  Software Architectures}}.
 \newblock PhD thesis, {University of California, Irvine}, 2000.
-\newblock \url{https://ics.uci.edu/~fielding/pubs/dissertation/top.htm}. Accessed: 2026-05-28.
+\newblock \url{https://ics.uci.edu/~fielding/pubs/dissertation/top.htm}.
+  Accessed: 2026-05-28.
 
 \bibitem{graphql2021spec}
-{GraphQL Foundation}, ``{GraphQL Specification, October 2021 Edition}.'' \url{https://spec.graphql.org/October2021/}, 2021.
+{GraphQL Foundation}, ``{GraphQL Specification, October 2021 Edition}.''
+  \url{https://spec.graphql.org/October2021/}, 2021.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{fette2011websocket}
-I.~Fette and A.~Melnikov, ``{The WebSocket Protocol},'' Tech. Rep. {RFC 6455}, {RFC Editor}, 2011.
+I.~Fette and A.~Melnikov, ``{The WebSocket Protocol},'' Tech. Rep. {RFC 6455},
+  {RFC Editor}, 2011.
 \newblock \url{https://doi.org/10.17487/RFC6455}. Accessed: 2026-05-28.
 
 \bibitem{w3c2013webstorage}
-{World Wide Web Consortium}, ``{Web Storage}.'' \url{https://www.w3.org/TR/2013/REC-webstorage-20130730/}, 2013.
+{World Wide Web Consortium}, ``{Web Storage}.''
+  \url{https://www.w3.org/TR/2013/REC-webstorage-20130730/}, 2013.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{mdnPwaOfflineBackground}
-{Mozilla Developer Network}, ``{Offline and background operation}.'' \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation}.
+{Mozilla Developer Network}, ``{Offline and background operation}.''
+  \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation}.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{webdevClientSideRendering}
-J.~Wagner, ``{Client-side rendering of HTML and interactivity}.'' \url{https://web.dev/articles/client-side-rendering-of-html-and-interactivity}.
+J.~Wagner, ``{Client-side rendering of HTML and interactivity}.''
+  \url{https://web.dev/articles/client-side-rendering-of-html-and-interactivity}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2008mobileBestPractices}
+{World Wide Web Consortium}, ``{Mobile Web Best Practices 1.0}.''
+  \url{https://www.w3.org/TR/2008/REC-mobile-bp-20080729/}, 2008.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{marcotte2010responsiveWebDesign}
+E.~Marcotte, ``{Responsive Web Design}.''
+  \url{https://alistapart.com/article/responsive-web-design/}, 2010.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2012mediaQueries}
+{World Wide Web Consortium}, ``{Media Queries}.''
+  \url{https://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/}, 2012.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2013touchEvents}
+{World Wide Web Consortium}, ``{Touch Events}.''
+  \url{https://www.w3.org/TR/2013/REC-touch-events-20131010/}, 2013.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{wroblewski2011mobileFirst}
+L.~Wroblewski, {\em {Mobile First}}.
+\newblock {A Book Apart}, 2011.
+\newblock \url{https://www.lukew.com/resources/mobile_first.asp}. Accessed:
+  2026-05-28.
+
+\bibitem{russell2015progressiveApps}
+A.~Russell, ``{Progressive Web Apps: Escaping Tabs Without Losing Our Soul}.''
+  \url{https://medium.com/@slightlylate/progressive-apps-escaping-tabs-without-losing-our-soul-3b93a8561955},
+  2015.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnWhatIsPwa}
+{Mozilla Developer Network}, ``{What is a progressive web app?}.''
+  \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{mdnGetUserMedia}
+{Mozilla Developer Network}, ``{MediaDevices: getUserMedia() method}.''
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2024geolocation}
+{World Wide Web Consortium}, ``{Geolocation API}.''
+  \url{https://www.w3.org/TR/2024/REC-geolocation-20240613/}, 2024.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{aws2014lambda}
+{Amazon Web Services}, ``{Introducing AWS Lambda}.''
+  \url{https://aws.amazon.com/about-aws/whats-new/2014/11/13/introducing-aws-lambda/},
+  2014.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{httpArchive2025security}
+{HTTP Archive}, ``{Security: 2025 Web Almanac}.''
+  \url{https://almanac.httparchive.org/en/2025/security}, 2026.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{letsencrypt2015launch}
+{Let's Encrypt}, ``{Let's Encrypt Launch Schedule}.''
+  \url{https://letsencrypt.org/2015/06/16/lets-encrypt-launch-schedule/}, 2015.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{googleChrome2018notSecure}
+E.~Schechter, ``{A milestone for Chrome security: marking HTTP as "not
+  secure"}.''
+  \url{https://blog.google/products/chrome/milestone-chrome-security-marking-http-not-secure/},
+  2018.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{cloudflareCdnEdgeServer}
+{Cloudflare}, ``{What is a CDN edge server?}.''
+  \url{https://www.cloudflare.com/learning/cdn/glossary/edge-server/}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{agileManifesto2001}
+K.~Beck, M.~Beedle, A.~van Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, J.~Kern, B.~Marick, R.~C.
+  Martin, S.~Mellor, K.~Schwaber, J.~Sutherland, and D.~Thomas, ``{Manifesto
+  for Agile Software Development}.'' \url{https://agilemanifesto.org/}, 2001.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{whatwgW3c2019Mou}
+{World Wide Web Consortium and Web Hypertext Application Technology Working
+  Group}, ``{Memorandum of Understanding Between W3C and WHATWG}.''
+  \url{https://www.w3.org/2019/04/WHATWG-W3C-MOU.html}, 2019.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{ecma2024}
+{Ecma International}, ``{ECMAScript 2024 Language Specification}.''
+  \url{https://262.ecma-international.org/15.0/}, 2024.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{w3c2019wasm}
+{World Wide Web Consortium}, ``{WebAssembly becomes a W3C Recommendation}.''
+  \url{https://www.w3.org/press-releases/2019/wasm/}, 2019.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{reactNativeDocs}
+{React Native Team}, ``{Introduction}.''
+  \url{https://reactnative.dev/docs/getting-started}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{flutterWebsite}
+{Flutter Team}, ``{Build apps for any screen}.'' \url{https://flutter.dev/}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{britannicaArpanet}
+{Encyclopaedia Britannica}, ``{ARPANET}.''
+  \url{https://www.britannica.com/topic/ARPANET}, 2026.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{computerHistoryInternet}
+{Computer History Museum}, ``{Internet History 1962 to 1992}.''
+  \url{https://www.computerhistory.org/internethistory/}.
+\newblock Accessed: 2026-05-28.
+
+\bibitem{httpArchive2025GenerativeAi}
+{HTTP Archive}, ``{Generative AI: 2025 Web Almanac}.''
+  \url{https://almanac.httparchive.org/en/2025/generative-ai}, 2026.
 \newblock Accessed: 2026-05-28.
 
 \bibitem{sutton2018reinforcement}
@@ -102,6 +252,9 @@ R.~S. Sutton and A.~G. Barto, {\em Reinforcement learning: An introduction}.
 \newblock MIT press, 2018.
 
 \bibitem{szanto2015investigation}
-Z.~Sz{\'a}nt{\'o}, L.~M{\'a}rton, S.~Gy{\"o}rgy, and T.~I. Erdei, ``Investigation of robotic swarms with partial team-goal knowledge,'' in {\em 2015 IEEE 19th International Conference on Intelligent Engineering Systems (INES)}, pp.~243--248, IEEE, 2015.
+Z.~Sz{\'a}nt{\'o}, L.~M{\'a}rton, S.~Gy{\"o}rgy, and T.~I. Erdei,
+  ``Investigation of robotic swarms with partial team-goal knowledge,'' in {\em
+  2015 IEEE 19th International Conference on Intelligent Engineering Systems
+  (INES)}, pp.~243--248, IEEE, 2015.
 
 \end{thebibliography}

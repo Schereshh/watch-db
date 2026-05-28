@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1779993851.33866 "main.aux" "main.bbl" "main" 1779993852.50704 0
-  "./References.bib" 1779993585.99884 8341 88ed543fde74d7d7d7781b52093f8dad ""
+["bibtex main"] 1779995846.76561 "main.aux" "main.bbl" "main" 1779995907.61818 0
+  "./References.bib" 1779995839.07199 13968 f366eb911b4549a177088385df9b1e85 ""
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "main.aux" 1779993852.23871 7674 1c80b535b97a233e3dc561f6f7798b25 "pdflatex"
+  "main.aux" 1779995907.33603 10112 054aab475f15481bc21fd34561796495 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779993851.44979 "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" "main.pdf" "main" 1779993852.50717 0
+["pdflatex"] 1779995906.47842 "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" "main.pdf" "main" 1779995907.61834 0
   "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" 1779992314.66783 1476 1524bb79133ed364b3d31b4c8dcd5a1c ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -145,7 +145,10 @@
   "chapters/introduction/2-earlyWeb.tex" 1779992188.20647 1176 9e899a57784f9d0db563d583715843fd ""
   "chapters/introduction/3-dynamicWeb.tex" 1779992978.99985 1144 448646226ba6d3a39ca1e8deb068ad47 ""
   "chapters/introduction/4-advancedWeb.tex" 1779993848.73822 1370 c46df75e671ac00410b743fae5de2609 ""
-  "chapters/introduction/introduction.tex" 1779993337.29691 190 a66fb8211bc1de40e236440ec44b9e53 ""
+  "chapters/introduction/5-mobileAndWebStandards.tex" 1779994263.92564 1218 7dd717f6d3b5f520b3543697937cdd1f ""
+  "chapters/introduction/6-currentStateOfWebAndTrends.tex" 1779995360.17504 1683 32796f961897865d06caf440f5824045 ""
+  "chapters/introduction/7-timeline.tex" 1779995792.10686 2495 dbf58796bd7d4ace896faeba330407a7 ""
+  "chapters/introduction/introduction.tex" 1779995580.0845 344 70c6271505b33d03af7f7ea64d34e691 ""
   "chapters/literature.tex" 1779992188.20735 140 44e2daab88d4e4ee6cd6c8dd143686b1 ""
   "chapters/results.tex" 1779992188.20768 254 56a19e1c69a35b3f6c1fe6ac429e0609 ""
   "chapters/specifications.tex" 1779992188.20809 16 71f08bdae0a8b9c5b702b718cc5a973e ""
@@ -154,12 +157,12 @@
   "figures/algorithms/double_q.tex" 1779992188.22546 947 a347fc18c3f403f136c5f68f39681ac4 ""
   "figures/images/results/swarm_second_version.png" 1779992188.23101 121916 a5e220b1c03a9c123f2c744f74797242 ""
   "figures/tables/simulators.tex" 1779992188.23161 1376 43dbeb03917822d1d2bbb617f71fd626 ""
-  "main.aux" 1779993852.23871 7674 1c80b535b97a233e3dc561f6f7798b25 "pdflatex"
-  "main.bbl" 1779993851.44728 5530 78a52524342c3ad4e81d72ccd6170028 "bibtex main"
-  "main.lof" 1779993852.23998 639 8f79426082bdaa42e99fda410c287577 "pdflatex"
-  "main.out" 1779993852.23973 3257 9f5b07c73028463b7de0c5de703d0e90 "pdflatex"
+  "main.aux" 1779995907.33603 10112 054aab475f15481bc21fd34561796495 "pdflatex"
+  "main.bbl" 1779995846.87232 10308 81cc53bb717922ffa9fc73b073003adf "bibtex main"
+  "main.lof" 1779995907.33772 639 aa239cb296de62553db33bbb2d703666 "pdflatex"
+  "main.out" 1779995907.33745 4086 5c8350ca9328a11252b756dae8599387 "pdflatex"
   "main.tex" 1779992314.66783 1476 1524bb79133ed364b3d31b4c8dcd5a1c ""
-  "main.toc" 1779993852.23994 2467 2d0a7e2b2181f460ab98034f1e64ba26 "pdflatex"
+  "main.toc" 1779995907.33768 2858 0a98bda61cc02e1579fe7f17d07dd210 "pdflatex"
   "pdfs/allamvizsga_borito.pdf" 1779992188.23935 651493 08020870e08daaa53fd7eaa8fba989ae ""
   "preamble.tex" 1779992188.34787 2577 d3d633d83565957407d888ab34f0509c ""
   (generated)

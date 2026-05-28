@@ -1,0 +1,42 @@
+\section{A web fejlődésének rövid története - idővonal}
+
+\newcommand{\timelineentry}[3]{%
+\noindent
+\begin{minipage}[t]{0.18\textwidth}
+\raggedleft\textbf{\textcolor{blue!70!black}{#1}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.03\textwidth}
+\centering\textcolor{blue!70!black}{\rule{1pt}{1.7cm}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.74\textwidth}
+\textbf{#2}\par
+#3
+\end{minipage}
+\par\vspace{0.8em}
+}
+
+\timelineentry{1960-as évek}{Az internet alapjai}{
+Az ARPANET és a csomagkapcsolt adatátvitel megjelenése megalapozta a későbbi, egymással összekapcsolt számítógépes hálózatokat \cite{britannicaArpanet,computerHistoryInternet}.
+}
+
+\timelineentry{1989--1991}{A World Wide Web megszületése}{
+Tim Berners-Lee a CERN-ben kidolgozta a World Wide Web koncepcióját, majd megjelentek a web alapvető elemei: a HTML, a HTTP, az URL, az első webszerver és az első böngésző \cite{cern2024www35,w3cLittleWebHistory}.
+}
+
+\timelineentry{1990-es évek}{A statikus web korszaka}{
+A korai weboldalak főként HTML-alapú, információközlő dokumentumok voltak, amelyeket a webszerverek dinamikus tartalomgenerálás nélkül szolgáltak ki \cite{mdnWebServer}. A grafikus böngészők, különösen az NCSA Mosaic, jelentősen hozzájárultak a web elterjedéséhez \cite{nsf2004mosaic}.
+}
+
+\timelineentry{2000-es évek}{Dinamikus webalkalmazások}{
+A szerveroldali programozás és az adatbázisok használata lehetővé tette a dinamikus tartalom előállítását \cite{mdnServerSideIntro}. Az AJAX elterjedése interaktívabb, részleges frissítésre képes webes felületeket eredményezett \cite{garrett2005ajax,mdnAjax}.
+}
+
+\timelineentry{2010-es évek}{Modern kliensoldali web}{
+Az egyoldalas alkalmazások és a frontend keretrendszerek a böngészőt egyre inkább alkalmazásfuttatási környezetté tették \cite{mdnSpa,mdnClientFrameworks}. Ezzel párhuzamosan a felhőalapú infrastruktúra és a DevOps szemlélet meghatározóvá vált a webalkalmazások fejlesztésében és üzemeltetésében \cite{mell2011nistCloud,dora2018accelerate}.
+}
+
+\timelineentry{2020-as évektől}{Webalkalmazások napjainkban}{
+A PWA-k és a szerver nélküli architektúrák tovább közelítették egymáshoz a webes és natív alkalmazások felhasználói élményét \cite{mdnWhatIsPwa,aws2014lambda}. A mesterséges intelligencia és az automatizáció új fejlesztési és tartalom-előállítási irányokat nyitott a weben \cite{httpArchive2025GenerativeAi}.
+}

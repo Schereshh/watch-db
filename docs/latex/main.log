@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  28 MAY 2026 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  28 MAY 2026 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,12 +566,12 @@ LaTeX Info: Redefining \mit on input line 578.
 )
 Package babel Info: 'magyar' activates 'magyar' shorthands.
 (babel)             Reported on input line 19.
-<pdfs/allamvizsga_borito.pdf, id=95, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=107, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=97, page=1, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=109, page=1, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
@@ -597,7 +597,7 @@ Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 
 
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=126, page=2, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=138, page=2, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 2>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line 21.
@@ -613,7 +613,7 @@ Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line 
  [2
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=144, page=3, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=156, page=3, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 3>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line 21.
@@ -633,7 +633,7 @@ File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=177, page=6, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=189, page=6, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
@@ -719,12 +719,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.3 
-     [2]))
+     [2]) (./chapters/introduction/5-mobileAndWebStandards.tex) (./chapters/introduction/6-currentStateOfWebAndTrends.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.3 
+     [3]) (./chapters/introduction/7-timeline.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [4]))
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 
+      [5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.47 \chapter
-             {Szakirodalom áttekintése} [3]
+             {Szakirodalom áttekintése} [6]
 2. fejezet.
 (./chapters/literature.tex (./figures/tables/simulators.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -759,39 +774,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
  []
 
 ))
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.50 \chapter
-             {Elméleti áttekintés} [4
+             {Elméleti áttekintés} [7
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 \chapter
-             {Elméleti áttekintés} [5]
+] [8]
 3. fejezet.
 (./chapters/theory.tex (./figures/algorithms/double_q.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-))
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.53 \chapter
-             {Rendszer specifikációi} [6
+)) [9
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.53 \chapter
-             {Rendszer specifikációi} [7]
+] [10]
 4. fejezet.
-(./chapters/specifications.tex) [8
+(./chapters/specifications.tex) [11
 
 ]
 5. fejezet.
@@ -799,37 +799,82 @@ l.53 \chapter
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 24.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [9
+) [12
 
-]) [10]
+]) [13]
 6. fejezet.
 (./chapters/results.tex
-<figures/images/results/swarm_second_version.png, id=347, 435.7881pt x 327.8649pt>
+<figures/images/results/swarm_second_version.png, id=436, 435.7881pt x 327.8649pt>
 File: figures/images/results/swarm_second_version.png Graphic file (type png)
 <use figures/images/results/swarm_second_version.png>
 Package pdftex.def Info: figures/images/results/swarm_second_version.png  used on input line 7.
 (pdftex.def)             Requested size: 348.63094pt x 262.29227pt.
-) [11
+) [14
 
  <./figures/images/results/swarm_second_version.png>]
 7. fejezet.
-(./chapters/summary.tex) (./main.bbl [12
+(./chapters/summary.tex) (./main.bbl [15
 
-] [13
+] [16
 
-] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 []\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RWeb Stor-age.'' [][]$https : / / www . w3 . org / TR / 2013 /
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 97--99
+Underfull \hbox (badness 2828) in paragraph at lines 124--127
 []\T1/ptm/m/n/12 J. Wag-ner, ^^RClient-side rend-er-ing of HTML and in-ter-ac-ti-vity.'' [][]$https : / / web . dev / articles /
  []
 
-) [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RMe-dia Que-ri-es.'' [][]$https : / / www . w3 . org / TR / 2012 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RTo-uch Events.'' [][]$https : / / www . w3 . org / TR / 2013 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--159
+\T1/ptm/m/n/12 com / @slightlylate / progressive-[]apps-[]escaping-[]tabs-[]without-[]losing-[]our-[]soul-[]3b93a8561955$[][],
+ []
+
+[18]
+Underfull \hbox (badness 1248) in paragraph at lines 166--169
+[]\T1/ptm/m/n/12 Mozilla De-vel-oper Net-work, ^^RMe-diaDevi-ces: ge-tUser-Me-dia() met-hod.'' [][]$https : / / developer .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RGe-o-lo-ca-ti-on API.'' [][]$https : / / www . w3 . org / TR / 2024 /
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 176--180
+[]\T1/ptm/m/n/12 Amazon Web Ser-vi-ces, ^^RInt-ro-du-cing AWS Lamb-da.'' [][]$https : / / aws . amazon . com / about-[]aws /
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 182--185
+[]\T1/ptm/m/n/12 HTTP Ar-chive, ^^RSe-cu-rity: 2025 Web Al-ma-nac.'' [][]$https : / / almanac . httparchive . org / en / 2025 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+[]\T1/ptm/m/n/12 Let's Encrypt, ^^RLet's Encrypt La-unch Sche-dule.'' [][]$https : / / letsencrypt . org / 2015 / 06 / 16 /
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
+[]\T1/ptm/m/n/12 Ecma In-ter-na-ti-o-nal, ^^REC-MAScript 2024 Lan-gu-age Spe-ci-fi-ca-ti-on.'' [][]$https : / / 262 .
+ []
+
+) [20]
 A. f\"uggel\'ek.
-(./chapters/appendix.tex) [16
+(./chapters/appendix.tex) [21
 
 ] (./main.aux)
  ***********
@@ -837,21 +882,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F5B07C73028463B7DE0C5DE703D0E90;3257.
+(rerunfilecheck)             Checksum: 5C8350CA9328A11252B756DAE8599387;4086.
  ) 
 Here is how much of TeX's memory you used:
- 16237 strings out of 467525
- 262331 string characters out of 5418982
- 715393 words of memory out of 5000000
- 44739 multiletter control sequences out of 15000+600000
+ 16322 strings out of 467525
+ 264746 string characters out of 5418982
+ 718368 words of memory out of 5000000
+ 44784 multiletter control sequences out of 15000+600000
  702409 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,17n,95p,1303b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 82i,17n,95p,1303b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 849436 bytes).
+Output written on main.pdf (31 pages, 863836 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
- 79 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
