@@ -6,22 +6,26 @@
 \select@language {magyar} \contentsline {section}{\numberline {1.5}Mobil és web standardok (reszponzív dizájn)}{3}{section.1.5}%
 \select@language {magyar} \contentsline {section}{\numberline {1.6}Jelenlegi állapot és trendek}{4}{section.1.6}%
 \select@language {magyar} \contentsline {section}{\numberline {1.7}A web fejlődésének rövid története - idővonal}{4}{section.1.7}%
-\select@language {magyar} \contentsline {chapter}{\numberline {2}Szakirodalom áttekintése}{7}{chapter.2}%
-\select@language {magyar} \contentsline {section}{\numberline {2.1}Cím 1}{7}{section.2.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.1.1}Alcím 1}{7}{subsection.2.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {3}Elméleti áttekintés}{9}{chapter.3}%
-\select@language {magyar} \contentsline {section}{\numberline {3.1}Elméleti áttekintés}{9}{section.3.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Rendszer specifikációi}{11}{chapter.4}%
-\select@language {magyar} \contentsline {section}{\numberline {4.1}Cím 1}{11}{section.4.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Gyakorlati megvalósítás}{12}{chapter.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Ágensek vezérlése}{12}{section.5.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {5.1.1}Potenciálmező navigáció}{12}{subsection.5.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Eredmények}{14}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Cím 1}{14}{section.6.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Összefoglalás}{15}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}Összefoglalás}{15}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{15}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{21}{appendix.A}%
-\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{21}{section.A.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{21}{subsection.A.1.1}%
-\select@language {magyar} \contentsline {subsubsection}{Alcím}{21}{section*.7}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Irodalmi áttekintés}{7}{chapter.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.1}Modern webfejlesztési alapfogalmak}{7}{section.2.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.2}Webfejlesztési módszertanok}{9}{section.2.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.2.1}Összehasonlítás}{9}{subsection.2.2.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.3}Modern webfejlesztői csapat felépítése}{10}{section.2.3}%
+\select@language {magyar} \contentsline {section}{\numberline {2.4}Modern webalkalmazások fejlesztési folyamata}{12}{section.2.4}%
+\select@language {magyar} \contentsline {section}{\numberline {2.5}A választott technológiai stack áttekintése}{13}{section.2.5}%
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Elméleti áttekintés}{15}{chapter.3}%
+\select@language {magyar} \contentsline {section}{\numberline {3.1}Elméleti áttekintés}{15}{section.3.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Rendszer specifikációi}{17}{chapter.4}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Cím 1}{17}{section.4.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Gyakorlati megvalósítás}{18}{chapter.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Ágensek vezérlése}{18}{section.5.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {5.1.1}Potenciálmező navigáció}{18}{subsection.5.1.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Eredmények}{20}{chapter.6}%
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Cím 1}{20}{section.6.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Összefoglalás}{21}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}Összefoglalás}{21}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{21}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{30}{appendix.A}%
+\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{30}{section.A.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{30}{subsection.A.1.1}%
+\select@language {magyar} \contentsline {subsubsection}{Alcím}{30}{section*.7}%

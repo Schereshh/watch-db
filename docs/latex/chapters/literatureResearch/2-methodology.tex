@@ -1,0 +1,27 @@
+\section{Webfejlesztési módszertanok}
+A modern webfejlesztésben a módszertani választás közvetlenül befolyásolja a tervezést, a fejlesztés ütemezését, a hibamegelőzést és a deployment módját \cite{ibmSdlc,dora2018accelerate}. A Waterfall lineáris és erősen terv-vezérelt megközelítés, míg az Agile egy iteratív, visszajelzés-alapú szemlélet \cite{ibmAgileVsWaterfall,agileManifesto2001}. Ennek két gyakori keretrendszere a Scrum és a Kanban \cite{schwaberSutherland2020scrumGuide,kanbanGuides2025}. A DevOps ehhez képest nem pusztán projektmenedzsment-módszer, hanem egy olyan működési modell, amely a fejlesztést, a tesztelést és az üzemeltetést különböző automatizációkkal köti össze, különösen a CI/CD (Continuous Integration/Continuous Delivery vagy Continuous Deployment) használatával \cite{atlassianDevOps,awsCicd}.
+
+\subsection{Összehasonlítás}
+Az alábbi táblázat a legfontosabb modellek és módszertanok lényegét foglalja össze. Fontos különbség, hogy az Agile inkább szemlélet, a Scrum és a Kanban ennek konkrét megvalósítási formái, a DevOps pedig a kitelepítési és üzemeltetési folyamatokat egészíti ki automatizációval.
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.15\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}|p{0.23\textwidth}|}
+\hline
+\textbf{Módszer} & \textbf{Alapelv} & \textbf{Előnyök} & \textbf{Hátrányok} \\
+\hline
+Waterfall & Egymást követő, lezárt fázisok: követelmények, tervezés, implementáció, verifikáció és karbantartás \cite{ibmSdlc,ibmAgileVsWaterfall}. & Jó dokumentálhatóság, stabil ütemezés, előre tervezhető költségek. & Kevésbé rugalmas; újratervezés esetén költségessé és időigényessé válhat. \\
+\hline
+Agile & Iteratív, adaptív fejlesztési szemlélet, kisebb lépésekben történő szállítással \cite{agileManifesto2001,ibmAgileVsWaterfall}. & Gyors visszajelzés, könnyebb alkalmazkodás, erősebb ügyfél- és csapatkapcsolat. & Csapatfegyelmet igényel; kisebb lehet az előreláthatóság, és a dokumentáció háttérbe szorulhat. \\
+\hline
+Scrum & Időkeretes sprintek, definiált szerepkörök, események és produktumok \cite{schwaberSutherland2020scrumGuide}. & Átlátható működés, rendszeres review, kiszámítható iterációk. & Több kötelező esemény és adminisztráció; szerepköri konfliktusok és meredekebb tanulási görbe jelentkezhet. \\
+\hline
+Kanban & Folyamatos áramlás, vizualizált munka és korlátozott folyamatban lévő feladatmennyiség \cite{kanbanGuides2025}. & Rugalmas prioritáskezelés, kevés felesleges adminisztráció, jól követhető kapacitás. & Kevésbé kényszerít tervezési ciklusokra; hosszú távon könnyebben elveszhet a ritmus. \\
+\hline
+\end{tabular}
+\caption{Gyakori webfejlesztési módszertanok összehasonlítása}
+\label{tab:web-development-methodologies}
+\end{table}

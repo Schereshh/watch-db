@@ -247,6 +247,161 @@ K.~Beck, M.~Beedle, A.~van Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
   \url{https://almanac.httparchive.org/en/2025/generative-ai}, 2026.
 \newblock Accessed: 2026-05-28.
 
+\bibitem{techtargetWebApplication}
+{TechTarget}, ``{What is a Web Application?}.''
+  \url{https://www.techtarget.com/searchsoftwarequality/definition/Web-application-Web-app}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{mdnClientServerOverview}
+{Mozilla Developer Network}, ``{Client-Server Overview}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{webdevPwaArchitecture}
+{web.dev}, ``{Architecture}.'' \url{https://web.dev/learn/pwa/architecture},
+  2022.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{webdevRenderingOnWeb}
+A.~Osmani and J.~Miller, ``{Rendering on the Web}.''
+  \url{https://web.dev/articles/rendering-on-the-web}, 2019.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{ibmSdlc}
+{IBM}, ``{What is the software development life cycle (SDLC)?}.''
+  \url{https://www.ibm.com/think/topics/sdlc}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{ibmAgileVsWaterfall}
+{IBM}, ``{Agile vs. Waterfall: What's the Difference?}.''
+  \url{https://www.ibm.com/think/topics/agile-vs-waterfall}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{schwaberSutherland2020scrumGuide}
+K.~Schwaber and J.~Sutherland, ``{The Scrum Guide}.''
+  \url{https://scrumguides.org/scrum-guide.html}, 2020.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{kanbanGuides2025}
+{Kanban Guides}, ``{The Kanban Guide}.''
+  \url{https://kanbanguides.org/english/}, 2025.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{atlassianDevOps}
+{Atlassian}, ``{What is DevOps?}.'' \url{https://www.atlassian.com/devops}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{awsCicd}
+{Amazon Web Services}, ``{What is CI/CD?}.''
+  \url{https://aws.amazon.com/what-is/ci-cd/}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{nielsenNorman1998ux}
+D.~Norman and J.~Nielsen, ``{The Definition of User Experience (UX)}.''
+  \url{https://www.nngroup.com/articles/definition-user-experience/}, 1998.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{w3cWaiAccessibilityIntro}
+{World Wide Web Consortium}, ``{Introduction to Web Accessibility}.''
+  \url{https://www.w3.org/WAI/fundamentals/accessibility-intro/}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{awsFullStackDevelopment}
+{Amazon Web Services}, ``{What is Full Stack Development?}.''
+  \url{https://aws.amazon.com/what-is/full-stack-development/}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{ibmShiftLeftTesting}
+{IBM}, ``{What is Shift-left Testing?}.''
+  \url{https://www.ibm.com/think/topics/shift-left-testing}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{istqbGlossaryRegressionTesting}
+{International Software Testing Qualifications Board}, ``{ISTQB Glossary:
+  Regression Testing}.''
+  \url{https://glossary.istqb.org/en_US/term/regression-testing}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{istqbGlossaryTestAutomation}
+{International Software Testing Qualifications Board}, ``{ISTQB Glossary: Test
+  Automation}.'' \url{https://glossary.istqb.org/en_US/term/test-automation}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{isoIecIeee29148Requirements}
+{IEEE Standards Association}, ``{IEEE/ISO/IEC 29148-2018: Systems and software
+  engineering -- Life cycle processes -- Requirements engineering}.''
+  \url{https://standards.ieee.org/ieee/29148/6937/}, 2018.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{isoIec25010ProductQuality}
+{International Organization for Standardization}, ``{ISO/IEC 25010:2023:
+  Systems and software Quality Requirements and Evaluation (SQuaRE) -- Product
+  quality model}.'' \url{https://www.iso.org/standard/78176.html}, 2023.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{isoIecIeee42010Architecture}
+{International Organization for Standardization}, ``{ISO/IEC/IEEE 42010:2022:
+  Software, systems and enterprise -- Architecture description}.''
+  \url{https://www.iso.org/standard/74393.html}, 2022.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{mdnAutomatedTesting}
+{Mozilla Developer Network}, ``{Introduction to automated testing}.''
+  \url{https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{isoIecIeee14764Maintenance}
+{IEEE Standards Association}, ``{IEEE/ISO/IEC 14764-2021: Software engineering
+  -- Software life cycle processes -- Maintenance}.''
+  \url{https://standards.ieee.org/ieee/14764/7701/}, 2021.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{nistSp800218Ssdf}
+M.~Souppaya, K.~Scarfone, and D.~Dodson, ``{Secure Software Development
+  Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of
+  Software Vulnerabilities},'' Tech. Rep. {Special Publication 800-218},
+  {National Institute of Standards and Technology}, 2022.
+\newblock \url{https://doi.org/10.6028/NIST.SP.800-218}. Accessed: 2026-06-01.
+
+\bibitem{nextjsAppRouter}
+{Vercel}, ``{Next.js Docs: App Router}.'' \url{https://nextjs.org/docs/app}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{reactDescribingUi}
+{Meta Open Source}, ``{React Docs: Describing the UI}.''
+  \url{https://react.dev/learn/describing-the-ui}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{supabaseNextjsServerSideAuth}
+{Supabase}, ``{Creating a Supabase client for SSR}.''
+  \url{https://supabase.com/docs/guides/auth/server-side/nextjs}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{tmdbApiGettingStarted}
+{The Movie Database}, ``{TMDB API: Getting Started}.''
+  \url{https://developer.themoviedb.org/docs/getting-started}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{tanstackQueryOverview}
+{TanStack}, ``{TanStack Query: Overview}.''
+  \url{https://tanstack.com/query/latest/docs/framework/react/overview}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{tailwindUtilityClasses}
+{Tailwind Labs}, ``{Tailwind CSS: Styling with utility classes}.''
+  \url{https://tailwindcss.com/docs/styling-with-utility-classes}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{radixPrimitivesIntro}
+{Radix UI}, ``{Radix Primitives: Introduction}.''
+  \url{https://www.radix-ui.com/primitives/docs/overview/introduction}.
+\newblock Accessed: 2026-06-01.
+
+\bibitem{shadcnComponents}
+{shadcn}, ``{shadcn/ui: Components}.''
+  \url{https://ui.shadcn.com/docs/components}.
+\newblock Accessed: 2026-06-01.
+
 \bibitem{sutton2018reinforcement}
 R.~S. Sutton and A.~G. Barto, {\em Reinforcement learning: An introduction}.
 \newblock MIT press, 2018.

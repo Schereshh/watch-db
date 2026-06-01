@@ -1,0 +1,28 @@
+\section{Modern webfejlesztési alapfogalmak}
+Webalkalmazásnak nevezzük azt a böngészőn keresztül elérhető szoftvert, amely a felhasználói interakciókra dinamikus válaszokat ad, és gyakran kliensoldali, illetve szerveroldali komponensekből áll \cite{techtargetWebApplication,mdnClientServerOverview}. Ezzel szemben a statikus weboldal olyan egyszerű HTML-dokumentum, ahol nincs szerveroldali feldolgozás – így az nem minősül webalkalmazásnak, hiszen a kiszolgáló nem hajt végre dinamikus kódot a kérésekre \cite{mdnWebServer,mdnServerSideIntro}. A modern webalkalmazások gyakran két csoportba sorolhatók: Multi-Page Application (MPA) és Single-Page Application (SPA) \cite{webdevPwaArchitecture}. Az MPA hagyományosan külön oldalakra bontja a tartalmat, minden felhasználói művelet után új oldalt tölt be a szerverről \cite{webdevPwaArchitecture}. Ezzel szemben az SPA egyetlen HTML-oldalt használ, ahol a tartalom dinamikusan JavaScript segítségével frissül anélkül, hogy a felhasználót át kellene irányítani egy másik oldalra \cite{mdnSpa}. Az SPA lényege, hogy a legtöbb számítás a kliensoldalon történik. Az alkalmazás egyszer betölt egy üres HTML sablont, majd a JavaScript kéri le és frissíti dinamikusan a tartalmat \cite{mdnSpa,webdevPwaArchitecture}.
+
+Mindkét fajtának megvan az előnye és a hátránya, az alábbi táblázatban egy összehasonlítást láthatunk a különböző megoldásokról:
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.16\textwidth}|p{0.24\textwidth}|p{0.26\textwidth}|p{0.26\textwidth}|}
+\hline
+\textbf{Architektúra / renderelés} & \textbf{Módszer} & \textbf{Előnyök} & \textbf{Hátrányok} \\
+\hline
+Statikus weboldal & Előre elkészített HTML-fájlok kiszolgálása, szerveroldali feldolgozás nélkül \cite{mdnWebServer}. & Gyors betöltés, egyszerű hostolás, kevés szerveroldali függőség. & Kevés interaktivitás; a tartalom módosítása kézi frissítést vagy újragenerálást igényel. \\
+\hline
+Többoldalas alkalmazás (MPA) & A felhasználó külön URL-ek között navigál, az új oldalak teljes dokumentumként töltődnek be \cite{webdevPwaArchitecture}. & Keresőoptimalizálás szempontjából kedvező, hagyományos és széles körben ismert megközelítés. & A navigáció lassabb lehet, mert minden oldalváltás új dokumentum betöltésével jár. \\
+\hline
+Egyoldalas alkalmazás (SPA) & Az első betöltés után a kliensoldali JavaScript frissíti a felületet, teljes oldalújratöltés nélkül \cite{mdnSpa}. & Alkalmazásszerű felhasználói élmény, gyors belső navigáció, offline támogatás lehetősége. & Nagy JavaScript-csomagméret; a kliensoldali renderelés keresőoptimalizálási és teljesítménybeli többletmunkát igényelhet \cite{webdevRenderingOnWeb}. \\
+\hline
+Server-side rendering (SSR) & A szerver minden kérésnél előállítja az oldal HTML-válaszát \cite{webdevRenderingOnWeb}. & Gyors első tartalommegjelenés, jobb keresőmotoros feldolgozhatóság. & Minden kérés szerveroldali számítást igényel; a kliensoldali interakció késhet a JavaScript betöltéséig. \\
+\hline
+Static Site Generation (SSG) & Az oldalak HTML-je build időben készül el, majd kész fájlként szolgálható ki \cite{webdevRenderingOnWeb}. & Rendkívül gyors kiszolgálás, CDN-en (Content Delivery Network) jól gyorsítótárazható \cite{cloudflareCdnEdgeServer}. & Gyakran változó vagy személyre szabott tartalom esetén minden módosítás új buildet igényelhet. \\
+\hline
+\end{tabular}
+\caption{Webes renderelési és architekturális megközelítések összehasonlítása}
+\label{tab:web-rendering-architectures}
+\end{table}
