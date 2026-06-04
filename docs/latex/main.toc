@@ -1,31 +1,36 @@
 \select@language {magyar} \contentsline {chapter}{\numberline {1}Bevezető}{1}{chapter.1}%
-\select@language {magyar} \contentsline {section}{\numberline {1.1}Web alkalmazások kezdetektől napjainkig}{1}{section.1.1}%
-\select@language {magyar} \contentsline {section}{\numberline {1.2}Korai világháló}{2}{section.1.2}%
-\select@language {magyar} \contentsline {section}{\numberline {1.3}Dinamikus világháló}{2}{section.1.3}%
-\select@language {magyar} \contentsline {section}{\numberline {1.4}Fejlett kliensoldali web (AJAX, SPA-k, keretrendszerek)}{3}{section.1.4}%
-\select@language {magyar} \contentsline {section}{\numberline {1.5}Mobil és web standardok (reszponzív dizájn)}{3}{section.1.5}%
-\select@language {magyar} \contentsline {section}{\numberline {1.6}Jelenlegi állapot és trendek}{4}{section.1.6}%
-\select@language {magyar} \contentsline {section}{\numberline {1.7}A web fejlődésének rövid története - idővonal}{4}{section.1.7}%
-\select@language {magyar} \contentsline {chapter}{\numberline {2}Irodalmi áttekintés}{7}{chapter.2}%
-\select@language {magyar} \contentsline {section}{\numberline {2.1}Modern webfejlesztési alapfogalmak}{7}{section.2.1}%
-\select@language {magyar} \contentsline {section}{\numberline {2.2}Webfejlesztési módszertanok}{9}{section.2.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.2.1}Összehasonlítás}{9}{subsection.2.2.1}%
-\select@language {magyar} \contentsline {section}{\numberline {2.3}Modern webfejlesztői csapat felépítése}{10}{section.2.3}%
-\select@language {magyar} \contentsline {section}{\numberline {2.4}Modern webalkalmazások fejlesztési folyamata}{12}{section.2.4}%
-\select@language {magyar} \contentsline {section}{\numberline {2.5}A választott technológiai stack áttekintése}{13}{section.2.5}%
-\select@language {magyar} \contentsline {chapter}{\numberline {3}Elméleti áttekintés}{15}{chapter.3}%
-\select@language {magyar} \contentsline {section}{\numberline {3.1}Elméleti áttekintés}{15}{section.3.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Rendszer specifikációi}{17}{chapter.4}%
-\select@language {magyar} \contentsline {section}{\numberline {4.1}Cím 1}{17}{section.4.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Gyakorlati megvalósítás}{18}{chapter.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Ágensek vezérlése}{18}{section.5.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {5.1.1}Potenciálmező navigáció}{18}{subsection.5.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Eredmények}{20}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Cím 1}{20}{section.6.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Összefoglalás}{21}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}Összefoglalás}{21}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{21}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{30}{appendix.A}%
-\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{30}{section.A.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{30}{subsection.A.1.1}%
-\select@language {magyar} \contentsline {subsubsection}{Alcím}{30}{section*.7}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Irodalmi áttekintés}{3}{chapter.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.1}Web alkalmazások kezdetektől napjainkig}{3}{section.2.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.2}Korai világháló}{4}{section.2.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.3}Dinamikus világháló}{4}{section.2.3}%
+\select@language {magyar} \contentsline {section}{\numberline {2.4}Fejlett kliensoldali web (AJAX, SPA-k, keretrendszerek)}{5}{section.2.4}%
+\select@language {magyar} \contentsline {section}{\numberline {2.5}Mobil és web standardok (reszponzív dizájn)}{5}{section.2.5}%
+\select@language {magyar} \contentsline {section}{\numberline {2.6}Jelenlegi állapot és trendek}{6}{section.2.6}%
+\select@language {magyar} \contentsline {section}{\numberline {2.7}A web fejlődésének rövid története - idővonal}{6}{section.2.7}%
+\select@language {magyar} \contentsline {section}{\numberline {2.8}Modern webfejlesztési alapfogalmak}{8}{section.2.8}%
+\select@language {magyar} \contentsline {section}{\numberline {2.9}Webfejlesztési módszertanok}{10}{section.2.9}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.9.1}Összehasonlítás}{10}{subsection.2.9.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.10}Modern webfejlesztői csapat felépítése}{11}{section.2.10}%
+\select@language {magyar} \contentsline {section}{\numberline {2.11}Modern webalkalmazások fejlesztési folyamata}{13}{section.2.11}%
+\select@language {magyar} \contentsline {section}{\numberline {2.12}A választott technológiai stack áttekintése}{14}{section.2.12}%
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Projektcélok és termékkoncepció}{16}{chapter.3}%
+\select@language {magyar} \contentsline {section}{\numberline {3.1}A projekt kiinduló problémája}{16}{section.3.1}%
+\select@language {magyar} \contentsline {section}{\numberline {3.2}A PRD szerepe a fejlesztési folyamatban}{17}{section.3.2}%
+\select@language {magyar} \contentsline {section}{\numberline {3.3}Termékvízió}{19}{section.3.3}%
+\select@language {magyar} \contentsline {section}{\numberline {3.4}Célközönség és perszónák}{20}{section.3.4}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Elméleti áttekintés}{22}{chapter.4}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Elméleti áttekintés}{22}{section.4.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációi}{24}{chapter.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Cím 1}{24}{section.5.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{25}{chapter.6}%
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{25}{section.6.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{25}{subsection.6.1.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{27}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{27}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{28}{chapter.8}%
+\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{28}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{28}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{37}{appendix.A}%
+\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{37}{section.A.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{37}{subsection.A.1.1}%
+\select@language {magyar} \contentsline {subsubsection}{Alcím}{37}{section*.7}%
