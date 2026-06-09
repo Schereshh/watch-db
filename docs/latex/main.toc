@@ -18,19 +18,25 @@
 \select@language {magyar} \contentsline {section}{\numberline {3.2}A PRD szerepe a fejlesztési folyamatban}{17}{section.3.2}%
 \select@language {magyar} \contentsline {section}{\numberline {3.3}Termékvízió}{19}{section.3.3}%
 \select@language {magyar} \contentsline {section}{\numberline {3.4}Célközönség és perszónák}{20}{section.3.4}%
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Elméleti áttekintés}{22}{chapter.4}%
-\select@language {magyar} \contentsline {section}{\numberline {4.1}Elméleti áttekintés}{22}{section.4.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációi}{24}{chapter.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Cím 1}{24}{section.5.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{25}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{25}{section.6.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{25}{subsection.6.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{27}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{27}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{28}{chapter.8}%
-\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{28}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{28}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{37}{appendix.A}%
-\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{37}{section.A.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{37}{subsection.A.1.1}%
-\select@language {magyar} \contentsline {subsubsection}{Alcím}{37}{section*.7}%
+\select@language {magyar} \contentsline {section}{\numberline {3.5}Piaci kontextus}{21}{section.3.5}%
+\select@language {magyar} \contentsline {section}{\numberline {3.6}Termékcélok}{22}{section.3.6}%
+\select@language {magyar} \contentsline {section}{\numberline {3.7}Sikerességi metrikák}{24}{section.3.7}%
+\select@language {magyar} \contentsline {section}{\numberline {3.8}MVP és verziókra bontás}{26}{section.3.8}%
+\select@language {magyar} \contentsline {section}{\numberline {3.9}A user flow-k szerepe}{28}{section.3.9}%
+\select@language {magyar} \contentsline {section}{\numberline {3.10}Korlátok és függőségek}{30}{section.3.10}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Elméleti áttekintés}{34}{chapter.4}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Elméleti áttekintés}{34}{section.4.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációi}{36}{chapter.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Cím 1}{36}{section.5.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{37}{chapter.6}%
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{37}{section.6.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{37}{subsection.6.1.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{39}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{39}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{40}{chapter.8}%
+\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{40}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{40}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{49}{appendix.A}%
+\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{49}{section.A.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{49}{subsection.A.1.1}%
+\select@language {magyar} \contentsline {subsubsection}{Alcím}{49}{section*.7}%

@@ -1,0 +1,53 @@
+\section{Korlátok és függőségek}
+
+A PRD-ben szereplő korlátok és függőségek azt mutatják meg, hogy a terméktervezés nem kizárólag a kívánt funkciókról szól, hanem azokról a feltételekről is, amelyek között a projekt megvalósítható. Egy webalkalmazás fejlesztése során a technológiai, időbeli, pénzügyi és csapatméretből adódó korlátok közvetlenül hatnak arra, hogy mi kerülhet be az első verzióba, milyen architektúra választható, és mely kockázatokra kell előre felkészülni.
+
+A WatchDB esetében az egyik legfontosabb korlát a szűkített MVP-fókusz. A projekt célja nem egy minden funkciót tartalmazó, teljes közösségi platform azonnali megvalósítása, hanem egy olyan első verzió elkészítése, amely bizonyítja a személyes filmnapló alapértékét. Ez a döntés összefügg az időbeli és erőforrásbeli korlátokkal is: a PRD az MVP megvalósítását 6-8 hetes időkeretben képzeli el, kisebb fejlesztői csapattal és alacsony költségvetéssel. Emiatt a fejlesztésnek elsősorban azokra a funkciókra kell koncentrálnia, amelyek nélkül az alkalmazás nem adna önálló értéket.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.22\textwidth}|p{0.42\textwidth}|p{0.26\textwidth}|}
+\hline
+\textbf{Korlát} & \textbf{Jelentése a projektben} & \textbf{Tervezési következmény} \\
+\hline
+API-korlátok & A külső filmadatok a TMDB API-ból származnak, amelynek elérhetősége és használati korlátai befolyásolják a keresést. & Debounce-olt keresés, gyorsítótárazás és külön adatlekérő réteg alkalmazása indokolt. \\
+\hline
+Költségvetés & A PRD alacsony költségű, elsősorban ingyenes szolgáltatási csomagokra épülő megvalósítással számol. & Olyan technológiák és szolgáltatások választása szükséges, amelyek kis felhasználószám mellett is fenntarthatók. \\
+\hline
+Csapatméret & A projekt kisebb, 2-6 fős csapattal számol. & A funkciókörnek szűknek, a fejlesztési folyamatnak pedig jól priorizáltnak kell maradnia. \\
+\hline
+Időkeret & Az MVP tervezett elkészítése 6-8 hét, a közösségi funkciók pedig későbbi szakaszba kerülnek. & A közösségi és haladó funkciók nem részei az első verziónak, hanem külön iterációkban jelenhetnek meg. \\
+\hline
+\end{tabular}
+\caption{A WatchDB fő projektkorlátai}
+\label{tab:watchdb-constraints}
+\end{table}
+
+A külső szolgáltatásokhoz kapcsolódó függőségek külön figyelmet igényelnek. A WatchDB működésének egyik alapja a TMDB API, amely a filmadatok, poszterek, címek és leírások forrásaként jelenik meg. Ez gyorsítja a fejlesztést, mert nem szükséges saját filmadatbázist építeni, ugyanakkor kockázatot is jelent: ha az API elérhetősége változik, lelassul, vagy a használati feltételek módosulnak, az közvetlenül érintheti az alkalmazás keresési és filmrészlet-megjelenítési funkcióit.
+
+A hitelesítés és az adatkezelés szintén külső szolgáltatásokra épülhet. A PRD-ben megjelenő Supabase vagy hasonló autentikációs szolgáltató használata egyszerűsíti a bejelentkezés, regisztráció és munkamenet-kezelés megvalósítását. Ez azonban azzal jár, hogy figyelni kell a szolgáltató ingyenes csomagjának korlátaira, az adatvédelmi beállításokra és arra, hogy a rendszer később is használható maradjon.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.24\textwidth}|p{0.32\textwidth}|p{0.34\textwidth}|}
+\hline
+\textbf{Függőség} & \textbf{Kockázat} & \textbf{Lehetséges kezelés} \\
+\hline
+TMDB API & Elérhetőségi probléma, használati feltételek változása vagy API-korlátok elérése. & Filmadatok helyi gyorsítótárazása és az API-hívások külön szolgáltatásrétegbe szervezése. \\
+\hline
+Autentikációs szolgáltató & Ingyenes csomag korlátai, szolgáltatófüggőség vagy konfigurációs hiba. & Használat monitorozása, jogosultságok ellenőrzése és hordozható adatmodell kialakítása. \\
+\hline
+Hosting szolgáltató & Sávszélességi, teljesítménybeli vagy deployment korlátok. & Képek optimalizálása, lazy loading alkalmazása és a hosting terhelésének figyelése. \\
+\hline
+\end{tabular}
+\caption{A WatchDB külső függőségei és kapcsolódó kockázatai}
+\label{tab:watchdb-dependencies}
+\end{table}
+
+A korlátok mellett a PRD előfeltevéseket is tartalmaz. Ilyen például, hogy a felhasználók modern böngészőt és stabil internetkapcsolatot használnak, a TMDB továbbra is elérhető marad a projekt számára, az email és jelszó alapú bejelentkezés elegendő az MVP-hez, illetve az alkalmazás kezdetben angol nyelvű marad. Ezek az előfeltevések nem technikai részleteknek tűnnek, mégis fontosak, mert meghatározzák, milyen helyzetekre kell az első verzióban felkészülni, és mely igények kezelhetők későbbi fejlesztési szakaszban.
+
+A nem funkcionális követelmények szintén szorosan kapcsolódnak a korlátokhoz és függőségekhez. A gyors oldalbetöltés, a biztonságos munkamenet-kezelés, a mobilon is használható felület és a skálázhatóság nem különálló elvárások, hanem olyan minőségi szempontok, amelyek a választott technológiákra és külső szolgáltatásokra is hatással vannak. Például a filmkeresés teljesítménye nemcsak a felület kialakításán múlik, hanem az API-hívások kezelésén, a gyorsítótárazáson és az adatlekérések optimalizálásán is.
+
+Összességében a korlátok és függőségek dokumentálása segít abban, hogy a WatchDB fejlesztése reális keretek között maradjon. A PRD ezáltal nemcsak azt határozza meg, hogy mit kell megvalósítani, hanem azt is, hogy milyen feltételek mellett, milyen kockázatokkal és milyen kompromisszumokkal történhet a megvalósítás.

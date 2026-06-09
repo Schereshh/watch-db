@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1780596830.06622 "main.aux" "main.bbl" "main" 1780597756.39118 0
-  "./References.bib" 1780329717.95836 21079 b778133ad7f4e14e41cfab370a14c0d5 ""
+["bibtex main"] 1780859692.90106 "main.aux" "main.bbl" "main" 1781000168.96463 0
+  "./References.bib" 1780856112.63778 21826 1daf63e92868c84ce1f53e28c98ba876 ""
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "main.aux" 1780597756.10336 15597 63c1c683d4918eee944aa92f4927ee99 "pdflatex"
+  "main.aux" 1781000168.67403 18193 a7d55ab2f4ff25c4629d323d37cff71b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1780597755.18324 "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" "main.pdf" "main" 1780597756.39136 0
+["pdflatex"] 1781000167.64429 "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" "main.pdf" "main" 1781000168.96483 0
   "/Users/scheresh/Uni/watch-db/docs/latex/main.tex" 1780508157.37554 1631 788a40deabc3324036faf7e94166f9f0 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -141,10 +141,16 @@
   "chapters/abstractRo.tex" 1779992188.20392 34 0fda61d6a8674bad3392f2d04bb20873 ""
   "chapters/appendix.tex" 1779992188.20446 64 11785cf1db5701009c23db19c64a7f5c ""
   "chapters/chapter-3-projectScopeAndProductConcept/1-problemStatement.tex" 1780594986.26344 2225 98967b0e039d7cabb965adc3bb2b272f ""
+  "chapters/chapter-3-projectScopeAndProductConcept/10.tex" 1781000167.39004 5898 9f56bb47486c8ae00499812f634a45b9 ""
   "chapters/chapter-3-projectScopeAndProductConcept/2.tex" 1780596232.45655 4141 66999adb266d130506f6b1cd233397f0 ""
   "chapters/chapter-3-projectScopeAndProductConcept/3.tex" 1780596737.14725 2290 feb0f87863bd1da9e8ae673114c01656 ""
   "chapters/chapter-3-projectScopeAndProductConcept/4.tex" 1780597754.93557 3602 88f0cc4c8acbcf131cb2c5d162c1808c ""
-  "chapters/chapter-3-projectScopeAndProductConcept/projectScopeAndProductConcept.tex" 1780596813.77854 732 6615631f08cda9308530ed50b7de6f24 ""
+  "chapters/chapter-3-projectScopeAndProductConcept/5.tex" 1780857557.16582 3157 737e3bb474eaf02f408c0185dfe27d8b ""
+  "chapters/chapter-3-projectScopeAndProductConcept/6.tex" 1780858387.77849 4172 d7c891d877e145d7e3d2518fd69160f1 ""
+  "chapters/chapter-3-projectScopeAndProductConcept/7.tex" 1780858518.58069 4707 28465b2a2825b76edf7cdf4a3177a20d ""
+  "chapters/chapter-3-projectScopeAndProductConcept/8.tex" 1780859005.18823 5507 c96cf57dd170ec4179b87c55a8957843 ""
+  "chapters/chapter-3-projectScopeAndProductConcept/9.tex" 1780859399.56246 5130 f0a99977ffc6e198c245b9a83797ab4e ""
+  "chapters/chapter-3-projectScopeAndProductConcept/projectScopeAndProductConcept.tex" 1780859684.2539 1111 4bacc067e6fe771b47fee8b9d3be1bea ""
   "chapters/implementation.tex" 1779992188.20519 1251 407ba0c78d850db69ca907263317dc44 ""
   "chapters/introduction/1-webApplicationsHistoryOverview.tex" 1779992188.20593 1448 7d4970d4ba7bace15f7b9246ef2cb620 ""
   "chapters/introduction/2-earlyWeb.tex" 1779992188.20647 1176 9e899a57784f9d0db563d583715843fd ""
@@ -166,12 +172,12 @@
   "chapters/theory.tex" 1779992188.20864 137 90629931b5aec43269c14767392ad894 ""
   "figures/algorithms/double_q.tex" 1779992188.22546 947 a347fc18c3f403f136c5f68f39681ac4 ""
   "figures/images/results/swarm_second_version.png" 1779992188.23101 121916 a5e220b1c03a9c123f2c744f74797242 ""
-  "main.aux" 1780597756.10336 15597 63c1c683d4918eee944aa92f4927ee99 "pdflatex"
-  "main.bbl" 1780596830.19325 16429 c753ddea20b5a37e1d89919d8337d7fd "bibtex main"
-  "main.lof" 1780597756.10538 545 c2b6adf85f3b00280311ae414f2806e6 "pdflatex"
-  "main.out" 1780597756.10508 6328 0cb1b12f47a493dc40a2110037b538c3 "pdflatex"
+  "main.aux" 1781000168.67403 18193 a7d55ab2f4ff25c4629d323d37cff71b "pdflatex"
+  "main.bbl" 1780859693.00325 16910 33013af316ca190a5578b938c297d322 "bibtex main"
+  "main.lof" 1781000168.67696 545 d9bc896958fd14c2f2227dc8ffd635eb "pdflatex"
+  "main.out" 1781000168.6764 7285 fc2d28a59ea3af06471e6680ec001614 "pdflatex"
   "main.tex" 1780508157.37554 1631 788a40deabc3324036faf7e94166f9f0 ""
-  "main.toc" 1780597756.10534 3996 d04e2e4f0dcd8fe90c92c941c9bdc6fb "pdflatex"
+  "main.toc" 1781000168.67689 4644 25219f0165a4bdad3aa1b6e5d2ba88d4 "pdflatex"
   "pdfs/allamvizsga_borito.pdf" 1779992188.23935 651493 08020870e08daaa53fd7eaa8fba989ae ""
   "preamble.tex" 1779992188.34787 2577 d3d633d83565957407d888ab34f0509c ""
   (generated)

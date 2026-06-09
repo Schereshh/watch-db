@@ -1,0 +1,35 @@
+\section{MVP és verziókra bontás}
+
+A PRD egyik legfontosabb döntése az MVP, vagyis a Minimum Viable Product meghatározása. Ennek szerepe, hogy a teljes termékvízióból kiválassza azt a legkisebb, de már önmagában is értéket adó funkciókört, amely alapján az alkalmazás első verziója elkészíthető és kipróbálható. A WatchDB esetében ez különösen fontos, mert a hosszabb távú termékvízió személyes filmnaplót, közösségi aktivitást, ajánlásokat, statisztikákat és többféle listakezelési lehetőséget is tartalmaz. Ha ezek egyszerre kerülnének be az első fejlesztési szakaszba, az jelentősen növelné a projekt komplexitását.
+
+Az MVP célja ezért nem az, hogy a WatchDB teljes vízióját azonnal megvalósítsa, hanem az, hogy bizonyítsa az alapötlet működőképességét. Az első verzióban a felhasználónak képesnek kell lennie regisztrálni, filmeket keresni, watchlistet vezetni, megnézett filmeket naplózni, értékelést adni, valamint saját profilján áttekinteni a rögzített filmeket. Ezek a funkciók közvetlenül kapcsolódnak a projekt kiinduló problémájához: a felhasználó egyetlen helyen szeretné követni, mit látott már, mit szeretne később megnézni, és hogyan értékelte a filmeket.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.18\textwidth}|p{0.36\textwidth}|p{0.36\textwidth}|}
+\hline
+\textbf{Verzió} & \textbf{Fő funkciók} & \textbf{Termékoldali szerep} \\
+\hline
+MVP & Regisztráció és bejelentkezés, filmkeresés, watchlist, megnézett filmek naplózása, értékelés, saját profil & Az alapérték bizonyítása: a felhasználó önállóan is tud személyes filmnaplót vezetni. \\
+\hline
+v1.1 & Publikus profilok, követési rendszer, aktivitási feed, reakciók, filmnapló idővonal & A közösségi réteg megalapozása, amely a személyes filmnaplót filmfelfedező felületté bővíti. \\
+\hline
+v1.2 & Többszöri megtekintés kezelése, kommentek, egyéni listák, statisztikai nézetek, ajánlások, keresési szűrők, OAuth bejelentkezés & Mélyebb felhasználói élmény és nagyobb elköteleződés támogatása a már működő alaprendszerre építve. \\
+\hline
+Hatókörön kívül & Sorozatkövetés, hosszú szöveges kritikák, streaming-elérhetőség, belső üzenetküldés, natív mobilalkalmazás, moderációs eszközök & A projekt fókuszának megőrzése, hogy az első verzió ne térjen el a személyes filmnapló és későbbi közösségi filmfelfedezés fő irányától. \\
+\hline
+\end{tabular}
+\caption{A WatchDB funkcióinak verziókra bontása}
+\label{tab:watchdb-versioning}
+\end{table}
+
+Az MVP-be kerülő funkciók kiválasztásánál az elsődleges szempont az volt, hogy az alkalmazás közösségi funkciók nélkül is használható legyen. Ez azért fontos, mert egy közösségi termék akkor működik jól, ha már van elegendő felhasználó és tartalom, amelyre a közösségi réteg épülhet. A WatchDB első verziója ezért először a személyes használati értéket teremti meg: a felhasználó saját filmjeit tudja rögzíteni, listázni és értékelni. Ez stabil alapot ad ahhoz, hogy később a barátok aktivitása, a publikus profilok és az ajánlási lehetőségek is értelmezhetővé váljanak.
+
+A v1.1 verzió a PRD alapján a közösségi alapréteg kialakítására fókuszál. Ebben a szakaszban jelenhetnek meg a publikus profilok, a követési rendszer, az aktivitási feed és a reakciók. Ezek a funkciók már nem csupán a személyes nyilvántartást támogatják, hanem azt is lehetővé teszik, hogy a felhasználó mások filmnézési tevékenységéből inspirációt merítsen. Ez a lépés kapcsolja össze a termék személyes filmnapló jellegét a hosszabb távú közösségi filmfelfedező vízióval.
+
+A v1.2 verzió a mélyebb használatot és az elköteleződést támogató funkciókat tartalmazza. Ide sorolhatók a többszöri megtekintések kezelése, a kommentek, az egyéni listák, a statisztikai nézetek, az ajánlások, a fejlettebb keresési szűrők és az OAuth alapú bejelentkezés. Ezek a funkciók hasznosak lehetnek, de nem szükségesek ahhoz, hogy az első verzió teljesítse az alapfeladatát. Emiatt későbbi fejlesztési szakaszba kerülnek, amikor az MVP működéséből és a felhasználói visszajelzésekből már pontosabban látható, mely bővítések indokoltak.
+
+A hatókörön kívülre sorolt elemek legalább annyira fontosak, mint a megvalósítandó funkciók. A sorozatkövetés, a hosszú kritikák írása, a streaming-elérhetőség megjelenítése, a belső üzenetküldés vagy a natív mobilalkalmazás mind olyan irányok, amelyek önmagukban értékesek lehetnének, de eltérítenék a projektet az elsődleges céltól. Ezek kizárása segít abban, hogy a fejlesztés ne váljon túl szélessé, és az első verzió valóban a filmkeresésre, a watchlistre, a naplózásra és az értékelésre koncentráljon.
+
+Ez a verziókra bontás a dolgozat szempontjából is lényeges, mert jól mutatja, hogy a projekt nem egyszerűen funkciók felsorolásaként épül fel, hanem tudatos terméktervezési döntések eredményeként. Az MVP kijelöli a megvalósítás első határát, a későbbi verziók pedig megőrzik a termék fejlődési irányát. Így a WatchDB nem lezárt végtermékként, hanem egy nagyobb termékvízió első, megvalósítható és értékelhető lépéseként jelenik meg.

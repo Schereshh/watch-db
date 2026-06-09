@@ -402,6 +402,20 @@ M.~Souppaya, K.~Scarfone, and D.~Dodson, ``{Secure Software Development
   \url{https://ui.shadcn.com/docs/components}.
 \newblock Accessed: 2026-06-01.
 
+\bibitem{imdbWatchlistFaq}
+{IMDb}, ``{Watchlist FAQ}.''
+  \url{https://help.imdb.com/article/imdb/track-movies-tv/watchlist-faq/G9PA556494DM8YBA}.
+\newblock Accessed: 2026-06-07.
+
+\bibitem{traktDiscoverTrackShare}
+{Trakt}, ``{Discover. Track. Share.}.'' \url{https://widgets.trakt.tv/}.
+\newblock Accessed: 2026-06-07.
+
+\bibitem{letterboxdSocialFilmDiscovery}
+{Letterboxd}, ``{Letterboxd: Social film discovery}.''
+  \url{https://letterboxd.com/}.
+\newblock Accessed: 2026-06-07.
+
 \bibitem{sutton2018reinforcement}
 R.~S. Sutton and A.~G. Barto, {\em Reinforcement learning: An introduction}.
 \newblock MIT press, 2018.
