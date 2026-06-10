@@ -1,0 +1,57 @@
+\section{Feladatkezelés és fejlesztési workflow}
+
+A sprintalapú működés gyakorlati alapját a feladatok egyértelmű nyilvántartása adja. A WatchDB esetében a PRD-ből levezetett funkciók, hibajegyek és technikai teendők GitHub Issues formájában jelennek meg. Egy feladat akkor kezelhető jól, ha röviden leírja a megoldandó problémát, kapcsolódik egy termékcélhoz vagy user flow-hoz, és tartalmaz olyan elfogadási feltételeket (acceptance criteria), amelyek alapján a munka később ellenőrizhető.
+
+A fejlesztési workflow célja, hogy minden változtatás követhető és ellenőrizhető úton jusson el a felhasználókhoz. A kiválasztott feladatból feature branch készül, ezen történik az implementáció, majd a módosítás Pull Request formájában kerül visszaellenőrzésre. A Pull Request nemcsak technikai lépés, hanem minőségbiztosítási pont is: itt ellenőrizhető, hogy a módosítás illeszkedik-e a termékcélokhoz, nem sérti-e a meglévő működést, és megfelel-e a projekt kódolási elvárásainak.
+
+\begin{figure}[H]
+\centering
+\small
+\begin{tikzpicture}[
+    node distance=0.42cm,
+    flowstep/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        text width=8.2cm,
+        minimum height=0.72cm,
+        font=\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick},
+    feedbackarrow/.style={-{Latex[length=2mm]}, thick, dashed},
+    arrowlabel/.style={font=\scriptsize, fill=white, inner sep=1pt}
+]
+\node[flowstep] (backlog) {Product backlog / GitHub Issues};
+\node[flowstep, below=of backlog] (task) {Kiválasztott feladat};
+\node[flowstep, below=of task] (branch) {Feature branch létrehozása};
+\node[flowstep, below=of branch] (dev) {Fejlesztés Next.js-ben};
+\node[flowstep, below=of dev] (pr) {Pull Request};
+\node[flowstep, below=of pr] (ci) {Automatizált ellenőrzések: install, lint, build, tesztek};
+\node[flowstep, below=of ci] (preview) {Vercel preview deployment};
+\node[flowstep, below=of preview] (review) {Review és jóváhagyás};
+\node[flowstep, below=of review] (merge) {Merge a main ágra és production deployment};
+\node[flowstep, below=of merge] (feedback) {Visszajelzés és backlog-frissítés};
+
+\draw[arrow] (backlog) -- (task);
+\draw[arrow] (task) -- (branch);
+\draw[arrow] (branch) -- (dev);
+\draw[arrow] (dev) -- (pr);
+\draw[arrow] (pr) -- (ci);
+\draw[arrow] (ci) -- node[arrowlabel, right] {sikeres} (preview);
+\draw[arrow] (preview) -- (review);
+\draw[arrow] (review) -- node[arrowlabel, right] {jóváhagyva} (merge);
+\draw[arrow] (merge) -- (feedback);
+\draw[feedbackarrow] (ci.west) -- ++(-0.9,0) |- node[arrowlabel, pos=0.25, left, align=center] {hibás\\ellenőrzés} (dev.west);
+\draw[feedbackarrow] (review.east) -- ++(1.35,0) |- node[arrowlabel, pos=0.25, right, align=center] {módosítás\\szükséges} (dev.east);
+\draw[feedbackarrow] (feedback.east) -- ++(2.25,0) |- (backlog.east);
+\end{tikzpicture}
+\caption{A WatchDB fejlesztési workflow-ja}
+\label{fig:watchdb-development-workflow}
+\end{figure}
+
+A CI/CD folyamat szerepe, hogy a Pull Request után automatikusan lefusson néhány alapvető ellenőrzés, például a függőségek telepítése, a lintelés, a buildelés és a tesztek futtatása. Ez csökkenti annak esélyét, hogy hibás vagy nem buildelhető kód kerüljön a fő ágba. Ha az ellenőrzések hibát jeleznek, a feladat visszakerül a fejlesztési szakaszba; sikeres ellenőrzés esetén preview deployment készülhet, amelyen a módosítás még a production környezet előtt kipróbálható \cite{awsCicd}.
+
+A preview környezet különösen hasznos webalkalmazásoknál, mert nemcsak a kód, hanem a felhasználói élmény is ellenőrizhető. A reviewer itt végigmehet az érintett user flow-n, például megnézheti, hogy egy film hozzáadható-e a watchlisthez, vagy a naplózott film megjelenik-e a profiloldalon. Ez a folyamat segít abban, hogy a fejlesztés ne csak technikailag legyen sikeres, hanem termékoldali szempontból is megfeleljen az elvárásoknak.
+
+A merge után a változtatás a main ágra kerül, ahonnan production deployment készülhet. A folyamat azonban nem zárul le a telepítéssel: a használatból, review-ból vagy tesztelésből származó visszajelzések újra bekerülhetnek a backlogba. Ez biztosítja, hogy a fejlesztés iteratív maradjon, és a későbbi sprintek valódi tapasztalatokra épüljenek.

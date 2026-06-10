@@ -24,19 +24,21 @@
 \select@language {magyar} \contentsline {section}{\numberline {3.8}MVP és verziókra bontás}{26}{section.3.8}%
 \select@language {magyar} \contentsline {section}{\numberline {3.9}A user flow-k szerepe}{28}{section.3.9}%
 \select@language {magyar} \contentsline {section}{\numberline {3.10}Korlátok és függőségek}{30}{section.3.10}%
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Elméleti áttekintés}{34}{chapter.4}%
-\select@language {magyar} \contentsline {section}{\numberline {4.1}Elméleti áttekintés}{34}{section.4.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációi}{36}{chapter.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Cím 1}{36}{section.5.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{37}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{37}{section.6.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{37}{subsection.6.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{39}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{39}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{40}{chapter.8}%
-\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{40}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{40}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{49}{appendix.A}%
-\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{49}{section.A.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{49}{subsection.A.1.1}%
-\select@language {magyar} \contentsline {subsubsection}{Alcím}{49}{section*.7}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Fejlesztési folyamat}{34}{chapter.4}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}A fejlesztési folyamat kiválasztása}{34}{section.4.1}%
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Sprintalapú működés}{35}{section.4.2}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Feladatkezelés és fejlesztési workflow}{36}{section.4.3}%
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációi}{39}{chapter.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Cím 1}{39}{section.5.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{40}{chapter.6}%
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{40}{section.6.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{40}{subsection.6.1.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{42}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{42}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{43}{chapter.8}%
+\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{43}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{43}{section.8.1}%
+\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{52}{appendix.A}%
+\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{52}{section.A.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{52}{subsection.A.1.1}%
+\select@language {magyar} \contentsline {subsubsection}{Alcím}{52}{section*.7}%
