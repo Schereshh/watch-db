@@ -3,46 +3,22 @@ import {
   CalendarDays,
   Clock3,
   Film,
-  Globe2, Ticket,
+  Globe2,
+  Ticket,
   UserRound,
-  UsersRound
+  UsersRound,
 } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { getMovieDetails } from "@/services/tmdb/movie";
 import MovieDetailHero from "./movie-detail-hero/movie-detail-hero";
+import {
+  formatLanguage,
+  formatReleaseDate,
+  formatRuntime,
+} from "@/util/formatters";
 
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
-
-function formatRuntime(minutes: number | null): string {
-  if (minutes === null) return "Unknown runtime";
-
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-
-  return h > 0 ? `${h}h ${m}m` : `${m}m`;
-}
-
-function formatReleaseDate(value: string): string {
-  if (!value) return "Unknown release";
-
-  return new Intl.DateTimeFormat("en", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  }).format(new Date(`${value}T00:00:00Z`));
-}
-
-function formatLanguage(value: string): string {
-  if (!value) return "Unknown";
-
-  try {
-    const displayNames = new Intl.DisplayNames(["en"], { type: "language" });
-    return displayNames.of(value) ?? value.toUpperCase();
-  } catch {
-    return value.toUpperCase();
-  }
-}
 
 type MoviePageProps = {
   params: Promise<{ id: string }>;

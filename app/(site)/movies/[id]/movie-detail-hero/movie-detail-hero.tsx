@@ -4,32 +4,17 @@ import { Film, Star, UsersRound } from "lucide-react";
 import WatchedButton from "../watched-button";
 import WatchlistButton from "../watchlist-button";
 import type { MovieDetails } from "@/services/tmdb/movie";
+import {
+  formatRuntime,
+  formatVoteAverage,
+  formatVoteCount,
+} from "@/util/formatters";
 
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 
 type Props = {
   movie: MovieDetails;
 };
-
-function formatRuntime(minutes: number | null): string {
-  if (minutes === null) return "Unknown runtime";
-
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-
-  return h > 0 ? `${h}h ${m}m` : `${m}m`;
-}
-
-function formatVoteAverage(value: number): string {
-  return value > 0 ? value.toFixed(1) : "N/A";
-}
-
-function formatVoteCount(value: number): string {
-  return new Intl.NumberFormat("en", {
-    notation: "compact",
-    maximumFractionDigits: 1,
-  }).format(value);
-}
 
 const MovieDetailHero = ({ movie }: Props) => {
   const posterUrl = movie.posterPath
