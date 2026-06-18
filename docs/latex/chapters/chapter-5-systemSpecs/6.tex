@@ -1,0 +1,14 @@
+\section{Autentikáció}
+
+A WatchDB autentikációját a Supabase Auth biztosítja. A rendszer külön böngészőoldali és szerveroldali Supabase klienst használ: a böngészőoldali kliens a regisztrációhoz és bejelentkezéshez kapcsolódik, a szerveroldali kliens pedig az API route-okban és a védett oldalak betöltésekor ellenőrzi a felhasználói munkamenetet. Ez illeszkedik a Next.js szerveroldali működéséhez, ahol a session kezelése cookie-kon keresztül történik.
+
+A funkciók többsége (pl. megnézendő / megnézettként jelölés) csak bejelentkezett felhasználóhoz köthetők. A profiloldal például szerveroldalon ellenőrzi, hogy létezik-e aktív felhasználó, ennek hiányában a rendszer a bejelentkező oldalra irányítja a látogatót. A watchlist és watched műveleteknél az API route-ok szintén a Supabase Auth által visszaadott felhasználó alapján dolgoznak. Így a rendszer nem a kliens által küldött felhasználóazonosítóra támaszkodik, hanem a szerveroldalon ellenőrzött sessionből származó \texttt{user\_id} értékre.
+
+A belépéshez és a munkamenet kezeléséhez a projekt a Supabase kliens inicializálásához szükséges környezeti változókat használja:
+
+\begin{itemize}
+    \item \texttt{NEXT\_PUBLIC\_SUPABASE\_URL}
+    \item \texttt{NEXT\_PUBLIC\_SUPABASE\_ANON\_KEY}
+\end{itemize}
+
+A változók önmagukban nem jelentenek jogosultságot az adatokhoz, csak a Supabase projekt elérését teszik lehetővé. A tényleges felhasználói műveletek előtt a szerveroldali réteg minden esetben az aktuális session alapján azonosítja a felhasználót. Ennek köszönhetően a személyes listák és értékelések nem választhatók el a bejelentkezett fióktól.

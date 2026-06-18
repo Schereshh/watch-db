@@ -5,10 +5,12 @@
 \select@language {magyar} \contentsline {figure}{\numberline {4.1}{\ignorespaces A WatchDB fejlesztési workflow-ja}}{37}{figure.4.1}%
 \select@language {magyar} \addvspace {10\p@ }
 \select@language {magyar} \contentsline {figure}{\numberline {5.1}{\ignorespaces A WatchDB fő funkcionális egységei}}{39}{figure.5.1}%
-\select@language {magyar} \contentsline {figure}{\numberline {5.2}{\ignorespaces A filmkeresés fő adatáramlása}}{40}{figure.5.2}%
-\select@language {magyar} \contentsline {figure}{\numberline {5.3}{\ignorespaces A megnézettként jelölés állapotváltozása a filmrészletek oldalon}}{41}{figure.5.3}%
-\select@language {magyar} \addvspace {10\p@ }
-\select@language {magyar} \addvspace {10\p@ }
-\select@language {magyar} \contentsline {figure}{\numberline {7.1}{\ignorespaces 30 követő ágens, egy vezér}}{45}{figure.7.1}%
-\select@language {magyar} \addvspace {10\p@ }
-\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {5.2}{\ignorespaces A filmkeresés fő adatáramlása}}{41}{figure.5.2}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.3}{\ignorespaces A megnézettként jelölés állapotváltozása a filmrészletek oldalon}}{42}{figure.5.3}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.4}{\ignorespaces A WatchDB magas szintű rendszerarchitektúrája}}{43}{figure.5.4}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.5}{\ignorespaces A WatchDB adatbázissémája}}{45}{figure.5.5}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.6}{\ignorespaces A TMDB filmadatok lekérése és normalizálása}}{47}{figure.5.6}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.7}{\ignorespaces A MovieDetails típusdefiníciója}}{48}{figure.5.7}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.8}{\ignorespaces A megnézettként jelölés adatáramlása}}{50}{figure.5.8}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.9}{\ignorespaces A projekt fő függőségei a \texttt {package.json} alapján}}{53}{figure.5.9}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.10}{\ignorespaces A projekt futtatási scriptjei a \texttt {package.json} alapján}}{54}{figure.5.10}%

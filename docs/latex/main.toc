@@ -30,15 +30,11 @@
 \select@language {magyar} \contentsline {section}{\numberline {4.3}Feladatkezelés és fejlesztési workflow}{36}{section.4.3}%
 \select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációk}{39}{chapter.5}%
 \select@language {magyar} \contentsline {section}{\numberline {5.1}Funkcionális követelmények}{39}{section.5.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Gyakorlati megvalósítás}{43}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Ágensek vezérlése}{43}{section.6.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {6.1.1}Potenciálmező navigáció}{43}{subsection.6.1.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Eredmények}{45}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}Cím 1}{45}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglalás}{46}{chapter.8}%
-\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{46}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{46}{section.8.1}%
-\select@language {magyar} \contentsline {chapter}{\numberline {A}Függelék}{55}{appendix.A}%
-\select@language {magyar} \contentsline {section}{\numberline {A.1}Alfejezet}{55}{section.A.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {A.1.1}Cím}{55}{subsection.A.1.1}%
-\select@language {magyar} \contentsline {subsubsection}{Alcím}{55}{section*.7}%
+\select@language {magyar} \contentsline {section}{\numberline {5.2}Nem funkcionális követelmények}{42}{section.5.2}%
+\select@language {magyar} \contentsline {section}{\numberline {5.3}Rendszerarchitektúra és technológiai stack}{43}{section.5.3}%
+\select@language {magyar} \contentsline {section}{\numberline {5.4}Adatmodellek és fő entitások}{44}{section.5.4}%
+\select@language {magyar} \contentsline {section}{\numberline {5.5}API végpontok és adatáramlások}{48}{section.5.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.6}Autentikáció}{50}{section.5.6}%
+\select@language {magyar} \contentsline {section}{\numberline {5.7}Külső szolgáltatások és függőségek}{51}{section.5.7}%
+\select@language {magyar} \contentsline {section}{\numberline {5.8}Deployment és futtatási környezet}{54}{section.5.8}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{55}{figure.5.10}%

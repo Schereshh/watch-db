@@ -1,0 +1,90 @@
+\section{API végpontok és adatáramlások}
+
+A WatchDB a Next.js API route-jait használja a kliensoldali műveletek kiszolgálására. A böngésző nem közvetlenül kommunikál sem a Supabase adatbázissal, sem a TMDB API-val: ezek elérése szerveroldalon történik. Ez egyrészt védi a külső szolgáltatásokhoz tartozó kulcsokat, másrészt egységesebb hibakezelést és válaszformátumot tesz lehetővé. A sikeres válaszok \texttt{data} mezőben, a hibák pedig \texttt{error} mezőben térnek vissza.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\begin{tabular}{|p{0.22\textwidth}|p{0.14\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}|}
+\hline
+\textbf{Végpont} & \textbf{Metódus} & \textbf{Paraméterek} & \textbf{Szerep} \\
+\hline
+\texttt{/api/search} & \texttt{GET} & \begin{tabular}[t]{@{}l@{}}\texttt{query}: kötelező\\\texttt{page}: opcionális\end{tabular} & Filmkeresés a TMDB keresési endpoint-ján keresztül. \\
+\hline
+\texttt{/api/watchlist} & \texttt{GET} & \begin{tabular}[t]{@{}l@{}}Nincs query.\\Felhasználó: sessionből.\end{tabular} & A bejelentkezett felhasználó watchlistjének lekérése. \\
+\hline
+\begin{tabular}[t]{@{}l@{}}\texttt{/api/watchlist/}\\\texttt{[movieId]}\end{tabular} & \begin{tabular}[t]{@{}l@{}}\texttt{GET}\\\texttt{POST}\\\texttt{DELETE}\end{tabular} & \begin{tabular}[t]{@{}l@{}}\texttt{movieId}: route paraméter\\Nincs request body.\end{tabular} & Egy film watchlist állapotának lekérése, hozzáadása vagy eltávolítása. \\
+\hline
+\texttt{/api/watched} & \texttt{GET} & \begin{tabular}[t]{@{}l@{}}\texttt{page}: opcionális\\\texttt{limit}: opcionális\end{tabular} & A megnézett filmek paginált listájának lekérése. \\
+\hline
+\begin{tabular}[t]{@{}l@{}}\texttt{/api/watched/}\\\texttt{[movieId]}\end{tabular} & \begin{tabular}[t]{@{}l@{}}\texttt{GET}\\\texttt{POST}\\\texttt{DELETE}\end{tabular} & \begin{tabular}[t]{@{}l@{}}\texttt{movieId}: route paraméter\\POST body: \texttt{rating}\\POST body: \texttt{watchedAt}\end{tabular} & Egy film watched állapotának lekérése, megnézettként jelölése vagy eltávolítása. \\
+\hline
+\end{tabular}
+\caption{A WatchDB fő API végpontjai}
+\label{tab:watchdb-api-endpoints}
+\end{table}
+
+A lekérdező végpontok kétféle adatforrással dolgoznak. A keresés és a filmrészletek a TMDB API-ból származó adatokat használják, míg a watchlist és watched listák először a Supabase adatbázisból kérik le a felhasználóhoz tartozó sorokat. A visszakapott \texttt{tmdb\_movie\_id} értékek alapján az alkalmazás ezután lekéri a szükséges filmadatokat a TMDB-ből, majd a saját adatbázisból és a külső API-ból származó adatokat egy közös válaszobjektumban adja vissza.
+
+Az állapotmódosító műveleteknél a kliensoldalon a TanStack Query kezeli a lekérdezések és mutációk (\texttt{CREATE, UPDATE, DELETE}) állapotát. Egy watchlist vagy watched művelet után az érintett query-k frissülnek, így a filmrészletek oldalon és a profiloldalon megjelenő adatok újratöltés nélkül is követhetik a változást.
+
+\begin{figure}[H]
+\centering
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    actor/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        minimum height=0.68cm,
+        text width=3cm
+    },
+    message/.style={-{Latex[length=2mm]}, thick},
+    returnmessage/.style={-{Latex[length=2mm]}, thick, dashed},
+    lifeline/.style={gray, dashed},
+    msglabel/.style={
+        fill=white,
+        inner sep=1.5pt,
+        align=center
+    },
+    note/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        text width=3.2cm,
+        inner sep=4pt
+    }
+]
+\node[actor] (client) at (0,0.5) {Kliens\\filmoldal};
+\node[actor] (api) at (4.2,0.5) {Next.js\\API route};
+\node[actor] (auth) at (8.4,0.5) {Supabase\\Auth};
+\node[actor] (database) at (12.6,0.5) {Supabase\\adatbázis};
+
+\draw[lifeline] (0,0.15) -- (0,-10.8);
+\draw[lifeline] (4.2,0.15) -- (4.2,-10.8);
+\draw[lifeline] (8.4,0.15) -- (8.4,-10.8);
+\draw[lifeline] (12.6,0.15) -- (12.6,-10.8);
+
+\draw[fill=white] (-0.12,-0.75) rectangle (0.12,-9.75);
+\draw[fill=white] (4.08,-1.1) rectangle (4.32,-9.05);
+\draw[fill=white] (8.28,-3.75) rectangle (8.52,-4.55);
+\draw[fill=white] (12.48,-5.65) rectangle (12.72,-8.25);
+
+\draw[message] (0.12,-1.25) -- node[msglabel, above] {1. \texttt{POST /api/watched/[movieId]}} node[msglabel, below] {body: \texttt{rating}, \texttt{watchedAt}} (4.08,-1.25);
+\draw[message] (4.32,-2.15) -- (5.15,-2.15) -- (5.15,-2.85) -- node[msglabel, right] {2. bemenet\\validálása} (4.32,-2.85);
+\draw[message] (4.32,-4.0) -- node[msglabel, above] {3. \texttt{auth.getUser()}} (8.28,-4.0);
+\draw[returnmessage] (8.28,-4.55) -- node[msglabel, above] {4. \texttt{user\_id} vagy hiba} (4.32,-4.55);
+\draw[message] (4.32,-5.7) -- node[msglabel, above] {5. \texttt{watched.insert(...)}} node[msglabel, below] {\texttt{rating}, \texttt{watched\_at}} (12.48,-5.7);
+\draw[returnmessage] (12.48,-6.55) -- node[msglabel, above] {6. mentett watched sor} (4.32,-6.55);
+\draw[message] (4.32,-7.5) -- node[msglabel, above] {7. \texttt{watchlist.delete(...)}} node[msglabel, below] {ha szerepelt a listán} (12.48,-7.5);
+\draw[returnmessage] (12.48,-8.25) -- node[msglabel, above] {8. törlés eredménye} (4.32,-8.25);
+\draw[returnmessage] (4.08,-9.15) -- node[msglabel, above] {9. \texttt{201 Created}} node[msglabel, below] {friss watched állapot} (0.12,-9.15);
+\node[note] at (0,-10.3) {10. \texttt{watched} és \texttt{watchlist} query-k frissítése};
+\end{tikzpicture}%
+}
+\caption{A megnézettként jelölés adatáramlása}
+\label{fig:watchdb-watched-flow}
+\end{figure}

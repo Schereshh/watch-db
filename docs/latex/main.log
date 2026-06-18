@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  13 JUN 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  18 JUN 2026 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -940,12 +940,12 @@ LaTeX Info: Redefining \mit on input line 578.
 )
 Package babel Info: 'magyar' activates 'magyar' shorthands.
 (babel)             Reported on input line 19.
-<pdfs/allamvizsga_borito.pdf, id=178, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=167, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=180, page=1, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=169, page=1, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
@@ -976,7 +976,7 @@ Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
 
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=210, page=2, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=199, page=2, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 2>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line
@@ -995,7 +995,7 @@ Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line
  [2
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=228, page=3, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=217, page=3, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 3>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line
@@ -1020,7 +1020,7 @@ File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=260, page=6, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=249, page=6, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
@@ -1110,7 +1110,7 @@ een already used, duplicate ignored
 l.43 \chapter
              {Bevezető} [3
 
-]
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 1. fejezet.
 (./chapters/introduction/introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1451,190 +1451,214 @@ Underfull \hbox (badness 3179) in paragraph at lines 42--42
 (./chapters/chapter-4-developmentProcess/3.tex [36])) [37]
 (./chapters/chapter-5-systemSpecs/systemSpecs.tex [38]
 5. fejezet.
-(./chapters/chapter-5-systemSpecs/1.tex [39
+(./chapters/chapter-5-systemSpecs/1.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+9.
 
-] [40{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.e
-nc}]
-<chapters/chapter-5-systemSpecs/mark-as-watched.png, id=749, 1341.01pt x 656.45
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [39
+
+] [40]
+<chapters/chapter-5-systemSpecs/mark-as-watched.png, id=746, 1341.01pt x 656.45
 25pt>
 File: chapters/chapter-5-systemSpecs/mark-as-watched.png Graphic file (type png
 )
 <use chapters/chapter-5-systemSpecs/mark-as-watched.png>
 Package pdftex.def Info: chapters/chapter-5-systemSpecs/mark-as-watched.png  us
-ed on input line 99.
+ed on input line 112.
 (pdftex.def)             Requested size: 398.7348pt x 195.18436pt.
-<chapters/chapter-5-systemSpecs/remove-from-watched.png, id=751, 1330.9725pt x 
+<chapters/chapter-5-systemSpecs/remove-from-watched.png, id=748, 1330.9725pt x 
 658.46pt>
 File: chapters/chapter-5-systemSpecs/remove-from-watched.png Graphic file (type
  png)
 <use chapters/chapter-5-systemSpecs/remove-from-watched.png>
 Package pdftex.def Info: chapters/chapter-5-systemSpecs/remove-from-watched.png
-  used on input line 102.
+  used on input line 115.
 (pdftex.def)             Requested size: 398.7348pt x 197.2582pt.
- [41 <./chapters/chapter-5-systemSpecs/mark-as-watched.png> <./chapters/chapter
--5-systemSpecs/remove-from-watched.png>])) [42]
-6. fejezet.
-(./chapters/implementation.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-4.
+)
+(./chapters/chapter-5-systemSpecs/2.tex [41] [42 <./chapters/chapter-5-systemSp
+ecs/mark-as-watched.png> <./chapters/chapter-5-systemSpecs/remove-from-watched.
+png>]) (./chapters/chapter-5-systemSpecs/3.tex [43])
+(./chapters/chapter-5-systemSpecs/4.tex [44]
+<chapters/chapter-5-systemSpecs/db-schema.png, id=768, 661.47125pt x 589.20125p
+t>
+File: chapters/chapter-5-systemSpecs/db-schema.png Graphic file (type png)
+<use chapters/chapter-5-systemSpecs/db-schema.png>
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/db-schema.png  used on 
+input line 13.
+(pdftex.def)             Requested size: 413.32193pt x 368.15996pt.
+ [45 <./chapters/chapter-5-systemSpecs/db-schema.png>]
+<chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png, id=775, 1
+274.7625pt x 1365.1pt>
+File: chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png Graph
+ic file (type png)
+<use chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png>
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/get-cached-movie-detail
+s-snippet.png  used on input line 22.
+(pdftex.def)             Requested size: 461.94324pt x 494.66423pt.
+ [46]
+<chapters/chapter-5-systemSpecs/movie-detail-type.png, id=780, 752.8125pt x 678
+.535pt>
+File: chapters/chapter-5-systemSpecs/movie-detail-type.png Graphic file (type p
+ng)
+<use chapters/chapter-5-systemSpecs/movie-detail-type.png>
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/movie-detail-type.png  
+used on input line 32.
+(pdftex.def)             Requested size: 267.44316pt x 241.06279pt.
+ [47 <./chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png>]) 
+(./chapters/chapter-5-systemSpecs/5.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+ [48 <./chapters/chapter-5-systemSpecs/movie-detail-type.png>])
+(./chapters/chapter-5-systemSpecs/6.tex [49] [50])
+(./chapters/chapter-5-systemSpecs/7.tex [51]
+<chapters/chapter-5-systemSpecs/dependencies.png, id=806, 722.7pt x 1148.29pt>
+File: chapters/chapter-5-systemSpecs/dependencies.png Graphic file (type png)
+<use chapters/chapter-5-systemSpecs/dependencies.png>
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/dependencies.png  used 
+on input line 23.
+(pdftex.def)             Requested size: 268.94969pt x 427.33508pt.
+ [52])
+(./chapters/chapter-5-systemSpecs/8.tex [53 <./chapters/chapter-5-systemSpecs/d
+ependencies.png>]
+<chapters/chapter-5-systemSpecs/scripts.png, id=816, 696.6025pt x 353.32pt>
+File: chapters/chapter-5-systemSpecs/scripts.png Graphic file (type png)
+<use chapters/chapter-5-systemSpecs/scripts.png>
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/scripts.png  used on in
+put line 16.
+(pdftex.def)             Requested size: 413.32193pt x 209.63766pt.
+ [54 <./chapters/chapter-5-systemSpecs/scripts.png>]))
+(./main.bbl [55] [56
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [43
-
-]) [44]
-7. fejezet.
-(./chapters/results.tex
-<figures/images/results/swarm_second_version.png, id=781, 435.7881pt x 327.8649
-pt>
-File: figures/images/results/swarm_second_version.png Graphic file (type png)
-<use figures/images/results/swarm_second_version.png>
-Package pdftex.def Info: figures/images/results/swarm_second_version.png  used 
-on input line 7.
-(pdftex.def)             Requested size: 348.63094pt x 262.29227pt.
-) [45
-
- <./figures/images/results/swarm_second_version.png>]
-8. fejezet.
-(./chapters/summary.tex) (./main.bbl [46
-
-] [47
-
-] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 []\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RWeb Stor-age.'' [][]$https :
  / / www . w3 . org / TR / 2013 /
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 124--127
+Underfull \hbox (badness 2828) in paragraph at lines 97--99
 []\T1/ptm/m/n/12 J. Wag-ner, ^^RClient-side rend-er-ing of HTML and in-ter-ac-t
 i-vity.'' [][]$https : / / web . dev / articles /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 []\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RMe-dia Que-ri-es.'' [][]$htt
 ps : / / www . w3 . org / TR / 2012 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 []\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RTo-uch Events.'' [][]$https 
 : / / www . w3 . org / TR / 2013 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--159
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 \T1/ptm/m/n/12 com / @slightlylate / progressive-[]apps-[]escaping-[]tabs-[]wit
 hout-[]losing-[]our-[]soul-[]3b93a8561955$[][],
  []
 
-[49]
-Underfull \hbox (badness 1248) in paragraph at lines 166--169
+[58]
+Underfull \hbox (badness 1248) in paragraph at lines 130--132
 []\T1/ptm/m/n/12 Mozilla De-vel-oper Net-work, ^^RMe-diaDevi-ces: ge-tUser-Me-d
 ia() met-hod.'' [][]$https : / / developer .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--174
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 []\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RGe-o-lo-ca-ti-on API.'' [][]
 $https : / / www . w3 . org / TR / 2024 /
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 176--180
+Underfull \hbox (badness 1997) in paragraph at lines 138--140
 []\T1/ptm/m/n/12 Amazon Web Ser-vi-ces, ^^RInt-ro-du-cing AWS Lamb-da.'' [][]$h
 ttps : / / aws . amazon . com / about-[]aws /
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 182--185
+Underfull \hbox (badness 1389) in paragraph at lines 142--144
 []\T1/ptm/m/n/12 HTTP Ar-chive, ^^RSe-cu-rity: 2025 Web Al-ma-nac.'' [][]$https
  : / / almanac . httparchive . org / en / 2025 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 []\T1/ptm/m/n/12 Let's Encrypt, ^^RLet's Encrypt La-unch Sche-dule.'' [][]$http
 s : / / letsencrypt . org / 2015 / 06 / 16 /
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 217--220
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 []\T1/ptm/m/n/12 Ecma In-ter-na-ti-o-nal, ^^REC-MAScript 2024 Lan-gu-age Spe-ci
 -fi-ca-ti-on.'' [][]$https : / / 262 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
 []\T1/ptm/m/n/12 A. Os-ma-ni and J. Mil-ler, ^^RRend-er-ing on the Web.'' [][]$
 https : / / web . dev / articles /
  []
 
-[51]
-Underfull \hbox (badness 2150) in paragraph at lines 276--279
+[60]
+Underfull \hbox (badness 2150) in paragraph at lines 214--216
 []\T1/ptm/m/n/12 IBM, ^^RAgi-le vs. Wa-ter-fall: What's the Dif-fe-ren-ce?.'' [
 ][]$https : / / www . ibm . com / think / topics /
  []
 
-[52]
-Underfull \hbox (badness 2205) in paragraph at lines 376--379
+[61]
+Underfull \hbox (badness 2205) in paragraph at lines 290--292
 []\T1/ptm/m/n/12 Supabase, ^^RCreat-ing a Su-pa-ba-se cli-ent for SSR.'' [][]$h
 ttps : / / supabase . com / docs / guides / auth /
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 386--389
+Underfull \hbox (badness 1603) in paragraph at lines 298--300
 []\T1/ptm/m/n/12 TanStack, ^^RTan-S-tack Query: Over-view.'' [][]$https : / / t
 anstack . com / query / latest / docs / framework /
  []
 
-[53]
-Underfull \hbox (badness 6493) in paragraph at lines 396--399
+[62]
+Underfull \hbox (badness 6493) in paragraph at lines 306--308
 []\T1/ptm/m/n/12 Radix UI, ^^RRa-dix Pri-mi-ti-ves: Int-ro-duc-ti-on.'' [][]$ht
 tps : / / www . radix-[]ui . com / primitives / docs /
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 406--409
+Underfull \hbox (badness 5939) in paragraph at lines 314--316
 []\T1/ptm/m/n/12 IMDb, ^^RWatch-list FAQ.'' [][]$https : / / help . imdb . com 
 / article / imdb / track-[]movies-[]tv / watchlist-[]faq /
  []
 
-) [54]
-A. f\"uggel\'ek.
-(./chapters/appendix.tex) [55
-
-] (./main.aux)
+) [63] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 54D66FA8D38DACC74A0E5DA85178AEEB;7909.
+(rerunfilecheck)             Checksum: 6798FA3A8D1C9DC1562CE1CAB0E2D1C8;8257.
  ) 
 Here is how much of TeX's memory you used:
- 27118 strings out of 467525
- 508113 string characters out of 5418982
- 919524 words of memory out of 5000000
- 55241 multiletter control sequences out of 15000+600000
- 685877 words of font info for 125 fonts, out of 8000000 for 9000
+ 27227 strings out of 467525
+ 512326 string characters out of 5418982
+ 922827 words of memory out of 5000000
+ 55359 multiletter control sequences out of 15000+600000
+ 682185 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,17n,99p,1439b,841s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr
-/local/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texl
-ive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/t
-exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (65 pages, 2406753 bytes).
+ 91i,17n,99p,1439b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
+exlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
+6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (73 pages, 2728942 bytes).
 PDF statistics:
- 1054 PDF objects out of 1200 (max. 8388607)
- 937 compressed objects within 10 object streams
- 201 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 948 compressed objects within 10 object streams
+ 209 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

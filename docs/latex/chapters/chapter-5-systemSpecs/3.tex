@@ -1,0 +1,60 @@
+\section{Rendszerarchitektúra és technológiai stack}
+
+A WatchDB egy webalkalmazásként épül fel, amelyben a felhasználói felület, az alkalmazáslogika, a külső filmadat-forrás és a felhasználói adatok tárolása elkülönített szerepet kap.
+
+\begin{figure}[H]
+\centering
+\small
+\begin{tikzpicture}[
+    archbox/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        text width=8.8cm,
+        minimum height=0.9cm,
+        inner sep=5pt
+    },
+    servicebox/.style={
+        draw,
+        rounded corners,
+        fill=blue!8,
+        align=center,
+        text width=8.8cm,
+        minimum height=0.9cm,
+        inner sep=5pt
+    },
+    externbox/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        text width=4cm,
+        minimum height=0.9cm,
+        inner sep=5pt
+    },
+    archarrow/.style={-{Latex[length=2mm]}, thick}
+]
+\node[archbox] (browser) at (0,0) {Felhasználói böngésző és React felület};
+\node[servicebox] (next) at (0,-1.55) {Next.js alkalmazásréteg: oldalak, szerveroldali komponensek és API route-ok};
+\node[externbox] (tmdb) at (-2.35,-3.25) {TMDB API\\külső filmadatok};
+\node[externbox] (supabase) at (2.35,-3.25) {Supabase\\autentikáció és adatbázis};
+
+\draw[archarrow] (browser) -- (next);
+\draw[archarrow] (next) -- (tmdb);
+\draw[archarrow] (next) -- (supabase);
+\end{tikzpicture}
+\caption{A WatchDB magas szintű rendszerarchitektúrája}
+\label{fig:watchdb-system-architecture}
+\end{figure}
+
+\begin{itemize}
+    \item Az alkalmazás alapját a Next.js App Router adja, amely az oldalak, layoutok, szerveroldali komponensek és API route-ok szervezésére szolgál.
+    \item A felhasználói felület React komponensekből épül fel, külön kliensoldali komponensekkel azoknál a részeknél, ahol interakcióra, állapotkezelésre vagy felhasználói műveletre van szükség.
+    \item A rendszer TypeScriptet használ, amely segíti a komponensek, API-válaszok és szolgáltatásrétegek típusbiztosabb kezelését.
+    \item Az autentikációt és a felhasználóhoz kötött adatok tárolását a Supabase biztosítja. Ide tartozik például a watchlist, a megnézett filmek listája, az értékelés és a megtekintési dátum.
+    \item A filmek adatai nem saját adatbázisból származnak, hanem egy külső a TMDB (The Movie Database) által létrehozott API-ból. Az alkalmazás elsősorban a felhasználói állapotokat tárolja, a filmmel kapcsolatos adatokat pedig külső forrásból kéri le.
+    \item A kliensoldali adatlekérések és állapotfrissítések kezelését a TanStack Query teszi lehetővé, például a watchlist és watched állapotok lekérdezését, illetve azok módosítását.
+    \item A felület kialakításához Tailwind CSS, Radix UI alapú komponensek, valamint shadcn/ui jellegű komponensstruktúra használható.
+    \item Az alkalmazás telepítése és futtatása Vercel környezetben illeszkedik a Next.js alapú felépítéshez; a külső szolgáltatások eléréséhez környezeti változókban tárolt Supabase és TMDB konfiguráció szükséges.
+\end{itemize}
