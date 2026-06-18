@@ -1,23 +1,23 @@
-import { notFound } from "next/navigation";
 import Image from "next/image";
+import {
+  CalendarDays,
+  Clock3,
+  Film,
+  Globe2,
+  Ticket,
+  UserRound,
+  UsersRound,
+} from "lucide-react";
+import { notFound } from "next/navigation";
 
 import { getMovieDetails } from "@/services/tmdb/movie";
-
-import WatchedButton from "./watched-button";
-import WatchlistButton from "./watchlist-button";
-
-const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
-
-function formatRuntime(minutes: number | null): string {
-  if (minutes === null) return "Unknown runtime";
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-  return h > 0 ? `${h}h ${m}m` : `${m}m`;
-}
-
-function formatVoteAverage(value: number): string {
-  return value > 0 ? value.toFixed(1) : "N/A";
-}
+import MovieDetailHero from "./movie-detail-hero/movie-detail-hero";
+import {
+  formatLanguage,
+  formatReleaseDate,
+  formatRuntime,
+} from "@/util/formatters";
+import { TMDB_IMAGE_BASE } from "@/util/constants";
 
 type MoviePageProps = {
   params: Promise<{ id: string }>;
@@ -38,108 +38,119 @@ export default async function MoviePage({ params }: MoviePageProps) {
     notFound();
   }
 
-  const posterUrl = movie.posterPath
-    ? `${TMDB_IMAGE_BASE}/w500${movie.posterPath}`
-    : null;
-
-  const backdropUrl = movie.backdropPath
-    ? `${TMDB_IMAGE_BASE}/w1280${movie.backdropPath}`
-    : null;
-
-  const releaseYear = movie.releaseDate ? movie.releaseDate.slice(0, 4) : null;
-
   return (
-    <div className="pb-10">
-      <div className="relative w-screen left-1/2 -translate-x-1/2 mb-10 min-h-[420px] flex items-end">
-        {backdropUrl && (
-          <Image
-            src={backdropUrl}
-            alt=""
-            fill
-            className="object-cover object-center"
-            priority
-          />
-        )}
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-        <div className="z-10 px-32 container mx-auto pb-8 flex flex-col sm:flex-row gap-6 items-end">
-          <div>
-            {posterUrl ? (
-              <Image
-                src={posterUrl}
-                alt={`${movie.title} poster`}
-                width={180}
-                height={270}
-                className="rounded-lg shadow-2xl"
-                priority
-              />
-            ) : (
-              <div className="w-[180px] h-[270px] rounded-lg bg-muted flex items-center justify-center text-muted-foreground text-sm">
-                No poster
+    <article className="pb-16">
+      <MovieDetailHero movie={movie} />
+
+      <div className="mx-auto grid max-w-7xl gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_330px]">
+        <div className="space-y-12">
+          {movie.overview && (
+            <section>
+              <div className="mb-4 flex items-center gap-2">
+                <Ticket className="size-5" aria-hidden="true" />
+                <h2 className="text-2xl font-semibold">Overview</h2>
               </div>
-            )}
-          </div>
-          <div className="flex flex-col gap-2 pb-1 text-white text-shadow-black text-shadow-md">
-            <h1 className="text-3xl font-bold">
-              {movie.title}
-              {releaseYear && (
-                <span className="font-normal ml-2 text-2xl opacity-80">
-                  ({releaseYear})
+              <p className="max-w-3xl text-base leading-7 text-muted-foreground">
+                {movie.overview}
+              </p>
+            </section>
+          )}
+
+          {movie.cast.length > 0 && (
+            <section>
+              <div className="mb-5 flex items-center justify-between gap-4">
+                <div className="flex items-center gap-2">
+                  <UsersRound className="size-5" aria-hidden="true" />
+                  <h2 className="text-2xl font-semibold">Top cast</h2>
+                </div>
+                <span className="text-sm text-muted-foreground">
+                  {movie.cast.length} featured
                 </span>
-              )}
-            </h1>
-            {movie.tagline && (
-              <p className="italic opacity-70 text-sm">{movie.tagline}</p>
-            )}
-            {movie.genres.length > 0 && (
-              <div className="flex flex-wrap gap-2 mt-1">
-                {movie.genres.map((genre) => (
-                  <span
-                    key={genre.id}
-                    className="px-2 py-0.5 text-xs rounded-full bg-white/20 backdrop-blur-sm"
-                  >
-                    {genre.name}
-                  </span>
-                ))}
               </div>
-            )}
-            <div className="flex flex-wrap gap-4 text-sm opacity-80 mt-1">
-              {movie.releaseDate && <span>{movie.releaseDate}</span>}
-              <span>{formatRuntime(movie.runtime)}</span>
-              <span className="font-medium opacity-100">
-                ★ {formatVoteAverage(movie.voteAverage)}
-                <span className="font-normal opacity-70 ml-1">
-                  ({movie.voteCount.toLocaleString()} votes)
-                </span>
-              </span>
-            </div>
-            <div className="mt-2 flex flex-wrap gap-3">
-              <WatchedButton movieId={movieId} />
-              <WatchlistButton movieId={movieId} />
-            </div>
-          </div>
+
+              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                {movie.cast.map((member) => {
+                  const profileUrl = member.profilePath
+                    ? `${TMDB_IMAGE_BASE}/w185${member.profilePath}`
+                    : null;
+
+                  return (
+                    <div
+                      key={member.id}
+                      className="flex min-w-0 items-center gap-3 rounded-md border bg-background p-2 transition-colors hover:bg-accent"
+                    >
+                      <div className="relative h-20 w-14 shrink-0 overflow-hidden rounded-md bg-muted">
+                        {profileUrl ? (
+                          <Image
+                            src={profileUrl}
+                            alt={`${member.name} profile`}
+                            fill
+                            sizes="56px"
+                            className="object-cover"
+                          />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center text-muted-foreground">
+                            <UserRound className="size-5" aria-hidden="true" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="min-w-0">
+                        <p className="truncate text-sm font-semibold">
+                          {member.name}
+                        </p>
+                        <p className="line-clamp-2 text-xs leading-5 text-muted-foreground">
+                          {member.character || "Cast member"}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
         </div>
+
+        <aside className="space-y-6">
+          <section className="rounded-md border bg-background p-5">
+            <dl className="space-y-4 text-sm">
+              <div className="flex items-start gap-3">
+                <CalendarDays className="mt-0.5 size-4 text-muted-foreground" />
+                <div>
+                  <dt className="font-medium">Release date</dt>
+                  <dd className="text-muted-foreground">
+                    {formatReleaseDate(movie.releaseDate)}
+                  </dd>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Clock3 className="mt-0.5 size-4 text-muted-foreground" />
+                <div>
+                  <dt className="font-medium">Runtime</dt>
+                  <dd className="text-muted-foreground">
+                    {formatRuntime(movie.runtime)}
+                  </dd>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Globe2 className="mt-0.5 size-4 text-muted-foreground" />
+                <div>
+                  <dt className="font-medium">Original language</dt>
+                  <dd className="text-muted-foreground">
+                    {formatLanguage(movie.originalLanguage)}
+                  </dd>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Film className="mt-0.5 size-4 text-muted-foreground" />
+                <div>
+                  <dt className="font-medium">Status</dt>
+                  <dd className="text-muted-foreground">{movie.status}</dd>
+                </div>
+              </div>
+            </dl>
+          </section>
+        </aside>
       </div>
-      <div className="space-y-6">
-        {movie.overview && (
-          <div>
-            <h2 className="font-semibold mb-1">Overview</h2>
-            <p className="text-muted-foreground">{movie.overview}</p>
-          </div>
-        )}
-        <div className="flex flex-wrap gap-8 text-sm">
-          <div>
-            <span className="font-semibold">Status</span>
-            <p className="text-muted-foreground">{movie.status}</p>
-          </div>
-          <div>
-            <span className="font-semibold">Original Language</span>
-            <p className="text-muted-foreground uppercase">
-              {movie.originalLanguage}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </article>
   );
 }
