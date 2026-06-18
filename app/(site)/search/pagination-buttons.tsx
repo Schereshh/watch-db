@@ -35,26 +35,35 @@ export function PaginationButtons({
   };
 
   return (
-    <div className="mb-12 pt-12 flex items-center w-full justify-between">
-      <Button
-        variant="outline"
-        onClick={handlePrevious}
-        disabled={page <= 1 || isPending}
-      >
-        <ChevronLeft className="h-4 w-4" />
-        Previous
-      </Button>
-      <span className="text-sm text-muted-foreground">
-        Page {page} of {totalPages} ({totalResults} results)
+    <div className="mb-12 mt-8 flex flex-col gap-3 rounded-md border border-stone-200 bg-white p-3 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+      <span className="text-center text-sm text-stone-500">
+        Page <span className="font-medium text-stone-900">{page}</span> of{" "}
+        <span className="font-medium text-stone-900">{totalPages}</span>
+        <span className="hidden sm:inline">
+          {" "}
+          ({totalResults.toLocaleString()} results)
+        </span>
       </span>
-      <Button
-        variant="outline"
-        onClick={handleNext}
-        disabled={page >= totalPages || isPending}
-      >
-        Next
-        <ChevronRight className="h-4 w-4" />
-      </Button>
+      <div className="grid grid-cols-2 gap-3 sm:contents">
+        <Button
+          variant="outline"
+          onClick={handlePrevious}
+          disabled={page <= 1 || isPending}
+          className="w-full border-stone-300 bg-white text-stone-800 hover:bg-stone-100 sm:order-first sm:w-auto"
+        >
+          <ChevronLeft className="h-4 w-4" />
+          Previous
+        </Button>
+        <Button
+          variant="outline"
+          onClick={handleNext}
+          disabled={page >= totalPages || isPending}
+          className="w-full border-stone-300 bg-white text-stone-800 hover:bg-stone-100 sm:order-last sm:w-auto"
+        >
+          Next
+          <ChevronRight className="h-4 w-4" />
+        </Button>
+      </div>
     </div>
   );
 }

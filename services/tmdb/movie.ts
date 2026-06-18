@@ -7,6 +7,21 @@ type TmdbGenre = {
   name: string;
 };
 
+type TmdbCastMember = {
+  id: number;
+  name: string;
+  character: string;
+  profile_path: string | null;
+  order: number;
+};
+
+type TmdbCrewMember = {
+  id: number;
+  name: string;
+  job: string;
+  department: string;
+};
+
 type TmdbMovieDetails = {
   id: number;
   title: string;
@@ -21,6 +36,17 @@ type TmdbMovieDetails = {
   status: string;
   original_language: string;
   genres: TmdbGenre[];
+  credits?: {
+    cast: TmdbCastMember[];
+    crew: TmdbCrewMember[];
+  };
+};
+
+export type MovieCastMember = {
+  id: number;
+  name: string;
+  character: string;
+  profilePath: string | null;
 };
 
 export type MovieDetails = {
@@ -37,6 +63,8 @@ export type MovieDetails = {
   status: string;
   originalLanguage: string;
   genres: { id: number; name: string }[];
+  cast: MovieCastMember[];
+  directors: string[];
 };
 
 const getCachedMovieDetails = unstable_cache(
@@ -49,8 +77,27 @@ const getCachedMovieDetails = unstable_cache(
     const client = createTmdbClient({ accessToken });
 
     const raw = await client.request<TmdbMovieDetails>(`/movie/${movieId}`, {
+      append_to_response: "credits",
       language: "en-US",
     });
+
+    const cast = (raw.credits?.cast ?? [])
+      .sort((a, b) => a.order - b.order)
+      .slice(0, 12)
+      .map((member) => ({
+        id: member.id,
+        name: member.name,
+        character: member.character,
+        profilePath: member.profile_path,
+      }));
+
+    const directors = Array.from(
+      new Set(
+        (raw.credits?.crew ?? [])
+          .filter((member) => member.job === "Director")
+          .map((member) => member.name),
+      ),
+    );
 
     return {
       id: raw.id,
@@ -66,6 +113,8 @@ const getCachedMovieDetails = unstable_cache(
       status: raw.status,
       originalLanguage: raw.original_language,
       genres: raw.genres,
+      cast,
+      directors,
     };
   },
   ["tmdb-movie-details"],
