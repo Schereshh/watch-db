@@ -9,8 +9,8 @@ import {
   formatVoteAverage,
   formatVoteCount,
 } from "@/util/formatters";
+import { TMDB_IMAGE_BASE } from "@/util/constants";
 
-const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 
 type Props = {
   movie: MovieDetails;

@@ -17,8 +17,7 @@ import {
   formatReleaseDate,
   formatRuntime,
 } from "@/util/formatters";
-
-const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
+import { TMDB_IMAGE_BASE } from "@/util/constants";
 
 type MoviePageProps = {
   params: Promise<{ id: string }>;

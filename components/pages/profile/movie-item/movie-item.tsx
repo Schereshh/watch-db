@@ -1,8 +1,7 @@
+import { TMDB_IMAGE_BASE } from "@/util/constants";
 import { Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
-const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 
 type Props = {
   movieId: string;
