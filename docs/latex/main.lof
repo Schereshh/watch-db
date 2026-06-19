@@ -14,3 +14,10 @@
 \select@language {magyar} \contentsline {figure}{\numberline {5.8}{\ignorespaces A megnézettként jelölés adatáramlása}}{50}{figure.5.8}%
 \select@language {magyar} \contentsline {figure}{\numberline {5.9}{\ignorespaces A projekt fő függőségei a \texttt {package.json} alapján}}{53}{figure.5.9}%
 \select@language {magyar} \contentsline {figure}{\numberline {5.10}{\ignorespaces A projekt futtatási scriptjei a \texttt {package.json} alapján}}{54}{figure.5.10}%
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {6.1}{\ignorespaces A WatchDB projekt mappastruktúrája}}{57}{figure.6.1}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.2}{\ignorespaces Hibás bejelentkezési kísérlet}}{58}{figure.6.2}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.3}{\ignorespaces A filmkeresési találatok megjelenítése}}{60}{figure.6.3}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.4}{\ignorespaces A film oldal felépítése}}{61}{figure.6.4}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.5}{\ignorespaces A megnézettként jelöléshez tartozó modal}}{62}{figure.6.5}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.6}{\ignorespaces A profiloldal felhasználói felülete}}{63}{figure.6.6}%

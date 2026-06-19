@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  18 JUN 2026 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.27)  19 JUN 2026 18:01
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**/Users/scheresh/Uni/watch-db/docs/latex/main.tex
+(/Users/scheresh/Uni/watch-db/docs/latex/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
@@ -25,41 +26,31 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \bibindent=\dimen148
 )
 
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 2.
+LaTeX Warning: \include should only be used after \begin{document} on input line 2.
 
-(./preamble.tex
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(./preamble.tex (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count284
@@ -74,42 +65,28 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/t1enc.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/t1enc.sty
 Package: t1enc 1994/06/01 Standard LaTeX package
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaT
-eX and XeLaTeX
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count287
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2111.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
 \U@D=\dimen159
 \l@unhyphenated=\language91
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count288
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/hu/babel-magyar.te
-x)
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/hu/babel-magyar.tex)
 Package babel Info: Importing font and identification data for magyar
 (babel)             from babel-hu.ini. Reported on input line 4330.
  (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-hungarian/magyar.ldf
@@ -119,13 +96,11 @@ Package babel Info: Making ` an active character on input line 2343.
 \c@footnote@ch=\count290
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/mdwtools/footnote.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box53
 \fn@width=\dimen160
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/subfigure/subfigure.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
@@ -144,32 +119,26 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/local/texlive/2026/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip55
 \subfig@bottom=\skip56
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count295
 \float@exts=\toks21
 \float@box=\box54
 \@float@everytoks=\toks22
 \@floatcapt=\box55
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count296
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip57
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count297
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/xspace.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/relsize/relsize.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip58
@@ -207,25 +176,21 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count300
 \algocf@algoframe=\box62
 \algocf@algobox=\box63
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip76
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen169
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen170
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count301
@@ -275,8 +240,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -311,11 +275,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count313
 \calc@Bcount=\count314
@@ -327,21 +289,17 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count315
 \calc@Cskip=\skip81
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen180
 \ESO@tempdimb=\dimen181
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -351,16 +309,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count316
 )
 \AM@pagewidth=\dimen182
 \AM@pageheight=\dimen183
 \AM@fboxrule=\dimen184
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pppdftex.def
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count317
@@ -371,34 +327,22 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks30
 \c@AM@survey=\count319
 \AM@templatesizebox=\box67
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen185
 \pgfutil@tempdimb=\dimen186
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box68
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks32
 \pgfkeys@temptoks=\toks33
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
-tered.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks34
 ))
 \pgf@x=\dimen187
@@ -421,66 +365,32 @@ tered.code.tex
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
 \pgf@sys@id@count=\count324
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
+))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count325
 \pgfsyssoftpath@bigbuffer@items=\count326
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen197
 \pgfmath@count=\count327
 \pgfmath@box=\box69
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count328
-)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen198
 \pgf@picmaxx=\dimen199
@@ -496,125 +406,75 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen265
 \pgf@zx=\dimen266
 \pgf@zy=\dimen267
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen268
 \pgf@path@lasty=\dimen269
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen270
 \pgf@shorten@start@additional=\dimen271
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box70
 \pgf@hbox=\box71
 \pgf@layerbox@main=\box72
 \pgf@picture@serial@count=\count329
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen272
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen273
 \pgf@pt@y=\dimen274
 \pgf@pt@temp=\dimen275
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen276
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen277
 \pgf@sys@shading@range@num=\count330
 \pgf@shadingcount=\count331
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box73
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
-tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
+))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box74
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen278
 \pgf@nodesepend=\dimen279
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen280
 \pgffor@skip=\dimen281
 \pgffor@stack=\toks41
 \pgffor@toks=\toks42
-))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count332
 \pgfplotmarksize=\dimen282
@@ -635,94 +495,68 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count334
 \tikznumberofcurrentchild=\count335
 \tikz@fig@count=\count336
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count337
 \pgfmatrixcurrentcolumn=\count338
 \pgf@matrix@numberofcolumns=\count339
 )
 \tikz@expandcount=\count340
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
-meta.code.tex
+))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowinset=\dimen291
 \pgfarrowlength=\dimen292
 \pgfarrowwidth=\dimen293
 \pgfarrowlinewidth=\dimen294
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count341
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen295
 \Hy@linkcounter=\count342
 \Hy@pagecounter=\count343
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count344
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -735,20 +569,16 @@ Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count345
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen296
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count346
 \Field@Width=\dimen297
@@ -765,20 +595,16 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \c@Hfootnote=\count349
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count350
 \c@bookmark@seq@number=\count351
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip82
 )
@@ -797,17 +623,14 @@ Package hyperref Info: Option `unicode' set `true' on input line 30.
 \lst@newlines=\count356
 \lst@lineno=\count357
 \lst@maxwidth=\dimen302
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count358
 \lst@skipnumbers=\count359
 \lst@framebox=\box80
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -819,16 +642,13 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 
-Package Listings Warning: Unknown column format `fullflexible sensitive' on inp
-ut line 67.
+Package Listings Warning: Unknown column format `fullflexible sensitive' on input line 67.
 
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19
-.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 )
@@ -857,8 +677,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count361
 \scratchdimen=\dimen303
@@ -873,12 +692,9 @@ LaTeX Font Info:    ... okay on input line 19.
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -916,168 +732,134 @@ e
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
-y
-Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
-F (HO)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring ON on input line 19.
-
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \c@lstlisting=\count367
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
 LaTeX Info: Redefining \cal on input line 577.
 LaTeX Info: Redefining \mit on input line 578.
 )
 Package babel Info: 'magyar' activates 'magyar' shorthands.
 (babel)             Reported on input line 19.
-<pdfs/allamvizsga_borito.pdf, id=167, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=191, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=169, page=1, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=193, page=1, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 1>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [1
 
 
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=199, page=2, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=223, page=2, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 2>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 2>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 2>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [2
 
  <./pdfs/allamvizsga_borito.pdf>]
-<pdfs/allamvizsga_borito.pdf, id=217, page=3, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=241, page=3, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 3>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 3>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 3>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line
- 21.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [3
 
- <./pdfs/allamvizsga_borito.pdf>] (./chapters/abstractRo.tex) [4{/usr/local/tex
-live/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026
-/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+ <./pdfs/allamvizsga_borito.pdf>] (./chapters/abstractRo.tex) [4{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf>
 Package pdftex.def Info: pdfs/allamvizsga_borito.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<pdfs/allamvizsga_borito.pdf, id=249, page=6, 597.55246pt x 845.07718pt>
+<pdfs/allamvizsga_borito.pdf, id=273, page=6, 597.55246pt x 845.07718pt>
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
- 27.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
- 27.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
- 27.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
- 27.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: pdfs/allamvizsga_borito.pdf Graphic file (type pdf)
 <use pdfs/allamvizsga_borito.pdf, page 6>
-Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line
- 27.
+Package pdftex.def Info: pdfs/allamvizsga_borito.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [5
 
- <./pdfs/allamvizsga_borito.pdf>]
-(./chapters/abstractHu.tex) [6] (./chapters/abstractEn.tex) [7] (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 3.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ <./pdfs/allamvizsga_borito.pdf>] (./chapters/abstractHu.tex) [6] (./chapters/abstractEn.tex) [7] (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 3.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 3.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 3.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 3.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 3.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 3.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 3.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1093,8 +875,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout5 = `main.toc'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 \listoffigures
@@ -1103,8 +884,7 @@ l.41 \listoffigures
 \openout6 = `main.lof'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.43 \chapter
@@ -1113,55 +893,43 @@ l.43 \chapter
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 1. fejezet.
 (./chapters/introduction/introduction.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 
       [1
 
 ])
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 \chapter
              {Irodalmi Ã¡ttekintÃ©s} [2]
 2. fejezet.
-(./chapters/literatureResearch/literatureResearch.tex
-(./chapters/introduction/1-webApplicationsHistoryOverview.tex)
-(./chapters/introduction/2-earlyWeb.tex)
-(./chapters/introduction/3-dynamicWeb.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
+(./chapters/literatureResearch/literatureResearch.tex (./chapters/introduction/1-webApplicationsHistoryOverview.tex) (./chapters/introduction/2-earlyWeb.tex) (./chapters/introduction/3-dynamicWeb.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section
             {Dinamikus vilÃ¡ghÃ¡lÃ³} [3
 
-])
-(./chapters/introduction/4-advancedWeb.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
+]) (./chapters/introduction/4-advancedWeb.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 
-     [4]) (./chapters/introduction/5-mobileAndWebStandards.tex)
-(./chapters/introduction/6-currentStateOfWebAndTrends.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
+     [4]) (./chapters/introduction/5-mobileAndWebStandards.tex) (./chapters/introduction/6-currentStateOfWebAndTrends.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 
      [5]) (./chapters/introduction/7-timeline.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.27 
       [6]) (./chapters/literatureResearch/1-modernWebdevelopmentTerms.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section
@@ -1337,22 +1105,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 \T1/ptm/m/n/10.95 tá-von könnyeb-ben el-
  []
 
-) (./chapters/literatureResearch/3-teamComposition.tex [10] [11] [12])
-(./chapters/literatureResearch/4-sdlc.tex [13])
-(./chapters/literatureResearch/5-techStack.tex [14])) [15]
+) (./chapters/literatureResearch/3-teamComposition.tex [10] [11] [12]) (./chapters/literatureResearch/4-sdlc.tex [13]) (./chapters/literatureResearch/5-techStack.tex [14])) [15]
 3. fejezet.
+(./chapters/chapter-3-projectScopeAndProductConcept/projectScopeAndProductConcept.tex (./chapters/chapter-3-projectScopeAndProductConcept/1-problemStatement.tex [16
 
-(./chapters/chapter-3-projectScopeAndProductConcept/projectScopeAndProductConce
-pt.tex
-(./chapters/chapter-3-projectScopeAndProductConcept/1-problemStatement.tex
-[16
-
-]) (./chapters/chapter-3-projectScopeAndProductConcept/2.tex [17])
-(./chapters/chapter-3-projectScopeAndProductConcept/3.tex [18])
-(./chapters/chapter-3-projectScopeAndProductConcept/4.tex [19] [20])
-(./chapters/chapter-3-projectScopeAndProductConcept/5.tex [21])
-(./chapters/chapter-3-projectScopeAndProductConcept/6.tex [22])
-(./chapters/chapter-3-projectScopeAndProductConcept/7.tex [23]
+]) (./chapters/chapter-3-projectScopeAndProductConcept/2.tex [17]) (./chapters/chapter-3-projectScopeAndProductConcept/3.tex [18]) (./chapters/chapter-3-projectScopeAndProductConcept/4.tex [19] [20]) (./chapters/chapter-3-projectScopeAndProductConcept/5.tex [21]) (./chapters/chapter-3-projectScopeAndProductConcept/6.tex [22]) (./chapters/chapter-3-projectScopeAndProductConcept/7.tex [23]
 Underfull \hbox (badness 2334) in paragraph at lines 16--16
 []\T1/ptm/m/n/12 Aktív fel-hasz-ná-lón-ként nap-ló-
  []
@@ -1446,219 +1203,206 @@ Underfull \hbox (badness 3179) in paragraph at lines 42--42
 4. fejezet.
 (./chapters/chapter-4-developmentProcess/1.tex [34
 
-])
-(./chapters/chapter-4-developmentProcess/2.tex [35])
-(./chapters/chapter-4-developmentProcess/3.tex [36])) [37]
-(./chapters/chapter-5-systemSpecs/systemSpecs.tex [38]
+]) (./chapters/chapter-4-developmentProcess/2.tex [35]) (./chapters/chapter-4-developmentProcess/3.tex [36])) [37] (./chapters/chapter-5-systemSpecs/systemSpecs.tex [38]
 5. fejezet.
 (./chapters/chapter-5-systemSpecs/1.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-9.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 49.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [39
 
 ] [40]
-<chapters/chapter-5-systemSpecs/mark-as-watched.png, id=746, 1341.01pt x 656.45
-25pt>
-File: chapters/chapter-5-systemSpecs/mark-as-watched.png Graphic file (type png
-)
+<chapters/chapter-5-systemSpecs/mark-as-watched.png, id=788, 1341.01pt x 656.4525pt>
+File: chapters/chapter-5-systemSpecs/mark-as-watched.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/mark-as-watched.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/mark-as-watched.png  us
-ed on input line 112.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/mark-as-watched.png  used on input line 112.
 (pdftex.def)             Requested size: 398.7348pt x 195.18436pt.
-<chapters/chapter-5-systemSpecs/remove-from-watched.png, id=748, 1330.9725pt x 
-658.46pt>
-File: chapters/chapter-5-systemSpecs/remove-from-watched.png Graphic file (type
- png)
+<chapters/chapter-5-systemSpecs/remove-from-watched.png, id=790, 1330.9725pt x 658.46pt>
+File: chapters/chapter-5-systemSpecs/remove-from-watched.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/remove-from-watched.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/remove-from-watched.png
-  used on input line 115.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/remove-from-watched.png  used on input line 115.
 (pdftex.def)             Requested size: 398.7348pt x 197.2582pt.
-)
-(./chapters/chapter-5-systemSpecs/2.tex [41] [42 <./chapters/chapter-5-systemSp
-ecs/mark-as-watched.png> <./chapters/chapter-5-systemSpecs/remove-from-watched.
-png>]) (./chapters/chapter-5-systemSpecs/3.tex [43])
-(./chapters/chapter-5-systemSpecs/4.tex [44]
-<chapters/chapter-5-systemSpecs/db-schema.png, id=768, 661.47125pt x 589.20125p
-t>
+) (./chapters/chapter-5-systemSpecs/2.tex [41] [42 <./chapters/chapter-5-systemSpecs/mark-as-watched.png> <./chapters/chapter-5-systemSpecs/remove-from-watched.png>]) (./chapters/chapter-5-systemSpecs/3.tex [43]) (./chapters/chapter-5-systemSpecs/4.tex [44]
+<chapters/chapter-5-systemSpecs/db-schema.png, id=810, 661.47125pt x 589.20125pt>
 File: chapters/chapter-5-systemSpecs/db-schema.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/db-schema.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/db-schema.png  used on 
-input line 13.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/db-schema.png  used on input line 13.
 (pdftex.def)             Requested size: 413.32193pt x 368.15996pt.
  [45 <./chapters/chapter-5-systemSpecs/db-schema.png>]
-<chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png, id=775, 1
-274.7625pt x 1365.1pt>
-File: chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png Graph
-ic file (type png)
+<chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png, id=817, 1274.7625pt x 1365.1pt>
+File: chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/get-cached-movie-detail
-s-snippet.png  used on input line 22.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png  used on input line 22.
 (pdftex.def)             Requested size: 461.94324pt x 494.66423pt.
  [46]
-<chapters/chapter-5-systemSpecs/movie-detail-type.png, id=780, 752.8125pt x 678
-.535pt>
-File: chapters/chapter-5-systemSpecs/movie-detail-type.png Graphic file (type p
-ng)
+<chapters/chapter-5-systemSpecs/movie-detail-type.png, id=822, 752.8125pt x 678.535pt>
+File: chapters/chapter-5-systemSpecs/movie-detail-type.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/movie-detail-type.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/movie-detail-type.png  
-used on input line 32.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/movie-detail-type.png  used on input line 32.
 (pdftex.def)             Requested size: 267.44316pt x 241.06279pt.
- [47 <./chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png>]) 
-(./chapters/chapter-5-systemSpecs/5.tex
+ [47 <./chapters/chapter-5-systemSpecs/get-cached-movie-details-snippet.png>]) (./chapters/chapter-5-systemSpecs/5.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
- [48 <./chapters/chapter-5-systemSpecs/movie-detail-type.png>])
-(./chapters/chapter-5-systemSpecs/6.tex [49] [50])
-(./chapters/chapter-5-systemSpecs/7.tex [51]
-<chapters/chapter-5-systemSpecs/dependencies.png, id=806, 722.7pt x 1148.29pt>
+ [48 <./chapters/chapter-5-systemSpecs/movie-detail-type.png>]) (./chapters/chapter-5-systemSpecs/6.tex [49] [50]) (./chapters/chapter-5-systemSpecs/7.tex [51]
+<chapters/chapter-5-systemSpecs/dependencies.png, id=848, 722.7pt x 1148.29pt>
 File: chapters/chapter-5-systemSpecs/dependencies.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/dependencies.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/dependencies.png  used 
-on input line 23.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/dependencies.png  used on input line 23.
 (pdftex.def)             Requested size: 268.94969pt x 427.33508pt.
- [52])
-(./chapters/chapter-5-systemSpecs/8.tex [53 <./chapters/chapter-5-systemSpecs/d
-ependencies.png>]
-<chapters/chapter-5-systemSpecs/scripts.png, id=816, 696.6025pt x 353.32pt>
+ [52]) (./chapters/chapter-5-systemSpecs/8.tex [53 <./chapters/chapter-5-systemSpecs/dependencies.png>]
+<chapters/chapter-5-systemSpecs/scripts.png, id=859, 696.6025pt x 353.32pt>
 File: chapters/chapter-5-systemSpecs/scripts.png Graphic file (type png)
 <use chapters/chapter-5-systemSpecs/scripts.png>
-Package pdftex.def Info: chapters/chapter-5-systemSpecs/scripts.png  used on in
-put line 16.
+Package pdftex.def Info: chapters/chapter-5-systemSpecs/scripts.png  used on input line 16.
 (pdftex.def)             Requested size: 413.32193pt x 209.63766pt.
- [54 <./chapters/chapter-5-systemSpecs/scripts.png>]))
-(./main.bbl [55] [56
+ [54 <./chapters/chapter-5-systemSpecs/scripts.png>])) (./chapters/chapter-6-implementation/implementation.tex [55]
+6. fejezet.
+(./chapters/chapter-6-implementation/1.tex
+<chapters/chapter-6-implementation/folder-structure.png, id=869, 1051.93pt x 1457.445pt>
+File: chapters/chapter-6-implementation/folder-structure.png Graphic file (type png)
+<use chapters/chapter-6-implementation/folder-structure.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/folder-structure.png  used on input line 9.
+(pdftex.def)             Requested size: 308.42262pt x 427.33508pt.
+ [56
 
-] [57]
+]) (./chapters/chapter-6-implementation/2.tex [57 <./chapters/chapter-6-implementation/folder-structure.png>]
+<chapters/chapter-6-implementation/incorrect-login.png, id=880, 1013.7875pt x 1212.53pt>
+File: chapters/chapter-6-implementation/incorrect-login.png Graphic file (type png)
+<use chapters/chapter-6-implementation/incorrect-login.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/incorrect-login.png  used on input line 9.
+(pdftex.def)             Requested size: 252.85603pt x 302.41019pt.
+ [58 <./chapters/chapter-6-implementation/incorrect-login.png>]) (./chapters/chapter-6-implementation/3.tex
+<chapters/chapter-6-implementation/search-page.png, id=886, 3585.395pt x 2077.7625pt>
+File: chapters/chapter-6-implementation/search-page.png Graphic file (type png)
+<use chapters/chapter-6-implementation/search-page.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/search-page.png  used on input line 11.
+(pdftex.def)             Requested size: 413.32193pt x 239.49248pt.
+ [59]
+<chapters/chapter-6-implementation/movie-detail-page.png, id=891, 3585.395pt x 2854.665pt>
+File: chapters/chapter-6-implementation/movie-detail-page.png Graphic file (type png)
+<use chapters/chapter-6-implementation/movie-detail-page.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/movie-detail-page.png  used on input line 22.
+(pdftex.def)             Requested size: 413.32193pt x 329.04185pt.
+) (./chapters/chapter-6-implementation/4.tex [60 <./chapters/chapter-6-implementation/search-page.png>] [61 <./chapters/chapter-6-implementation/movie-detail-page.png>]
+<chapters/chapter-6-implementation/mark-as-watched-modal.png, id=902, 1381.16pt x 957.5775pt>
+File: chapters/chapter-6-implementation/mark-as-watched-modal.png Graphic file (type png)
+<use chapters/chapter-6-implementation/mark-as-watched-modal.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/mark-as-watched-modal.png  used on input line 13.
+(pdftex.def)             Requested size: 282.0303pt x 195.53024pt.
+) (./chapters/chapter-6-implementation/5.tex [62 <./chapters/chapter-6-implementation/mark-as-watched-modal.png>]
+<chapters/chapter-6-implementation/profile-page.png, id=908, 2686.035pt x 2055.68pt>
+File: chapters/chapter-6-implementation/profile-page.png Graphic file (type png)
+<use chapters/chapter-6-implementation/profile-page.png>
+Package pdftex.def Info: chapters/chapter-6-implementation/profile-page.png  used on input line 9.
+(pdftex.def)             Requested size: 398.7348pt x 305.13925pt.
+)) (./main.bbl [63 <./chapters/chapter-6-implementation/profile-page.png>] [64] [65
+
+] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 89--91
-[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RWeb Stor-age.'' [][]$https :
- / / www . w3 . org / TR / 2013 /
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RWeb Stor-age.'' [][]$https : / / www . w3 . org / TR / 2013 /
  []
 
 
 Underfull \hbox (badness 2828) in paragraph at lines 97--99
-[]\T1/ptm/m/n/12 J. Wag-ner, ^^RClient-side rend-er-ing of HTML and in-ter-ac-t
-i-vity.'' [][]$https : / / web . dev / articles /
+[]\T1/ptm/m/n/12 J. Wag-ner, ^^RClient-side rend-er-ing of HTML and in-ter-ac-ti-vity.'' [][]$https : / / web . dev / articles /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--111
-[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RMe-dia Que-ri-es.'' [][]$htt
-ps : / / www . w3 . org / TR / 2012 /
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RMe-dia Que-ri-es.'' [][]$https : / / www . w3 . org / TR / 2012 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
-[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RTo-uch Events.'' [][]$https 
-: / / www . w3 . org / TR / 2013 /
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RTo-uch Events.'' [][]$https : / / www . w3 . org / TR / 2013 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--124
-\T1/ptm/m/n/12 com / @slightlylate / progressive-[]apps-[]escaping-[]tabs-[]wit
-hout-[]losing-[]our-[]soul-[]3b93a8561955$[][],
+\T1/ptm/m/n/12 com / @slightlylate / progressive-[]apps-[]escaping-[]tabs-[]without-[]losing-[]our-[]soul-[]3b93a8561955$[][],
  []
 
-[58]
+[67]
 Underfull \hbox (badness 1248) in paragraph at lines 130--132
-[]\T1/ptm/m/n/12 Mozilla De-vel-oper Net-work, ^^RMe-diaDevi-ces: ge-tUser-Me-d
-ia() met-hod.'' [][]$https : / / developer .
+[]\T1/ptm/m/n/12 Mozilla De-vel-oper Net-work, ^^RMe-diaDevi-ces: ge-tUser-Me-dia() met-hod.'' [][]$https : / / developer .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
-[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RGe-o-lo-ca-ti-on API.'' [][]
-$https : / / www . w3 . org / TR / 2024 /
+[]\T1/ptm/m/n/12 World Wi-de Web Con-sor-ti-um, ^^RGe-o-lo-ca-ti-on API.'' [][]$https : / / www . w3 . org / TR / 2024 /
  []
 
 
 Underfull \hbox (badness 1997) in paragraph at lines 138--140
-[]\T1/ptm/m/n/12 Amazon Web Ser-vi-ces, ^^RInt-ro-du-cing AWS Lamb-da.'' [][]$h
-ttps : / / aws . amazon . com / about-[]aws /
+[]\T1/ptm/m/n/12 Amazon Web Ser-vi-ces, ^^RInt-ro-du-cing AWS Lamb-da.'' [][]$https : / / aws . amazon . com / about-[]aws /
  []
 
 
 Underfull \hbox (badness 1389) in paragraph at lines 142--144
-[]\T1/ptm/m/n/12 HTTP Ar-chive, ^^RSe-cu-rity: 2025 Web Al-ma-nac.'' [][]$https
- : / / almanac . httparchive . org / en / 2025 /
+[]\T1/ptm/m/n/12 HTTP Ar-chive, ^^RSe-cu-rity: 2025 Web Al-ma-nac.'' [][]$https : / / almanac . httparchive . org / en / 2025 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--148
-[]\T1/ptm/m/n/12 Let's Encrypt, ^^RLet's Encrypt La-unch Sche-dule.'' [][]$http
-s : / / letsencrypt . org / 2015 / 06 / 16 /
+[]\T1/ptm/m/n/12 Let's Encrypt, ^^RLet's Encrypt La-unch Sche-dule.'' [][]$https : / / letsencrypt . org / 2015 / 06 / 16 /
  []
 
-[59]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 166--168
-[]\T1/ptm/m/n/12 Ecma In-ter-na-ti-o-nal, ^^REC-MAScript 2024 Lan-gu-age Spe-ci
--fi-ca-ti-on.'' [][]$https : / / 262 .
+[]\T1/ptm/m/n/12 Ecma In-ter-na-ti-o-nal, ^^REC-MAScript 2024 Lan-gu-age Spe-ci-fi-ca-ti-on.'' [][]$https : / / 262 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--208
-[]\T1/ptm/m/n/12 A. Os-ma-ni and J. Mil-ler, ^^RRend-er-ing on the Web.'' [][]$
-https : / / web . dev / articles /
+[]\T1/ptm/m/n/12 A. Os-ma-ni and J. Mil-ler, ^^RRend-er-ing on the Web.'' [][]$https : / / web . dev / articles /
  []
 
-[60]
+[69]
 Underfull \hbox (badness 2150) in paragraph at lines 214--216
-[]\T1/ptm/m/n/12 IBM, ^^RAgi-le vs. Wa-ter-fall: What's the Dif-fe-ren-ce?.'' [
-][]$https : / / www . ibm . com / think / topics /
+[]\T1/ptm/m/n/12 IBM, ^^RAgi-le vs. Wa-ter-fall: What's the Dif-fe-ren-ce?.'' [][]$https : / / www . ibm . com / think / topics /
  []
 
-[61]
+[70]
 Underfull \hbox (badness 2205) in paragraph at lines 290--292
-[]\T1/ptm/m/n/12 Supabase, ^^RCreat-ing a Su-pa-ba-se cli-ent for SSR.'' [][]$h
-ttps : / / supabase . com / docs / guides / auth /
+[]\T1/ptm/m/n/12 Supabase, ^^RCreat-ing a Su-pa-ba-se cli-ent for SSR.'' [][]$https : / / supabase . com / docs / guides / auth /
  []
 
 
 Underfull \hbox (badness 1603) in paragraph at lines 298--300
-[]\T1/ptm/m/n/12 TanStack, ^^RTan-S-tack Query: Over-view.'' [][]$https : / / t
-anstack . com / query / latest / docs / framework /
+[]\T1/ptm/m/n/12 TanStack, ^^RTan-S-tack Query: Over-view.'' [][]$https : / / tanstack . com / query / latest / docs / framework /
  []
 
-[62]
+[71]
 Underfull \hbox (badness 6493) in paragraph at lines 306--308
-[]\T1/ptm/m/n/12 Radix UI, ^^RRa-dix Pri-mi-ti-ves: Int-ro-duc-ti-on.'' [][]$ht
-tps : / / www . radix-[]ui . com / primitives / docs /
+[]\T1/ptm/m/n/12 Radix UI, ^^RRa-dix Pri-mi-ti-ves: Int-ro-duc-ti-on.'' [][]$https : / / www . radix-[]ui . com / primitives / docs /
  []
 
 
 Underfull \hbox (badness 5939) in paragraph at lines 314--316
-[]\T1/ptm/m/n/12 IMDb, ^^RWatch-list FAQ.'' [][]$https : / / help . imdb . com 
-/ article / imdb / track-[]movies-[]tv / watchlist-[]faq /
+[]\T1/ptm/m/n/12 IMDb, ^^RWatch-list FAQ.'' [][]$https : / / help . imdb . com / article / imdb / track-[]movies-[]tv / watchlist-[]faq /
  []
 
-) [63] (./main.aux)
+) [72] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6798FA3A8D1C9DC1562CE1CAB0E2D1C8;8257.
+(rerunfilecheck)             Checksum: EA70DFFC39D889B08C7F190AF90A59D6;9532.
  ) 
 Here is how much of TeX's memory you used:
- 27227 strings out of 467525
- 512326 string characters out of 5418982
- 922827 words of memory out of 5000000
- 55359 multiletter control sequences out of 15000+600000
+ 27347 strings out of 467525
+ 517451 string characters out of 5418982
+ 923212 words of memory out of 5000000
+ 55443 multiletter control sequences out of 15000+600000
  682185 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,17n,99p,1439b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><
-/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></u
-sr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
-exlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
-6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (73 pages, 2728942 bytes).
+ 91i,17n,99p,1479b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (82 pages, 9248106 bytes).
 PDF statistics:
- 1075 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
- 209 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1174 PDF objects out of 1200 (max. 8388607)
+ 1025 compressed objects within 11 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 481 words of extra memory for PDF output out of 10000 (max. 10000000)
 
