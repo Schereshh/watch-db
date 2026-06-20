@@ -43,4 +43,6 @@
 \select@language {magyar} \contentsline {section}{\numberline {6.3}Filmkeresés és film oldal}{59}{section.6.3}%
 \select@language {magyar} \contentsline {section}{\numberline {6.4}Watchlist, watched és rating funkciók}{61}{section.6.4}%
 \select@language {magyar} \contentsline {section}{\numberline {6.5}Profiloldal és kliensoldali adatkezelés}{63}{section.6.5}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{64}{figure.6.6}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Tesztelés és minőségellenőrzés}{65}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}A tesztelési stratégia célja}{65}{section.7.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{66}{section.7.1}%
