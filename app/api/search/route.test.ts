@@ -70,7 +70,7 @@ describe("GET /api/search", () => {
     await expect(response.json()).resolves.toEqual({
       error: "TMDB search failed",
       details: {
-        message: "TMDB down",
+        message: "TMDB dow",
       },
     });
   });
