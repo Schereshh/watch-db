@@ -26,30 +26,30 @@
 \select@language {magyar} \contentsline {section}{\numberline {3.10}Korlátok és függőségek}{30}{section.3.10}%
 \select@language {magyar} \contentsline {chapter}{\numberline {4}Fejlesztési folyamat}{34}{chapter.4}%
 \select@language {magyar} \contentsline {section}{\numberline {4.1}A fejlesztési folyamat kiválasztása}{34}{section.4.1}%
-\select@language {magyar} \contentsline {section}{\numberline {4.2}Sprintalapú működés}{35}{section.4.2}%
-\select@language {magyar} \contentsline {section}{\numberline {4.3}Feladatkezelés és fejlesztési workflow}{36}{section.4.3}%
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációk}{39}{chapter.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Funkcionális követelmények}{39}{section.5.1}%
-\select@language {magyar} \contentsline {section}{\numberline {5.2}Nem funkcionális követelmények}{42}{section.5.2}%
-\select@language {magyar} \contentsline {section}{\numberline {5.3}Rendszerarchitektúra és technológiai stack}{43}{section.5.3}%
-\select@language {magyar} \contentsline {section}{\numberline {5.4}Adatmodellek és fő entitások}{44}{section.5.4}%
-\select@language {magyar} \contentsline {section}{\numberline {5.5}API végpontok és adatáramlások}{48}{section.5.5}%
-\select@language {magyar} \contentsline {section}{\numberline {5.6}Autentikáció}{50}{section.5.6}%
-\select@language {magyar} \contentsline {section}{\numberline {5.7}Külső szolgáltatások és függőségek}{51}{section.5.7}%
-\select@language {magyar} \contentsline {section}{\numberline {5.8}Deployment és futtatási környezet}{54}{section.5.8}%
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Megvalósítás}{56}{chapter.6}%
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Megvalósítási megközelítés}{56}{section.6.1}%
-\select@language {magyar} \contentsline {section}{\numberline {6.2}Autentikáció és védett útvonalak}{58}{section.6.2}%
-\select@language {magyar} \contentsline {section}{\numberline {6.3}Filmkeresés és film oldal}{59}{section.6.3}%
-\select@language {magyar} \contentsline {section}{\numberline {6.4}Watchlist, watched és rating funkciók}{61}{section.6.4}%
-\select@language {magyar} \contentsline {section}{\numberline {6.5}Profiloldal és kliensoldali adatkezelés}{63}{section.6.5}%
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Tesztelés és minőségellenőrzés}{65}{chapter.7}%
-\select@language {magyar} \contentsline {section}{\numberline {7.1}A tesztelési stratégia célja}{65}{section.7.1}%
-\select@language {magyar} \contentsline {section}{\numberline {7.2}Tesztkörnyezet és használt eszközök}{66}{section.7.2}%
-\select@language {magyar} \contentsline {section}{\numberline {7.3}Unit tesztek}{67}{section.7.3}%
-\select@language {magyar} \contentsline {section}{\numberline {7.4}Komponens tesztek}{68}{section.7.4}%
-\select@language {magyar} \contentsline {section}{\numberline {7.5}CI/CD és automatikus ellenőrzések}{69}{section.7.5}%
-\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglaló}{71}{chapter.8}%
-\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{71}{section.8.1}%
-\select@language {magyar} \contentsline {section}{\numberline {8.2}Továbbfejlesztési lehetőségek}{71}{section.8.2}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{72}{section.8.2}%
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Sprintalapú működés}{36}{section.4.2}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Feladatkezelés és fejlesztési workflow}{37}{section.4.3}%
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Rendszer specifikációk}{40}{chapter.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Funkcionális követelmények}{40}{section.5.1}%
+\select@language {magyar} \contentsline {section}{\numberline {5.2}Nem funkcionális követelmények}{43}{section.5.2}%
+\select@language {magyar} \contentsline {section}{\numberline {5.3}Rendszerarchitektúra és technológiai stack}{44}{section.5.3}%
+\select@language {magyar} \contentsline {section}{\numberline {5.4}Adatmodellek és fő entitások}{45}{section.5.4}%
+\select@language {magyar} \contentsline {section}{\numberline {5.5}API végpontok és adatáramlások}{49}{section.5.5}%
+\select@language {magyar} \contentsline {section}{\numberline {5.6}Autentikáció}{51}{section.5.6}%
+\select@language {magyar} \contentsline {section}{\numberline {5.7}Külső szolgáltatások és függőségek}{52}{section.5.7}%
+\select@language {magyar} \contentsline {section}{\numberline {5.8}Deployment és futtatási környezet}{55}{section.5.8}%
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Megvalósítás}{57}{chapter.6}%
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Megvalósítási megközelítés}{57}{section.6.1}%
+\select@language {magyar} \contentsline {section}{\numberline {6.2}Autentikáció és védett útvonalak}{59}{section.6.2}%
+\select@language {magyar} \contentsline {section}{\numberline {6.3}Filmkeresés és film oldal}{60}{section.6.3}%
+\select@language {magyar} \contentsline {section}{\numberline {6.4}Watchlist, watched és rating funkciók}{62}{section.6.4}%
+\select@language {magyar} \contentsline {section}{\numberline {6.5}Profiloldal és kliensoldali adatkezelés}{64}{section.6.5}%
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Tesztelés és minőségellenőrzés}{66}{chapter.7}%
+\select@language {magyar} \contentsline {section}{\numberline {7.1}A tesztelési stratégia célja}{66}{section.7.1}%
+\select@language {magyar} \contentsline {section}{\numberline {7.2}Tesztkörnyezet és használt eszközök}{67}{section.7.2}%
+\select@language {magyar} \contentsline {section}{\numberline {7.3}Unit tesztek}{68}{section.7.3}%
+\select@language {magyar} \contentsline {section}{\numberline {7.4}Komponens tesztek}{69}{section.7.4}%
+\select@language {magyar} \contentsline {section}{\numberline {7.5}CI/CD és automatikus ellenőrzések}{70}{section.7.5}%
+\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglaló}{72}{chapter.8}%
+\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{72}{section.8.1}%
+\select@language {magyar} \contentsline {section}{\numberline {8.2}Továbbfejlesztési lehetőségek}{72}{section.8.2}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{73}{section.8.2}%
