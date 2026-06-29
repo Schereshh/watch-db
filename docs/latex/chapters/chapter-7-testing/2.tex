@@ -1,0 +1,11 @@
+\section{Tesztkörnyezet és használt eszközök}
+
+A projekt tesztelése a Vitest-re épül. Ez jól illeszkedik a TypeScript és React alapú fejlesztési környezethez, valamint gyors visszajelzést ad a fejlesztés közben. A tesztek futtatása az \texttt{npm test} paranccsal történik, amely a \texttt{vitest run} parancsot indítja el. Fejlesztés közben használható a \texttt{test:watch} script is, amely folyamatosan figyeli a módosításokat, és automatikusan újrafuttatja az érintett teszteket.
+
+A Vitest konfigurációja a \texttt{vitest.config.ts} fájlban található. A tesztek \texttt{jsdom} környezetben futnak, így a React komponensek olyan böngészőszerű környezetben vizsgálhatók, ahol elérhetők a DOM alapú műveletek. Ez különösen fontos az olyan komponenseknél, ahol a teszt nem csupán egy függvény visszatérési értékét ellenőrzi, hanem azt is, hogy a felhasználó milyen elemeket lát, és milyen interakciókat tud végrehajtani.
+
+A komponensek teszteléséhez a projekt a React Testing Library eszközeit használja. Ennek előnye, hogy a tesztek a felhasználó szemszögéből vizsgálják a felületet: gombokra, szövegekre, linkekre és form elemekre keresnek rá, nem pedig a komponensek belső implementációjára. A felhasználói műveletek, például kattintások vagy mezők kitöltése, a \texttt{@testing-library/user-event} segítségével szimulálhatók.
+
+A közös tesztbeállításokat a \texttt{vitest.setup.ts} fájl tartalmazza. Ebben kerül betöltésre a jest-dom kiegészítés, amely olvashatóbb állításokat biztosít a DOM elemek ellenőrzéséhez. Ugyanez a fájl minden teszt után elvégzi a \texttt{cleanup} műveletet is, így az egyes tesztek nem hagynak maguk után olyan állapotot, amely befolyásolná a következő teszt eredményét.
+
+A külső függőségek és környezeti tényezők kezelésére a Vitest mockolási lehetőségei szolgálnak (a mock egy olyan helyettesítő objektum vagy függvény, amely a valódi működést utánozza a teszt során). A projektben például mockolt formában jelenik meg a \texttt{fetch}, a TMDB kliens, a Supabase kliens, valamint egyes Next.js funkciók. Ennek köszönhetően a tesztek nem igényelnek valódi hálózati kapcsolatot vagy adatbázis-hozzáférést, mégis ellenőrizni tudják, hogy az alkalmazás megfelelő kéréseket indít-e, és helyesen dolgozza-e fel a válaszokat.

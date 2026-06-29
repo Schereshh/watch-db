@@ -1,0 +1,13 @@
+\section{Komponens tesztek}
+
+A komponens tesztek az alkalmazás felhasználói felületének kisebb, önálló részeit tesztelik. Itt nem az a cél, hogy a komponens belső implementációja legyen ellenőrizve, hanem az, hogy a felhasználó szempontjából helyesen jelenik-e meg és használható-e az adott felületi elem. Emiatt a tesztek gombokra, szövegekre, linkekre, form mezőkre és látható állapotokra fókuszálnak rá.
+
+Az egyik ilyen tesztelt komponens a \texttt{RatingInput}, amely a filmek személyes értékeléséhez kapcsolódik. A tesztek ellenőrzik, hogy megjelenik-e az öt értékelési lehetőség, a kiválasztott érték megfelelően aktív állapotba kerül-e, valamint kattintás után meghívódik-e a változást kezelő függvény.
+
+A megnézettként jelöléshez tartozó dialógus szintén külön komponens tesztekkel rendelkezik. Ezek a tesztek azt vizsgálják, hogy értékelés megadása nélkül nem történik mentés, a kiválasztott értékelés és a megtekintési dátum helyesen kerül továbbításra, valamint mentés közben a felület nem engedi a dialógus véletlen bezárását. Ez azért fontos, mert a watched funkció egyszerre kezel felhasználói interakciót, validációt és állapotváltozást.
+
+Az autentikációhoz kötött műveleteknél az \texttt{AuthRequiredDialog} komponens jelenik meg, ha a felhasználó nincs bejelentkezve. A komponens tesztjei ellenőrzik, hogy a dialógus tartalmazza-e a megfelelő üzenetet, valamint a bejelentkezéshez és regisztrációhoz vezető linkeket. Ez biztosítja, hogy a felhasználó ne csak hibát kapjon, hanem egyértelmű továbblépési lehetőséget is.
+
+A keresési találatok megjelenítését a \texttt{SearchResultCard} tesztjei fedik le. Ezek ellenőrzik, hogy a film címe, megjelenési éve, értékelése és a film oldalra mutató link helyesen jelenik-e meg. A tesztek a hiányos adatok kezelésére is kitérnek: poszter, leírás vagy megjelenési dátum hiányában a komponens fallback szövegeket jelenít meg, így a felület nem esik szét hiányos API válasz esetén sem.
+
+Ezek a komponens tesztek azt biztosítják, hogy az alkalmazás fontosabb UI elemei önállóan is megbízhatóan működjenek. A tesztek felhasználói szemléletűek, ezért nem a komponensek belső állapotára épülnek, hanem arra, amit a felhasználó ténylegesen lát és használ.

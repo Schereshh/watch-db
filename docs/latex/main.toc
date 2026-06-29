@@ -45,4 +45,11 @@
 \select@language {magyar} \contentsline {section}{\numberline {6.5}Profiloldal és kliensoldali adatkezelés}{63}{section.6.5}%
 \select@language {magyar} \contentsline {chapter}{\numberline {7}Tesztelés és minőségellenőrzés}{65}{chapter.7}%
 \select@language {magyar} \contentsline {section}{\numberline {7.1}A tesztelési stratégia célja}{65}{section.7.1}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{66}{section.7.1}%
+\select@language {magyar} \contentsline {section}{\numberline {7.2}Tesztkörnyezet és használt eszközök}{66}{section.7.2}%
+\select@language {magyar} \contentsline {section}{\numberline {7.3}Unit tesztek}{67}{section.7.3}%
+\select@language {magyar} \contentsline {section}{\numberline {7.4}Komponens tesztek}{68}{section.7.4}%
+\select@language {magyar} \contentsline {section}{\numberline {7.5}CI/CD és automatikus ellenőrzések}{69}{section.7.5}%
+\select@language {magyar} \contentsline {chapter}{\numberline {8}Összefoglaló}{71}{chapter.8}%
+\select@language {magyar} \contentsline {section}{\numberline {8.1}Összefoglalás}{71}{section.8.1}%
+\select@language {magyar} \contentsline {section}{\numberline {8.2}Továbbfejlesztési lehetőségek}{71}{section.8.2}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyzék}{72}{section.8.2}%

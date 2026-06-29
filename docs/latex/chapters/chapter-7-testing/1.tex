@@ -9,3 +9,10 @@ A tesztek több szinten jelennek meg a projektben. Az egyszerűbb unit tesztek a
 Fontos szempont volt, hogy a tesztek ne függjenek valódi külső szolgáltatásoktól. A TMDB API, a Supabase kliens, a böngésző \texttt{fetch} hívásai és bizonyos Next.js funkciók a tesztekben mockolt formában jelennek meg. Ez lehetővé teszi, hogy a tesztek gyorsan, determinisztikusan és internetkapcsolat vagy valós adatbázis nélkül fussanak le.
 
 A tesztelés a CI/CD folyamatba is beépül. A GitHub Actions workflow külön lépésekben futtatja a lintelést, a TypeScript típusellenőrzést, a teszteket és a production buildet. Így a Pull Requestek ellenőrzése automatizált módon történhet, és a hibás vagy nem buildelhető módosítások még a fő ágba való bekerülés előtt kiszűrhetők.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.92\textwidth]{chapters/chapter-7-testing/failing-pipeline.png}
+    \caption{Sikertelen CI pipeline a GitHub Actions felületén}
+    \label{fig:failing-pipeline}
+\end{figure}
