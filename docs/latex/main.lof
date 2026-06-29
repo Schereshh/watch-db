@@ -1,0 +1,27 @@
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {4.1}{\ignorespaces A WatchDB fejlesztési feladatainak követése GitHub Projects felületen}}{36}{figure.4.1}%
+\select@language {magyar} \contentsline {figure}{\numberline {4.2}{\ignorespaces A WatchDB fejlesztési workflow-ja}}{38}{figure.4.2}%
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {5.1}{\ignorespaces A WatchDB fő funkcionális egységei}}{40}{figure.5.1}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.2}{\ignorespaces A filmkeresés fő adatáramlása}}{42}{figure.5.2}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.3}{\ignorespaces A megnézettként jelölés állapotváltozása a filmrészletek oldalon}}{43}{figure.5.3}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.4}{\ignorespaces A WatchDB magas szintű rendszerarchitektúrája}}{44}{figure.5.4}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.5}{\ignorespaces A WatchDB adatbázissémája}}{46}{figure.5.5}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.6}{\ignorespaces A TMDB filmadatok lekérése és normalizálása}}{48}{figure.5.6}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.7}{\ignorespaces A MovieDetails típusdefiníciója}}{49}{figure.5.7}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.8}{\ignorespaces A megnézettként jelölés adatáramlása}}{51}{figure.5.8}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.9}{\ignorespaces A projekt fő függőségei a \texttt {package.json} alapján}}{54}{figure.5.9}%
+\select@language {magyar} \contentsline {figure}{\numberline {5.10}{\ignorespaces A projekt futtatási scriptjei a \texttt {package.json} alapján}}{55}{figure.5.10}%
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {6.1}{\ignorespaces A WatchDB projekt mappastruktúrája}}{58}{figure.6.1}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.2}{\ignorespaces Hibás bejelentkezési kísérlet}}{59}{figure.6.2}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.3}{\ignorespaces A filmkeresési találatok megjelenítése}}{61}{figure.6.3}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.4}{\ignorespaces A film oldal felépítése}}{62}{figure.6.4}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.5}{\ignorespaces A megnézettként jelöléshez tartozó modal}}{63}{figure.6.5}%
+\select@language {magyar} \contentsline {figure}{\numberline {6.6}{\ignorespaces A profiloldal felhasználói felülete}}{64}{figure.6.6}%
+\select@language {magyar} \addvspace {10\p@ }
+\select@language {magyar} \contentsline {figure}{\numberline {7.1}{\ignorespaces Sikertelen CI pipeline a GitHub Actions felületén}}{67}{figure.7.1}%
+\select@language {magyar} \addvspace {10\p@ }

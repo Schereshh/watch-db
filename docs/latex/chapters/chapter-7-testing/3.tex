@@ -1,0 +1,11 @@
+\section{Unit tesztek}
+
+A unit tesztek célja, hogy az alkalmazás kisebb, jól körülhatárolható részei önállóan is ellenőrizhetők legyenek. Ezek a tesztek nem indítják el a teljes alkalmazást, nem használnak valódi adatbázist, és nem hívják meg ténylegesen a külső TMDB API-t. Ehelyett az adott függvény vagy service működését vizsgálják mockolt bemenetek és válaszok segítségével.
+
+A TMDB-hez kapcsolódó tesztek a külső filmadatok lekérésének alapvető működését ellenőrzik. A \texttt{services/tmdb/client.test.ts} azt vizsgálja, hogy a kliens megfelelő URL-t épít-e fel, helyesen adja-e tovább a query paramétereket, és elküldi-e a bearer token alapú azonosítást. Emellett hibás TMDB válasz esetén azt is ellenőrzi, hogy a kliens értelmezhető hibát dob-e.
+
+A \texttt{services/tmdb/search.test.ts} a filmkereséshez kapcsolódó adatnormalizálást teszteli. A TMDB válaszában szereplő mezők nem minden esetben egyeznek meg az alkalmazásban használt névkonvenciókkal, ezért a keresési eredményeket a service réteg átalakítja. A teszt azt ellenőrzi, hogy például a \texttt{poster\_path}, \texttt{release\_date} és \texttt{vote\_average} mezők a frontend által használt formára alakulnak-e át.
+
+A felhasználói listákhoz kapcsolódó unit tesztek a watched és watchlist service réteget fedik le. Ezek a tesztek azt ellenőrzik, hogy a service függvények a megfelelő API végpontokat hívják-e meg, megfelelő HTTP metódust használnak-e, és helyesen dolgozzák-e fel a sikeres vagy hibás válaszokat. Ilyen eset például egy film watchlisthez adása, eltávolítása, megnézettként jelölése, vagy egy API hiba saját hibatípusként való továbbítása.
+
+Külön unit tesztek fedik le a megjelenítéshez kapcsolódó formázó függvényeket is. Ezek azt vizsgálják, hogy a szavazatszám, az átlagértékelés, a játékidő, a megjelenési dátum és a nyelv megfelelő formában jelenik-e meg a felhasználói felületen. Ezek a tesztek kisebbnek tűnnek, de fontosak, mert a film oldal és a keresési találatok több helyen is ezekre a formázott értékekre épülnek.

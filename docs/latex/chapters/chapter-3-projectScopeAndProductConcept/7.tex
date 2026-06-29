@@ -1,0 +1,39 @@
+\section{Sikerességi metrikák}
+
+A termékcélok mellett a PRD sikerességi metrikákat is meghatároz. Ezek szerepe, hogy a célokat mérhetőbbé tegyék, és a fejlesztés későbbi szakaszaiban visszajelzést adjanak arról, hogy az alkalmazás valóban betölti-e a tervezett szerepét. Egy funkció elkészülése önmagában még nem jelenti azt, hogy a termék sikeres: azt is vizsgálni kell, hogy a felhasználók megtalálják-e az alkalmazást, rendszeresen visszatérnek-e, és ténylegesen használják-e azokat a funkciókat, amelyekre az MVP épül.
+
+A WatchDB esetében a sikerességi mutatók három fő terület köré rendezhetők. Az első a felhasználói növekedés, amely azt mutatja meg, hogy az alkalmazás képes-e elérni egy kezdeti felhasználói bázist. A második az aktivitás és megtartás, amely azt vizsgálja, hogy a regisztrált felhasználók visszatérnek-e, illetve rendszeresen naplóznak-e filmeket. A harmadik a használati élmény és teljesítmény, amely azt méri, hogy a legfontosabb felhasználói folyamatok, például a filmkeresés és a naplózás, elég gyorsan és gördülékenyen működnek-e.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.32\textwidth}|p{0.26\textwidth}|p{0.26\textwidth}|}
+\hline
+\textbf{Metrika} & \textbf{Cél 3 hónap után} & \textbf{Cél 6 hónap után} \\
+\hline
+Regisztrált felhasználók száma & 500 felhasználó & 2000 felhasználó \\
+\hline
+Aktív felhasználónként naplózott filmek száma havonta & Legalább 5 film & Legalább 8 film \\
+\hline
+Heti aktív felhasználók aránya & A regisztrált felhasználók 30\%-a & A regisztrált felhasználók 40\%-a \\
+\hline
+Legalább egy ismerőssel rendelkező felhasználók aránya & Nem elsődleges MVP-metrika & A felhasználók 60\%-a \\
+\hline
+Kereséstől naplózásig eltelt átlagos idő & $<$ 15 másodperc & $<$ 10 másodperc \\
+\hline
+Oldalbetöltési idő & $<$ 2 másodperc & $<$ 2 másodperc \\
+\hline
+\end{tabular}
+\caption{A WatchDB PRD-ben meghatározott sikerességi metrikái}
+\label{tab:watchdb-success-metrics}
+\end{table}
+
+A regisztrált felhasználók száma elsősorban azt jelzi, hogy a termék képes-e érdeklődést kiváltani a célközönségből. Ez a metrika azonban önmagában nem elegendő, mert egy alkalmazás használhatóságát és valódi értékét nem pusztán a regisztrációk száma mutatja meg. Emiatt fontosabb visszajelzést adhat az aktív felhasználók aránya és a naplózott filmek száma. Ha a felhasználók havonta több filmet is rögzítenek, az arra utal, hogy az alkalmazás valóban beépülhet a filmnézési szokásaikba.
+
+A kereséstől a naplózásig eltelt idő különösen fontos metrika az MVP szempontjából. A WatchDB egyik alapcélja, hogy a filmek rögzítése gyors és kevés lépésből álló folyamat legyen. Ha ez az idő túl hosszú, az arra utalhat, hogy a keresési felület, a filmrészletek oldala vagy a naplózási művelet túl bonyolult. Ez közvetlenül visszahat a felhasználói élményre, és indokolhatja a felület vagy a felhasználói folyamat egyszerűsítését.
+
+A teljesítményhez kapcsolódó metrikák, például az oldalbetöltési idő, azért fontosak, mert a célközönség jelentős része hétköznapi, gyors használatra alkalmas alkalmazást vár. Egy film keresése vagy listához adása gyakran rövid, spontán művelet, ezért a lassú betöltés vagy akadozó felület könnyen csökkentheti a használati hajlandóságot. A két másodperc alatti oldalbetöltési cél ezért nem csupán technikai elvárás, hanem a termék használhatóságához kapcsolódó követelmény is.
+
+A közösségi metrikák, például az ismerősökhöz kapcsolódó felhasználók aránya, a PRD-ben inkább a későbbi termékverzióhoz kötődnek. Az MVP elsődleges célja még a személyes filmnapló működőképességének bizonyítása, ezért a közösségi kapcsolatok aránya az első három hónapban nem tekinthető alapvető sikerességi feltételnek. Hat hónapos távon viszont már fontos visszajelzést adhat arról, hogy a WatchDB képes-e túllépni az egyéni használaton, és valóban közösségi filmfelfedező platform irányába fejlődni.
+
+Összességében a sikerességi metrikák nemcsak utólagos értékelésre szolgálnak, hanem a fejlesztési döntéseket is támogatják. Segítségükkel mérhetővé válik, hogy az MVP mely részei működnek jól, mely folyamatokon kell egyszerűsíteni, és mely későbbi funkciók bevezetése indokolt. Ez különösen fontos egy olyan termék esetében, amelynek hosszabb távú víziója szélesebb, mint az első megvalósított verzió.

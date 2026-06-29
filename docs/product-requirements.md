@@ -1,10 +1,10 @@
 # WatchDB - Social Movie Logging Platform
 
-**Author:** Tamas Seres
+**Author:** Tamás Seres
 
 **Date:** March 14, 2026
 
-**Version:** 1.0
+**Version:** 1.1
 
 ***
 
@@ -14,7 +14,7 @@ Movie lovers watch films across multiple platforms (streaming services, physical
 Beyond the tracking aspect, there is a social one. People regularly discuss movies with friends and family, but there is no simple way of sharing your list of watched movies or to check what your friends have been watching.
 
 ### 1.2 Product Vision
-WatchDB is a web application where users log and rate the movies they watch, manage a personal watchlist and see what their friends are watching. It combines a personal movie diary with a social feed, making it easy to track your own viewings and discover movies through your group.
+WatchDB is a web application where users log and rate the movies they watch, manage a personal watchlist and see what their friends are watching. It combines a personal movie diary with a social feed, making it easy to track your own viewings and discover movies through your group. 
 
 ### 1.3 Target Audience
 **Primary audience:** Casual moviegoers who watch 2-10 movies / month and want a simple way to track and share their viewings
@@ -24,8 +24,8 @@ WatchDB is a web application where users log and rate the movies they watch, man
 
 **Persona 1: Casual Tracker - Sara**
 - watches 3-5 movies / month via streaming servies and ocasionally in theaters
-- often forgets what she's watched
-- wants a simple logging platform
+- often forgets what she's watched 
+- wants a simple logging platform 
 - would love to see what her friends rated highly so she can choose accordingly
 
 **Persona 2: Social Movie Fan - James**
@@ -63,7 +63,7 @@ Metric | Target (3 months post-launch) | Target (6 months)
 Registered users | 500 | 2,000
 Movies logged per active user / month | 5+ | 8+
 Weekly active users | 30% of registered | 40% of registered
-Users with 1+ friend connection | - | 60% of users
+Users with 1+ friend connection | — | 60% of users
 Average search-to-log time | < 15 seconds | < 10 seconds
 Page load time | < 2 seconds | < 2 seconds
 
@@ -99,7 +99,7 @@ These are required to launch. The product doesn't deliver value without them.
 **User profile**
 - tabbed view: watched / watchlist
 - display movie count for each
-- profile is viewable by the user
+- profile is viewable by the user 
 
 ### 5.2 Should have (v1.1 - Social Foundation)
 These bring the social dimension that differentiates WatchDB.
@@ -123,7 +123,14 @@ These bring the social dimension that differentiates WatchDB.
 - react to a friend's activity (like, or simple emoji reactions)
 - see reaction counts on activity items
 
+**Watch diary**
+- a movie timeline that shows what movies did you watch and when
+- only movies with a valid _watched at_ are displayed in the diary
+
 ### 5.3 Could Have (v1.2 - Depth & Engagement)
+
+**Multiple watches**
+- one movie can be watched multiple times
 
 **Comments**
 - comment on a friend's movie log
@@ -141,7 +148,7 @@ These bring the social dimension that differentiates WatchDB.
 
 **Movie Recommendations**
 - "Because you watched X" suggestions based on genre and rating patterns
-- "Popular among your friends" - movies rated highly by people you follow
+- "Popular among your friends" — movies rated highly by people you follow
 
 **Search Enhancements**
 - filter by genre, year, rating
@@ -163,52 +170,52 @@ These bring the social dimension that differentiates WatchDB.
 
 **Flow 1: New User - First Movie Log**
 ```
-Landing Page -> Click "Sign Up" -> Enter email + password ->
-Account created -> Redirected to Search -> Type movie title ->
-See results -> Click "Watched" -> Rate 4/5 stars ->
-Redirected to Profile -> Movie appears in Watched tab
+Landing Page → Click "Sign Up" → Enter email + password → 
+Account created → Redirected to Search → Type movie title → 
+See results → Click "Watched" → Rate 4/5 stars → 
+Redirected to Profile → Movie appears in Watched tab
 ```
 
 **Flow 2: Add to Watchlist**
 ```
-Log In -> Search "Dune" -> See results ->
-Click "Add to Watchlist" -> Confirmation shown ->
-Go to Profile -> Watchlist tab shows Dune
+Log In → Search "Dune" → See results → 
+Click "Add to Watchlist" → Confirmation shown → 
+Go to Profile → Watchlist tab shows Dune
 ```
 
-**Flow 3: Discover via Friends (v1.1)**
+**Flow 3: Discover via Friends (v1.1)
 ```
-Log In -> Open Activity Feed -> See "Marcus watched Interstellar *****" ->
-Click on Interstellar -> View movie details ->
-Click "Add to Watchlist" -> Movie saved
+Log In → Open Activity Feed → See "Marcus watched Interstellar ★★★★★" → 
+Click on Interstellar → View movie details → 
+Click "Add to Watchlist" → Movie saved
 ```
 
 **Flow 4: Follow a Friend (v1.1)**
 ```
-Log In -> Search for username "marcus" ->
-View Marcus's public profile -> Click "Follow" ->
+Log In → Search for username "marcus" → 
+View Marcus's public profile → Click "Follow" → 
 Marcus's activity now appears in your feed
 ```
 
 **Flow 5: Share a List (v1.2)**
 ```
-Go to Profile -> Create new list "Horror Marathon" ->
-Add 8 movies from watched history -> Set list to public ->
-Copy share link -> Send to friend
+Go to Profile → Create new list "Horror Marathon" → 
+Add 8 movies from watched history → Set list to public → 
+Copy share link → Send to friend
 ```
 
 ## 7. Sitemap
 ```
-/                       -> Home (feed if logged in, landing if not)
-/login                  -> Log in
-/sign-up                -> Create account
-/search                 -> Movie search with results
-/movie/:id              -> Movie detail page
-/profile                -> Current user's profile (watched + watchlist tabs)
-/:username              -> Public profile (v1.1)
-/feed                   -> Activity feed from followed users (v1.1)
-/lists/:id              -> Shared list view (v1.2)
-/profile/stats          -> Personal statistics dashboard (v1.2)
+/                       → Home (feed if logged in, landing if not)
+/login                  → Log in
+/sign-up                → Create account
+/search                 → Movie search with results
+/movie/:id              → Movie detail page
+/profile                → Current user's profile (watched + watchlist tabs)
+/:username              → Public profile (v1.1)
+/feed                   → Activity feed from followed users (v1.1)
+/lists/:id              → Shared list view (v1.2)
+/profile/stats          → Personal statistics dashboard (v1.2)
 ```
 
 ## 8. Non-Functional Requirements
@@ -218,7 +225,7 @@ Requirement | Detail
 Performance | Page loads < 2s. Search results < 1s. Feed loads < 1.5s.
 Security | Passwords hashed (bcrypt/argon2). Sessions managed server-side. API keys never exposed to the client. All input sanitized. HTTPS only.
 Privacy | Users control profile visibility (public/private). Following requires no approval by default, but private profiles hide activity.
-Accessibility | WCAG 2.1 AA - semantic HTML, keyboard navigation, screen reader support, sufficient color contrast.
+Accessibility | WCAG 2.1 AA — semantic HTML, keyboard navigation, screen reader support, sufficient color contrast.
 Scalability | Support 10,000 users without architecture changes. Feed queries optimized for up to 500 follows per user.
 Browser Support | Latest 2 versions of Chrome, Firefox, Safari, Edge.
 Responsiveness | Fully usable on mobile, tablet, and desktop. Mobile-first design.
@@ -227,7 +234,7 @@ Responsiveness | Fully usable on mobile, tablet, and desktop. Mobile-first desig
 
 ### 9.1 Constraints
 
-- **TMDB API rate limits:** ~40 requests / second - debounced search is recommended, server-side caching (?)
+- **TMDB API rate limits:** ~40 requests / second - debounced search is recommended, server-side caching (?) 
 - **Budget:** $0 target - free tiers only (Vercel, Supabase, TMDB API)
 - **Team:** Small team, 2-6 people
 - **Timeline:** MVP in 6-8 weeks, social features in weeks 9-12
@@ -247,7 +254,7 @@ Hosting (Vercel, etc.) | Bandwidth limits on free tier | Optimize images (TMDB C
 - english-only for the foreseeable future
 
 ## 10. Open Questions
-1. **Rating system:** 5 star or 10 point scale? _(Recommendation: 5 star is more simpler, less decision paralysis)_
+1. **Rating system:* 5 star or 10 point scale? _(Recommendation: 5 star is more simpler, less decision paralysis)_
 2. **Watch date:** Should users log when they watched a movie or just that they watched it? _(Recommendation: optional date field, not enforced, but it can be added)_
 3. **Re-watches:** Can a user log the same movie multiple times? _(Recommendation: yes, with separate dates)_
 
@@ -255,10 +262,10 @@ Hosting (Vercel, etc.) | Bandwidth limits on free tier | Optimize images (TMDB C
 
 Phase | Scope | Timeline
 -- | -- | --
-Sprint 0 | Project setup, architecture, database schema, CI/CD, wireframes, backlog | Weeks 1-2
-MVP (v1.0) | Auth, search, movie details, watchlist, watched log, ratings, user profile | Weeks 3-8
-Social (v1.1) | Public profiles, follow system, activity feed, reactions | Weeks 9-12
-Depth (v1.2) | Comments, custom lists, stats dashboard, recommendations, OAuth | Weeks 13-16
+Sprint 0 | Project setup, architecture, database schema, CI/CD, wireframes, backlog | Weeks 1–2
+MVP (v1.0) | Auth, search, movie details, watchlist, watched log, ratings, user profile | Weeks 3–8
+Social (v1.1) | Public profiles, follow system, activity feed, reactions | Weeks 9–12
+Depth (v1.2) | Comments, custom lists, stats dashboard, recommendations, OAuth | Weeks 13–16
 
 ## 12. Appendix: TMDB Attribution
 TMDB requires attribution for use of their API. The app must display:

@@ -1,0 +1,118 @@
+\section{Funkcionális követelmények}
+
+A WatchDB MVP verziójának fő funkcionális egységei a következők:
+
+\begin{figure}[H]
+\centering
+\small
+\begin{tikzpicture}[
+    node distance=0.62cm and 0.95cm,
+    appnode/.style={
+        draw,
+        rounded corners,
+        fill=blue!8,
+        align=center,
+        text width=2.8cm,
+        minimum height=1cm,
+        font=\bfseries
+    },
+    modulenode/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        text width=3.2cm,
+        minimum height=0.82cm
+    },
+    modulearrow/.style={-{Latex[length=2mm]}, thick}
+]
+\node[appnode] (watchdb) {WatchDB};
+\node[modulenode, above=of watchdb] (auth) {Autentikáció};
+\node[modulenode, left=of watchdb] (search) {Filmkeresés};
+\node[modulenode, right=of watchdb] (details) {Filmrészletek};
+\node[modulenode, below left=of watchdb] (watchlist) {Watchlist};
+\node[modulenode, below=of watchdb] (watched) {Watched log\\és rating};
+\node[modulenode, below right=of watchdb] (profile) {Profiloldal};
+
+\draw[modulearrow] (watchdb) -- (auth);
+\draw[modulearrow] (watchdb) -- (search);
+\draw[modulearrow] (watchdb) -- (details);
+\draw[modulearrow] (watchdb) -- (watchlist);
+\draw[modulearrow] (watchdb) -- (watched);
+\draw[modulearrow] (watchdb) -- (profile);
+\end{tikzpicture}
+\caption{A WatchDB fő funkcionális egységei}
+\label{fig:watchdb-functional-modules}
+\end{figure}
+
+\begin{itemize}
+    \item A rendszernek biztosítania kell az új felhasználók regisztrációját, a meglévő felhasználók bejelentkezését és kijelentkezését.
+    \item A rendszernek kezelnie kell a felhasználói munkamenetet, hogy a személyes funkciók csak bejelentkezett állapotban legyenek elérhetők.
+    \item A látogatónak tudnia kell cím alapján filmeket keresni.
+    \item A keresési eredmények között meg kell jelenjen a film címe, posztere, megjelenési éve és rövid leírása.
+    \item A felhasználónak a keresési találatokból tovább kell tudnia lépni az adott film részletes oldalára.
+    \item A filmrészletek oldalon meg kell jelenjenek a film fontosabb adatai, például cím, poszter, háttérkép, megjelenési dátum, játékidő, műfajok, leírás és értékelési információ.
+    \item A bejelentkezett felhasználónak hozzá kell tudnia adni egy filmet a watchlisthez.
+    \item A bejelentkezett felhasználónak el kell tudnia távolítani egy filmet a watchlistből.
+    \item A rendszernek jeleznie kell, ha egy film már szerepel a felhasználó watchlistjén.
+    \item A bejelentkezett felhasználónak meg kell tudnia jelölni egy filmet megnézettként.
+    \item A megnézettként jelölés során a felhasználónak személyes értékelést kell tudnia megadni.
+    \item Ha egy film megnézettként kerül naplózásra, és korábban szerepelt a watchlisten, a rendszernek el kell távolítania onnan.
+    \item A profiloldalon meg kell jelenjen a felhasználó watchlistje és a megnézett filmek listája.
+    \item A megnézett filmeknél meg kell jelenjen a személyes értékelés és a naplózás vagy megtekintés dátuma.
+\end{itemize}
+
+A filmkeresés fő adatáramlását az alábbi ábra szemlélteti:
+
+\begin{figure}[H]
+\centering
+\scriptsize
+\begin{tikzpicture}[
+    actor/.style={
+        draw,
+        rounded corners,
+        fill=gray!8,
+        align=center,
+        minimum height=0.62cm,
+        text width=2.35cm
+    },
+    message/.style={-{Latex[length=2mm]}, thick},
+    returnmessage/.style={-{Latex[length=2mm]}, thick, dashed},
+    lifeline/.style={gray, dashed}
+]
+\node[actor] (user) at (0,0.5) {Felhasználó};
+\node[actor] (ui) at (3.2,0.5) {WatchDB felület};
+\node[actor] (api) at (6.45,0.5) {Next.js API route};
+\node[actor] (tmdb) at (9.7,0.5) {TMDB API};
+
+\draw[lifeline] (0,0.2) -- (0,-6.6);
+\draw[lifeline] (3.2,0.2) -- (3.2,-6.6);
+\draw[lifeline] (6.45,0.2) -- (6.45,-6.6);
+\draw[lifeline] (9.7,0.2) -- (9.7,-6.6);
+
+\draw[fill=white] (3.08,-0.95) rectangle (3.32,-5.95);
+\draw[fill=white] (6.33,-1.75) rectangle (6.57,-5.2);
+\draw[fill=white] (9.58,-2.55) rectangle (9.82,-4.3);
+
+\draw[message] (0,-1.15) -- node[above, align=center] {keresési kifejezés\\megadása} (3.08,-1.15);
+\draw[message] (3.32,-1.95) -- node[above, align=center] {\texttt{GET /api/search}\\query paraméterrel} (6.33,-1.95);
+\draw[message] (6.57,-2.75) -- node[above, align=center] {keresés továbbítása} (9.58,-2.75);
+\draw[returnmessage] (9.58,-3.75) -- node[above, align=center] {találatok\\visszaadása} (6.57,-3.75);
+\draw[returnmessage] (6.33,-4.55) -- node[above, align=center] {normalizált\\válasz} (3.32,-4.55);
+\draw[message] (3.08,-5.35) -- node[above, align=center] {eredmények\\megjelenítése} (0,-5.35);
+\end{tikzpicture}
+\caption{A filmkeresés fő adatáramlása}
+\label{fig:watchdb-search-flow}
+\end{figure}
+
+A megnézettként jelölés állapotváltozása a filmrészletek oldalon a következőképpen jelenik meg:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{chapters/chapter-5-systemSpecs/mark-as-watched.png}
+\vspace{0.5em}
+
+\includegraphics[width=0.82\textwidth]{chapters/chapter-5-systemSpecs/remove-from-watched.png}
+\caption{A megnézettként jelölés állapotváltozása a filmrészletek oldalon}
+\label{fig:watchdb-mark-watched-state}
+\end{figure}

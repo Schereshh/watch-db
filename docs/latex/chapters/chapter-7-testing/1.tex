@@ -1,0 +1,18 @@
+\section{A tesztelési stratégia célja}
+
+A WatchDB fejlesztése során a tesztelés célja az volt, hogy a rendszer legfontosabb működési pontjai ellenőrizhetőek legyenek, és a későbbi módosítások ne okozzanak észrevétlen regressziós hibákat. Egy webalkalmazás esetében a felhasználói felület, az API végpontok, a külső szolgáltatásokból érkező adatok és az adatbázis-műveletek egymásra épülnek, ezért egy kisebb módosítás is több rétegre lehet hatással. A tesztek szerepe ebben a folyamatban az, hogy ezekre a kockázatos kapcsolódási pontokra gyors visszajelzést adjanak.
+
+A tesztelési stratégia elsősorban az MVP szempontjából kritikus funkciókra koncentrál. Ide tartozik a filmkeresés, a TMDB-ből érkező adatok feldolgozása, a watchlist kezelése, a filmek megnézettként való jelölése, az értékelés megadása, valamint az autentikációhoz kötött műveletek helyes kezelése. Ezek azok a részek, amelyek hibája közvetlenül rontaná a felhasználói élményt, vagy hibás adatállapotot eredményezne.
+
+A tesztek több szinten jelennek meg a projektben. Az egyszerűbb unit tesztek az izolált függvényeket és service rétegeket ellenőrzik, például az API válaszok normalizálását vagy a formázó függvényeket. A komponens tesztek a felhasználói felület önálló elemeit vizsgálják, például az értékelő komponenst és a megnézettként jelöléshez tartozó dialógust. Az integrációs jellegű tesztek ezzel szemben már több réteg együttműködését ellenőrzik, például azt, hogy egy gombnyomás hatására a megfelelő API hívás történik-e, és a felület a válasz alapján frissül-e.
+
+Fontos szempont volt, hogy a tesztek ne függjenek valódi külső szolgáltatásoktól. A TMDB API, a Supabase kliens, a böngésző \texttt{fetch} hívásai és bizonyos Next.js funkciók a tesztekben mockolt formában jelennek meg. Ez lehetővé teszi, hogy a tesztek gyorsan, determinisztikusan és internetkapcsolat vagy valós adatbázis nélkül fussanak le.
+
+A tesztelés a CI/CD folyamatba is beépül. A GitHub Actions workflow külön lépésekben futtatja a lintelést, a TypeScript típusellenőrzést, a teszteket és a production buildet. Így a Pull Requestek ellenőrzése automatizált módon történhet, és a hibás vagy nem buildelhető módosítások még a fő ágba való bekerülés előtt kiszűrhetők.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.92\textwidth]{chapters/chapter-7-testing/failing-pipeline.png}
+    \caption{Sikertelen CI pipeline a GitHub Actions felületén}
+    \label{fig:failing-pipeline}
+\end{figure}

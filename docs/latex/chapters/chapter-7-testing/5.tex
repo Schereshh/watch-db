@@ -1,0 +1,13 @@
+\section{CI/CD és automatikus ellenőrzések}
+
+A tesztek akkor nyújtanak valódi fejlesztési biztonságot, ha nem csak lokálisan, hanem a verziókezelési folyamatban is részt vesznek. A WatchDB projektben ezt a szerepet a GitHub Actions alapú CI workflow tölti be. A workflow a pull requestek létrehozásakor, valamint a \texttt{main} ágra történő push esetén indul el, így a módosítások automatikus ellenőrzésen mennek keresztül még azelőtt, hogy bekerülnének a fő ágba.
+
+A CI folyamat több külön jobüra van bontva. A \texttt{Lint} job az ESLint ellenőrzést futtatja, és a kódstílushoz, valamint statikus kódelemzéshez kapcsolódó hibákat jelzi. A \texttt{Typecheck} job a TypeScript fordítóval ellenőrzi, hogy a projekt tartalmaz-e típus hibákat Ez különösen fontos egy Next.js alkalmazásban, ahol a komponensek, service függvények, API route-ok és hookok több ponton is típusokra épülnek.
+
+A \texttt{Test} job futtatja a Vitest alapú tesztkészletet. Ez magában foglalja a unit teszteket, a komponens teszteket, az integrációs jellegű teszteket és az API route teszteket is. Ennek célja, hogy a fontosabb üzleti logikák és felhasználói interakciók ne sérüljenek meg egy új módosítás hatására.
+
+A negyedik ellenőrzési pont a \texttt{Build} job, amely a production buildet készíti el. Ez azért szükséges, mert előfordulhat, hogy a lokális fejlesztői környezetben egy módosítás működőképesnek tűnik, de a production build során mégis hibát okoz. A build job ezért azt ellenőrzi, hogy az alkalmazás telepíthető állapotban van-e.
+
+Minden job saját környezetben fut: a workflow letölti a repository tartalmát, beállítja a Node.js környezetet, telepíti a függőségeket az \texttt{npm ci} paranccsal, majd lefuttatja az adott ellenőrzést. Ez tiszta és reprodukálható futási környezetet biztosít, mert a CI nem a fejlesztő gépének aktuális állapotára támaszkodik.
+
+A "branch protection" beállítás segítségével a CI megakadályozza, hogy egy hibás kód kerüljön a fő ágba. Ilyenkor a GitHub csak akkor engedi a pull request mergelését, ha a kijelölt ellenőrzések sikeresen lefutottak. Így egy hibás lint eredmény, típushiba, sikertelen teszt vagy hibás build megakadályozhatja, hogy instabil kód kerüljön a fő ágba.

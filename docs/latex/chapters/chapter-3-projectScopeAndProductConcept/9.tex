@@ -1,0 +1,39 @@
+\section{A user flow-k szerepe}
+
+A user flow-k, vagyis felhasználói folyamatok szerepe az, hogy a PRD-ben meghatározott funkciókat konkrét használati helyzetekhez kapcsolják. Egy funkció önmagában csak azt írja le, hogy mire képes az alkalmazás, a user flow viszont azt mutatja meg, hogy a felhasználó milyen lépésekben jut el egy cél eléréséig. Ez különösen fontos az MVP tervezésekor, mert segít eldönteni, hogy mely képernyők, útvonalak és műveletek szükségesek ahhoz, hogy az első verzió valóban használható legyen.
+
+A WatchDB esetében a user flow-k a termék legfontosabb használati eseteit modellezik. Az első folyamat egy új felhasználó első filmnaplózását mutatja be: regisztráció, keresés, film kiválasztása, megnézettként jelölés, értékelés, majd a profiloldalon való megjelenés. Ez a folyamat azért kiemelt jelentőségű, mert végigvezeti a felhasználót azon az útvonalon, amely az alkalmazás alapértékét adja. Ha ez a folyamat túl hosszú, bizonytalan vagy nehezen követhető, akkor az MVP egyik legfontosabb célja sérül.
+
+A második folyamat a watchlist használatára épül. Ebben a felhasználó bejelentkezés után filmet keres, hozzáadja azt a megnézendő filmek listájához, majd a profiloldalon ellenőrzi, hogy a film megjelent-e a listában. Ez a folyamat egyszerűnek tűnhet, de terméktervezési szempontból fontos, mert több alapvető funkciót összekapcsol: az autentikációt, a keresést, a filmadatok kezelését, a listaállapot módosítását és a profilnézetet.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{0.22\textwidth}|p{0.42\textwidth}|p{0.26\textwidth}|}
+\hline
+\textbf{User flow} & \textbf{Fő cél} & \textbf{Kapcsolódó verzió} \\
+\hline
+Első film naplózása & A felhasználó regisztráció után filmet keres, megnézettként jelöli és értékeli azt. & MVP \\
+\hline
+Film hozzáadása watchlisthez & A felhasználó későbbi megtekintésre elment egy filmet, majd ellenőrzi azt a profilján. & MVP \\
+\hline
+Film felfedezése ismerős aktivitásából & A felhasználó a feedben látott ismerősi aktivitás alapján ment el egy filmet. & v1.1 \\
+\hline
+Ismerős követése & A felhasználó megkeres egy másik profilt, követi azt, majd annak aktivitása megjelenik a feedben. & v1.1 \\
+\hline
+Egyéni lista megosztása & A felhasználó saját listát készít, publikussá teszi, majd megosztja másokkal. & v1.2 \\
+\hline
+\end{tabular}
+\caption{A WatchDB PRD-ben szereplő fő felhasználói folyamatok}
+\label{tab:watchdb-user-flows}
+\end{table}
+
+A PRD-ben szereplő user flow-k jól elkülönítik az MVP és a későbbi verziók céljait. Az első két folyamat közvetlenül az MVP-hez kapcsolódik, mert a személyes filmnapló alapműködését írja le. Ezek alapján meghatározható, hogy az első verzióhoz szükség van regisztrációs és bejelentkezési felületre, keresőoldalra, filmrészletek megjelenítésére, watchlist műveletekre, naplózási és értékelési lehetőségre, valamint egy saját profiloldalra. Így a user flow-k nemcsak a felhasználói élményt írják le, hanem közvetlenül segítik az oldaltérkép és a fejlesztési feladatok kialakítását is.
+
+A harmadik és negyedik folyamat már a közösségi irányhoz kötődik. Az aktivitási feedből történő filmfelfedezés és az ismerős követése azt mutatja meg, hogyan válhat a WatchDB személyes filmnaplóból közösségi filmfelfedező platformmá. Ezek a folyamatok fontosak a termékvízió szempontjából, de az MVP hatókörén kívülre kerülnek, mert működésükhöz már publikus profilokra, követési rendszerre, aktivitási adatokra és feed logikára is szükség van.
+
+Az ötödik folyamat, az egyéni lista megosztása, még későbbi bővítési irányt képvisel. Ez már nem az alapvető filmnaplózást, hanem a felhasználói tartalom szervezését és megosztását támogatja. A PRD-ben ezért a v1.2 verzióhoz kapcsolódik, ahol az alkalmazás már nemcsak követésre és naplózásra, hanem mélyebb rendszerezésre és közösségi megosztásra is alkalmas lehet.
+
+A user flow-k fejlesztési szempontból azért is hasznosak, mert ellenőrizhetővé teszik a funkciók működését. Egy-egy folyamat alapján könnyebben megfogalmazhatók az elfogadási feltételek: például sikeres-e a regisztráció után a keresés, megjelenik-e a naplózott film a profiloldalon, vagy a watchlisthez adott film valóban visszakereshető-e. Ez a minőségbiztosítás szempontjából is fontos, mert a tesztelés nem elszigetelt komponensekre, hanem valós felhasználói útvonalakra épülhet.
+
+Összességében a user flow-k a WatchDB tervezésében hidat képeznek a termékkoncepció és az implementáció között. Segítenek abban, hogy a fejlesztés ne pusztán funkciók megvalósítására koncentráljon, hanem arra, hogy a felhasználó ténylegesen el tudja érni a számára fontos célokat. Emiatt a user flow-k nem kiegészítő elemei a PRD-nek, hanem a döntések egyik gyakorlati alapját adják.

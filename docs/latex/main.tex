@@ -1,0 +1,66 @@
+\documentclass[12pt, twosides]{report}
+\include{preamble}
+
+\title{
+	{Modern webfejlsztési folyamatok}\\
+	{\large Sapientia\\
+	Erdélyi Magyar Tudományegyetem, Marosvásárhely}
+}
+\author{
+	Seres Tamás\\
+	\texttt{seres.tamas@student.ms.sapientia.ro}
+	\and
+	Prof. habil. dr. ing. Szilágyi László\\
+	\texttt{lalo@ms.sapientia.ro}
+}
+\date{2020}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagenumbering{gobble}
+
+\includepdf{pdfs/allamvizsga_borito_ro}
+\includepdf{pdfs/fisa_proiectului}
+\includepdf{pdfs/allamvizsga_borito_hu}
+\includepdf{pdfs/allamvizsga_borito_en}
+\includepdf{pdfs/declaratie}
+% \includepdf[pages={1,2,3}]{pdfs/allamvizsga_borito.pdf}
+
+\section*{Extras}
+\input{chapters/abstractRo}
+\pagebreak
+
+\section*{Kivonat}
+\input{chapters/abstractHu}
+\pagebreak
+
+\section*{Abstract}
+\input{chapters/abstractEn}
+\pagebreak
+
+\tableofcontents
+
+\listoffigures
+
+\chapter{Bevezető}
+\pagenumbering{arabic}
+\input{chapters/introduction/introduction}
+
+\chapter{Irodalmi áttekintés}
+\input{chapters/literatureResearch/literatureResearch}
+
+\chapter{Projektcélok és termékkoncepció}
+\input{chapters/chapter-3-projectScopeAndProductConcept/projectScopeAndProductConcept}
+\input{chapters/chapter-4-developmentProcess/developmentProcess}
+
+\input{chapters/chapter-5-systemSpecs/systemSpecs}
+\input{chapters/chapter-6-implementation/implementation}
+\input{chapters/chapter-7-testing/testing}
+\input{chapters/chapter-8-summary/summary}
+
+\addcontentsline{toc}{chapter}{Irodalomjegyzék}
+\bibliographystyle{ieeetr}
+\bibliography{References}
+
+\end{document}
